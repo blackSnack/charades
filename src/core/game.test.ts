@@ -8,3 +8,41 @@ it("skip is not progress, duplicate input ignored",()=>{let g=step(fresh(config)
 it("solo never repeats before exhausting deck",()=>{let g=fresh({...config,mode:"solo",names:[],progressive:false});const seen=new Set<string>();for(let i=0;i<40;i++){expect(seen.has(g.current!.word)).toBe(false);seen.add(g.current!.word);g=step(g,"next",g.shown).state}expect(seen.size).toBe(40)});
 it("exact length and fixed difficulty",()=>{const r=filter(pool,{...defaults,lenType:"exact",len:3,diff:"2"});expect(r.length).toBe(10);expect(r.every(q=>q.level===2&&q.len===3)).toBe(true)});
 });
+
+describe("ten-question turn and abandonment",()=>{
+ for(const target of [5,10,15,20]){
+  for(const limit of [0,1,3,5,-1]){
+   it(`requires exactly ${target} correct answers with skip limit ${limit}`,()=>{
+    let g=step(fresh({...config,target,limit}),"begin",0).state;
+    for(let i=0;i<Math.max(0,limit);i++){g=step(g,"skip",g.shown).state;expect(g.done).toBe(0)}
+    if(limit===-1){g=step(g,"skip",g.shown).state;expect(g.left).toBe(-1)}
+    for(let i=0;i<target;i++){
+     expect(g.phase).toBe("play");expect(g.done).toBe(i);expect(g.current).not.toBeNull();
+     const instance=g.shown;const result=step(g,"correct",instance);g=result.state;
+     expect(g.done).toBe(i+1);expect(g.stats[0].correct).toBe(i+1);
+     expect(result.events.includes("TURN_COMPLETED")).toBe(i+1===target);
+     expect(step(g,"correct",instance).state).toBe(g);
+    }
+    expect(g.phase).toBe("handoff");expect(g.current).toBeNull();expect(g.stats[0].turns).toBe(1);
+    g=step(g,"begin",g.shown).state;expect(g.player).toBe(1);expect(g.done).toBe(0);expect(g.left).toBe(limit);
+   });
+  }
+ }
+ it("abandon only after skips exhausted; keeps score and resets next turn",()=>{
+  let g=step(fresh({...config,target:10,limit:1}),"begin",0).state;
+  expect(step(g,"abandon",g.shown).state).toBe(g);
+  g=step(g,"correct",g.shown).state;g=step(g,"skip",g.shown).state;
+  const r=step(g,"abandon",g.shown);g=r.state;
+  expect(r.events).toContain("TURN_ABANDONED");expect(r.events).not.toContain("TURN_COMPLETED");
+  expect(g.done).toBe(1);expect(g.stats[0]).toEqual({correct:1,skip:1,turns:1,abandoned:1});expect(g.phase).toBe("handoff");expect(g.turnAbandoned).toBe(true);expect(g.current).toBeNull();
+  expect(step(g,"abandon",g.shown).state).toBe(g);
+  g=step(g,"begin",g.shown).state;expect(g.player).toBe(1);expect(g.done).toBe(0);expect(g.left).toBe(1);expect(g.turnAbandoned).toBe(false);
+  g=step(g,"skip",g.shown).state;const second=step(g,"abandon",g.shown);expect(second.events).toContain("ROUND_COMPLETED");
+  g=step(second.state,"begin",second.state.shown).state;expect(g.round).toBe(2);expect(levelAt(g)).toBe(2);
+ });
+ it("zero limit can abandon immediately, unlimited and solo cannot abandon",()=>{
+  const zero=step(fresh({...config,limit:0}),"begin",0).state;expect(step(zero,"abandon",zero.shown).state.phase).toBe("handoff");
+  const unlimited=step(fresh({...config,limit:-1}),"begin",0).state;expect(step(unlimited,"abandon",unlimited.shown).state).toBe(unlimited);
+  const solo=fresh({...config,mode:"solo",names:[],limit:0});expect(step(solo,"abandon",solo.shown).state).toBe(solo);
+ });
+});

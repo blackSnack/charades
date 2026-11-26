@@ -21,7 +21,7 @@ await page.getByLabel("难度",{exact:true}).selectOption("p");await page.getByL
 await page.getByRole("button",{name:/开始游戏/}).click();await expect(page.getByText("小明",{exact:true})).toBeVisible();
 await page.getByRole("button",{name:/准备好了/}).click();await expect(page.getByTestId("word")).toBeVisible();
 await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax","5");
-await page.getByRole("button",{name:/换题 · 剩余 1/}).click();await expect(page.getByRole("button",{name:/换题 · 剩余 0/})).toBeDisabled();
+await page.getByRole("button",{name:/换题 · 剩余 1/}).click();await expect(page.getByRole("button",{name:"放弃",exact:true})).toBeVisible();await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow","0");
 for(let i=0;i<5;i++){await page.getByRole("button",{name:/答对！/}).click();if(i<4)await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow",String(i+1));}
 await expect(page.getByText("回合完成！")).toBeVisible();await expect(page.getByTestId("word")).toHaveCount(0);
 await page.getByRole("button",{name:/准备好了/}).click();await expect(page.getByText("玩家 2的回合")).toBeVisible();
