@@ -37,4 +37,15 @@ test("default gameplay shares fitted question typography",async({page},info)=>{
  await page.getByLabel("字数筛选",{exact:true}).selectOption("exact");await page.getByLabel("字数",{exact:true}).selectOption("4");await page.getByRole("button",{name:/开始游戏/}).click();
  const word=page.getByTestId("word");await expect(word).toBeVisible();await expect(word).toHaveClass("question-word-text");const dims=await word.evaluate(e=>{const zone=e.parentElement!,card=zone.closest(".question-default")!,style=getComputedStyle(card);return {font:parseFloat(getComputedStyle(e).fontSize),width:e.getBoundingClientRect().width,available:zone.clientWidth,availableHeight:zone.clientHeight,cardInner:card.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight),columns:style.gridTemplateColumns,rows:style.gridTemplateRows,word:e.textContent}});console.log("Default card geometry",JSON.stringify(dims));expect(dims.available/dims.cardInner).toBeGreaterThan(.95);expect(dims.font).toBeGreaterThanOrEqual(45);expect(dims.width/dims.available).toBeGreaterThan(.8);
  await page.screenshot({path:info.outputPath("default-game.png")});
+ // Real viewport change: the same current word must grow/shrink with its zone.
+ const size=page.viewportSize()!;
+ if(info.project.name==="phone"){
+  const before=await word.textContent();
+  await page.setViewportSize({width:844,height:390});
+  await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!;return Math.abs(parseFloat(getComputedStyle(e).fontSize)-Math.max(16,Math.min(160,.96*p.clientWidth/4,.94*p.clientHeight/1.14)))})).toBeLessThan(1);
+  await expect.poll(()=>word.evaluate(e=>e.getBoundingClientRect().width/e.parentElement!.clientWidth)).toBeGreaterThan(.8);
+  await expect(word).toHaveText(before||"");
+  await page.setViewportSize(size);
+  await expect.poll(()=>word.evaluate(e=>Math.abs(parseFloat(getComputedStyle(e).fontSize)-.96*e.parentElement!.clientWidth/4))).toBeLessThan(1);
+ }
 });
