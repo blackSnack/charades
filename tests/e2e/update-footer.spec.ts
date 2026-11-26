@@ -7,5 +7,6 @@ test("manual update feedback does not move the version row or home actions",asyn
  await button.click();await expect(footer.getByRole("status")).toHaveText("已是最新版本");
  const after=await Promise.all([footer.boundingBox(),button.boundingBox(),mode.boundingBox()]);
  for(let i=0;i<before.length;i++){expect(before[i]).not.toBeNull();expect(after[i]).not.toBeNull();for(const key of ["x","y","width","height"] as const)expect(Math.abs(before[i]![key]-after[i]![key])).toBeLessThan(1)}
+ const version=await footer.getByTestId("app-version").boundingBox(),status=await footer.getByRole("status").boundingBox(),check=await button.boundingBox();expect(version!.x+version!.width).toBeLessThanOrEqual(status!.x);expect(status!.x+status!.width).toBeLessThanOrEqual(check!.x);expect(Math.abs(check!.x+check!.width-(after[0]!.x+after[0]!.width))).toBeLessThan(1);
  const dimensions=await footer.evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth}));expect(dimensions.scroll).toBeLessThanOrEqual(dimensions.width+1);
 });
