@@ -17,10 +17,17 @@ export default function QuestionWord({word,testId="word"}:{word:string;testId?:s
    const size=Math.max(16,Math.min(160,.96*width/columns,.94*height/(rows*1.14)));
    text.style.setProperty("--word-fit-size",size+"px");
   };
+  let live=true;
+  const refresh=()=>{if(live)fit()};
   fit();
-  const observer=new ResizeObserver(fit);
+  // The parent shell changes from setup/home to playing in the same commit.
+  // Child layout effects can see the previous ancestor width. Refit after
+  // the complete commit and immediately before the first painted frame.
+  queueMicrotask(refresh);
+  const frame=requestAnimationFrame(refresh);
+  const observer=new ResizeObserver(refresh);
   observer.observe(zone);
-  return()=>observer.disconnect();
+  return()=>{live=false;cancelAnimationFrame(frame);observer.disconnect()};
  },[word,columns,rows]);
  return <strong ref={ref} className="question-word-text" data-testid={testId} style={{"--word-cols":columns,"--word-rows":rows} as CSSProperties}>{word}</strong>
 }
