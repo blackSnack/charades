@@ -4,3 +4,5 @@ if(!names.some(n=>n.startsWith("VfxLab-"))||!names.some(n=>n.startsWith("vfx-met
 let raw=0,gzip=0;for(const n of names){const b=fs.readFileSync("dist/assets/"+n),z=gzipSync(b).length;raw+=b.length;gzip+=z;console.log(n,b.length+" B raw",z+" B gzip")}
 console.log("VFX lazy chunks total:",raw+" B raw",gzip+" B gzip");if(raw>160*1024||gzip>50*1024)throw Error("VFX size budget exceeded");
 const sw=fs.readFileSync("dist/sw.js","utf8");for(const n of names)if(sw.includes('"assets/'+n+'"')||sw.includes('"'+n+'"'))throw Error("VFX chunk precached: "+n);
+
+const html=fs.readFileSync("dist/index.html","utf8");for(const n of names)if(html.includes(n))throw Error("Experimental asset eagerly linked from index.html: "+n);
