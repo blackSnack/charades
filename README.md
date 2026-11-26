@@ -10,7 +10,7 @@
 
 无需安装或注册。手机推荐 Safari / Chrome；iPhone 可在 Safari 分享菜单中选择「添加到主屏幕」。首次联网加载游戏和题库，后续可使用本地缓存（浏览器可能清理缓存）。
 
-实验动效：发布包含 VFX Lab 的版本后，在首页点击「实验功能 · 卡牌动效实验室」，选择四级难度并手动翻牌，不影响游戏存档。
+卡组主题实验室：在首页打开实验功能，选择候选卡组、难度及强度，翻牌预览；可收藏并手动应用到游戏，主题独立保存在本机，不改变题库与存档。默认仍为经典桌游卡。
 
 ## 项目描述
 
@@ -60,7 +60,7 @@ npm run test:e2e
 
 ## 技术与目录
 
-React + TypeScript + Vite + Tailwind CSS + shadcn/ui + Neobrutalism + Motion；PWA 使用 Workbox；IndexedDB 缓存题库。实验特效复用 Magic UI 与 canvas-confetti，不引入大型 WebGL/WASM 引擎。
+React + TypeScript + Vite + Tailwind CSS + shadcn/ui + Neobrutalism + Motion；PWA 使用 Workbox；IndexedDB 缓存题库。实验特效复用 Magic UI 与 canvas-confetti；增强模式试用 Agent Aura WebGL2 火焰、烟雾及雷电，无大型 WASM 引擎。正式游戏仍然不加载实验资源。
 
 - src/core：独立游戏规则
 - src/components/ui：上游基础组件
