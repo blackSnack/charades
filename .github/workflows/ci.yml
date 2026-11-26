@@ -1,7 +1,7 @@
 name: Build, test and deploy
 on:
   push:
-    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer]
+    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer, feat/vfx-gpu]
   workflow_dispatch:
 permissions:
   contents: read
