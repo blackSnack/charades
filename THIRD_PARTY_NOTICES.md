@@ -10,3 +10,8 @@ Actual upstream source files (MIT). Import aliases adapted to this project. Styl
 - licenses/shadcn.txt: https://github.com/shadcn-ui/ui/blob/main/LICENSE.md (blob fad4d887a681dd49233e5ed01ee2c7a1513089a0)
 
 Question bank migrated from the previously reviewed prototype. Some words were previously attributed to THUOCL (MIT); original per-entry provenance not available. See https://github.com/thunlp/THUOCL. No wholesale external database import in this commit.
+
+## Experimental card effects
+- Magic UI Border Beam, MIT: https://github.com/magicuidesign/magicui/blob/85f97fd27b053339af74ba9dd4ca428ee25989fb/apps/www/registry/magicui/border-beam.tsx (blob f35bb34ccbeb836013f4b3b4b4bebe1084a8482d); license in licenses/magicui.txt.
+- canvas-confetti 1.9.3, ISC: https://github.com/catdad/canvas-confetti; license in licenses/canvas-confetti.txt.
+- Original decorative SVG flame shapes are animated by the existing Motion library. No WebGL/WASM engine or generated raster images included.

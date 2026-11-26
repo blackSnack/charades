@@ -1,7 +1,7 @@
 name: Build, test and deploy
 on:
   push:
-    branches: [main, feat/react-pwa]
+    branches: [main, feat/react-pwa, feat/vfx-lab]
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,6 +17,7 @@ jobs:
       - run: npm run validate-bank
       - run: npm test
       - run: npm run build
+      - run: npm run check:vfx-size
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
