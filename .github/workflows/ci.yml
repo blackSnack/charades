@@ -75,7 +75,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag="v$(node -p 'require("./package.json").version')"
-          node -e 'const r=require("./release-notes.json"); console.log(r.notes.map(n=>"- "+n).join("\\n"))' > /tmp/party-deck-notes.md
+          node -e 'const r=require("./release-notes.json"); console.log(r.notes.map(n=>"- "+n).join("\n"))' > /tmp/party-deck-notes.md
           printf '\n[在线游戏](https://blacksnack.github.io/charades/)\n' >> /tmp/party-deck-notes.md
           if gh release view "$tag" >/dev/null 2>&1; then
             echo "Release $tag already exists"
