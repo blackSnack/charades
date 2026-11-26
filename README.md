@@ -60,7 +60,7 @@ npm run test:e2e
 
 ## 技术与目录
 
-React + TypeScript + Vite + Tailwind CSS + shadcn/ui + Neobrutalism + Motion；PWA 使用 Workbox；IndexedDB 缓存题库。实验特效复用 Magic UI 与 canvas-confetti；增强模式试用 Agent Aura WebGL2 火焰、烟雾及雷电，无大型 WASM 引擎。正式游戏仍然不加载实验资源。
+React + TypeScript + Vite + Tailwind CSS + shadcn/ui + Neobrutalism + Motion；PWA 使用 Workbox；IndexedDB 缓存题库。实验特效采用 cards-css 和 MetalFx，独立按需加载；元素火焰及粒子方案已撤回。正式游戏仍然不加载实验资源。
 
 - src/core：独立游戏规则
 - src/components/ui：上游基础组件
