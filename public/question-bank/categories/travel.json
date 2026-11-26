@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "travel-6a5347ac5f65e5be",
+    "word": "机场",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-738cf3d291a6d337",
+    "word": "火车站",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-1d7e70bda08fc956",
+    "word": "汽车站",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-59322eebea9442a1",
+    "word": "酒店",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-9ff56faa25bf9d24",
+    "word": "旅馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-596e93367773826b",
+    "word": "民宿",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-e3e38b7716d60060",
+    "word": "餐厅",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-6471e5705c9e10d1",
+    "word": "景区",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-e852dca995be4432",
+    "word": "公园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-0fd9e19000ddd499",
+    "word": "动物园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-267e2606a0c0c2f1",
+    "word": "水族馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-82be57d9af8d3533",
+    "word": "游乐园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-74846de213c1612e",
+    "word": "博物馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-266e6cb77079f0c3",
+    "word": "图书馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-4456be6a340edd72",
+    "word": "电影院",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-d6da47229317b684",
+    "word": "美术馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-1a8befbb8839c904",
+    "word": "体育馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-a8267260cd2788f4",
+    "word": "海滩",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-cdae730e9989166e",
+    "word": "沙滩",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-e86aae75fd0db045",
+    "word": "露营",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-b30e856c936fa2c6",
+    "word": "帐篷",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-e8e76efef046396e",
+    "word": "睡袋",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-f3eebbe5f3990c4b",
+    "word": "篝火",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-c6030c503465d2c2",
+    "word": "旅行箱",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-d24f1b9e50c3d3c8",
+    "word": "护照",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-a049a6815ed88813",
+    "word": "签证",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-15de5ae07a24afb2",
+    "word": "机票",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-536be9b372bbf17f",
+    "word": "车票",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-0f9e6796f8b21270",
+    "word": "登机牌",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-ad4a2bd59bf12558",
+    "word": "导游旗",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-da150a64ccfe512d",
+    "word": "故宫",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-bfaf925ba74daf0b",
+    "word": "天安门",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-d14995c128f125c1",
+    "word": "东方明珠",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "travel-9f7ee40e68a7be2e",
+    "word": "黄鹤楼",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-af85e1b5ccaaf1f9",
+    "word": "西湖",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-96df5611df464c42",
+    "word": "泰山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-d18b39f420442c3c",
+    "word": "黄山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "travel-7d9b9d78af0b5576",
+    "word": "九寨沟",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-94085063b01eee23",
+    "word": "张家界",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "travel-9b9a2861defb0431",
+    "word": "布达拉宫",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "travel-7bca735a8378ddbd",
+    "word": "天坛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-6d894d058151d20a",
+    "word": "颐和园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-d5778c49867bba58",
+    "word": "圆明园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-d465c12ec821e3ad",
+    "word": "夫子庙",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-fe9b413af6ba6fb6",
+    "word": "秦淮河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-e0b4ae2bd6d7294d",
+    "word": "外滩",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-15146c10579feb16",
+    "word": "陆家嘴",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-64168e1ca791c61b",
+    "word": "迪士尼",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-8f00651bcb9e07cc",
+    "word": "环球影城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-f2b38bc1fbc1e53b",
+    "word": "鼓浪屿",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-6d06adbbeed8628d",
+    "word": "西双版纳",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-b3ff990e4de3d840",
+    "word": "香格里拉",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-67f9e75d1d496e98",
+    "word": "玉龙雪山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-f0d30a94b4fc282c",
+    "word": "虎跳峡",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-3bfce9784770d901",
+    "word": "洱海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-604487013f887a78",
+    "word": "丽江古城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-3b17b23d9565a994",
+    "word": "凤凰古城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-fdf1aaba88ca734e",
+    "word": "平遥古城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-b35461f4ee977d6c",
+    "word": "乌镇",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-42762c2f28a094ca",
+    "word": "周庄",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-4227e4ce4ad0d610",
+    "word": "莫高窟",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-417ae5d0fd368322",
+    "word": "鸣沙山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-48b744a0f65fefca",
+    "word": "月牙泉",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-6ffc7334fa2d77ef",
+    "word": "青海湖",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-58dd58672ad22b1c",
+    "word": "茶卡盐湖",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-568800246d1148da",
+    "word": "可可西里",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-f642ddd658d05896",
+    "word": "呼伦贝尔",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-7fb739711043affe",
+    "word": "长白山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-50fa7c9a91bd106e",
+    "word": "大兴安岭",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-182177483db7ad11",
+    "word": "黄果树瀑布",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "travel-12b94cb7c26430ab",
+    "word": "三峡",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-bf919970ffdb2b88",
+    "word": "壶口瀑布",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-4bfda47f0d490aee",
+    "word": "神农架",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-31cd9e7bbe5a090d",
+    "word": "武当山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-b721d80703d6bb2e",
+    "word": "峨眉山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-36088d433e6a2dbe",
+    "word": "乐山大佛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "travel-a2676632186d49a9",
+    "word": "都江堰",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "travel-09a62f6655ba0f6d",
+    "word": "华山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-4e2cc1d23cc6f252",
+    "word": "恒山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-41e79109f1386604",
+    "word": "嵩山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "travel-c3c37fa915ab28d8",
+    "word": "卢浮宫",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-cafd8400522e96d7",
+    "word": "凯旋门",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-b37d1716473b4b33",
+    "word": "凡尔赛宫",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-2ccd305e235c66bc",
+    "word": "巴黎圣母院",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "travel-0c35cb967222e7b6",
+    "word": "大本钟",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-3159994a01f27a5a",
+    "word": "伦敦眼",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-16fa2385b6dd1e66",
+    "word": "白金汉宫",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-72459a57cb93d68b",
+    "word": "大英博物馆",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "travel-5fd4ff0feb913d66",
+    "word": "梵蒂冈",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-0a450f78e4551525",
+    "word": "威尼斯",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-29313f6e399b1c40",
+    "word": "比萨",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "travel-1d3e035fa12aa4d9",
+    "word": "巴塞罗那",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-e7605c5087516974",
+    "word": "圣家堂",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-325d616e12c77bd5",
+    "word": "雅典卫城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-f8418291f10346b6",
+    "word": "圣托里尼",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-e294ab9d429f9a9a",
+    "word": "富士山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-56e1c98561ce099c",
+    "word": "东京塔",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-175022ce47dded96",
+    "word": "晴空塔",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-47ad91dca9c65e36",
+    "word": "浅草寺",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-5bec9df1b6b26a02",
+    "word": "金阁寺",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-50c1f064da73bbf5",
+    "word": "清水寺",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-6978a6c263987fa1",
+    "word": "大阪城",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-671193c28c0d4d69",
+    "word": "济州岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-e0138ca9dcc3f2e5",
+    "word": "泰姬陵",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-c59e784e21b4dbb9",
+    "word": "吴哥窟",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-12624226feee067a",
+    "word": "鱼尾狮",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-87460a9b26f43400",
+    "word": "双子塔",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-1721625d20a24745",
+    "word": "迪拜塔",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-29e1b552a89eb544",
+    "word": "悉尼歌剧院",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "travel-5ad9b300758843cc",
+    "word": "大堡礁",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-60d3d4eeafcf1c08",
+    "word": "袋鼠岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-ef3dd5b1747a3c9e",
+    "word": "大峡谷",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-27f862d7155b354c",
+    "word": "黄石公园",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-8b6368ba9218bc10",
+    "word": "好莱坞",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "travel-47c2943b9b14a86b",
+    "word": "星光大道",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-ccc839ff3602dbe7",
+    "word": "时代广场",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-6820333b0120b883",
+    "word": "帝国大厦",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-a12cb50112f35ce5",
+    "word": "金门大桥",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "travel-ce95f139ae2e8749",
+    "word": "尼亚加拉瀑布",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "travel-de955a3040b7a9b6",
+    "word": "珠穆朗玛峰",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-45a54bc718829652",
+    "word": "乔戈里峰",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-ba1a5c704ab94966",
+    "word": "阿尔卑斯山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-6ba5f43543b320d4",
+    "word": "喜马拉雅山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-82d04e5c4a4ff2dd",
+    "word": "安第斯山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-f6a926a2e3c99ff7",
+    "word": "乞力马扎罗山",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "travel-6d5bc8841d637b2d",
+    "word": "撒哈拉沙漠",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-7e0010a30ddface3",
+    "word": "戈壁滩",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-21fadbcded8f8a43",
+    "word": "塔克拉玛干",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-188b70e1926b128d",
+    "word": "马里亚纳海沟",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "travel-0aa65400de91c40d",
+    "word": "百慕大三角",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-07c8a5ac4c0b139a",
+    "word": "复活节岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-d6871a7bfb36bc0d",
+    "word": "加拉帕戈斯群岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "travel-55bd9d225fa15087",
+    "word": "格陵兰岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-5343a979a17677f4",
+    "word": "冰岛",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-eb8d01bd09abf5fd",
+    "word": "大裂谷",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-06019e95f3cfc144",
+    "word": "死海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-52dcca9f728edd9c",
+    "word": "红海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-ec4baa6bbdf75047",
+    "word": "黑海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-1119f965cfcc1df2",
+    "word": "里海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-c4ba4748aa1364de",
+    "word": "波罗的海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-ab601484fc216e9a",
+    "word": "地中海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-22e92a7a183cd940",
+    "word": "加勒比海",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-7f6519323696fdc0",
+    "word": "白令海峡",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-dc053c18119ae9f4",
+    "word": "马六甲海峡",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-38fd2da231e53ec8",
+    "word": "英吉利海峡",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-b555bf27afaa9028",
+    "word": "巴拿马运河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-46f4daf52267aa7b",
+    "word": "苏伊士运河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-558c94905f1be75e",
+    "word": "尼罗河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-8f61bde75f2404b0",
+    "word": "亚马孙河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-d10ea9f8111abe9a",
+    "word": "多瑙河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-ea2b428ff9ac4fbb",
+    "word": "莱茵河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-c2e866be8b6ed7a6",
+    "word": "塞纳河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "travel-ba74b0569540052c",
+    "word": "恒河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "travel-818ebb0a4dbb8636",
+    "word": "密西西比河",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-8867a2299d3eab49",
+    "word": "贝加尔湖",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "travel-c2d8278c45814949",
+    "word": "的的喀喀湖",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "travel-0cb216581b48420d",
+    "word": "维多利亚瀑布",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "travel-05eda5cf41dd9c62",
+    "word": "伊瓜苏瀑布",
+    "catId": "travel",
+    "cat": "地理与旅行",
+    "level": 4,
+    "len": 5
+  }
+]

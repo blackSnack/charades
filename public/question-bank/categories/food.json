@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "food-3e3f03caa0435a00",
+    "word": "西瓜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-1e93a661562a8926",
+    "word": "菠萝",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-eb680c32dd8ab6d1",
+    "word": "榴莲",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-dbf9f9c94fc90b7c",
+    "word": "香蕉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-50537dab76505dfc",
+    "word": "苹果",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-ae86f9a1daef052f",
+    "word": "葡萄",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-c76f6a79f6dbcf63",
+    "word": "草莓",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-9f1aa4ba71d8a145",
+    "word": "樱桃",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-d8816dfefa548859",
+    "word": "橘子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-c8d3209aaa4aaf12",
+    "word": "橙子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-b8246e4fd8938af7",
+    "word": "芒果",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-7e29ba7e06c2ccf9",
+    "word": "椰子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-6c4d7161654bd6d2",
+    "word": "火龙果",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-6743bd96fb2dc0d3",
+    "word": "猕猴桃",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-95b143e58a98d6e6",
+    "word": "山竹",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-517ee6dc6a29dea8",
+    "word": "荔枝",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-0fe9ed3a6b78600f",
+    "word": "桃子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-64e861c0b886f036",
+    "word": "石榴",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-e8205f1a2e89c1d9",
+    "word": "哈密瓜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-9ef8346f7304ffdf",
+    "word": "柚子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-7ea01af14f934746",
+    "word": "冰淇淋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-70e047de52d53f77",
+    "word": "棉花糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-782dcecb3a41db9e",
+    "word": "棒棒糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-d4bb9332fd766d70",
+    "word": "薯条",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-cff82d4e354fb41e",
+    "word": "汉堡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-0e1865390696e7be",
+    "word": "披萨",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-945d949b00c2c4b7",
+    "word": "热狗",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-828d5640ee422883",
+    "word": "三明治",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-5f93b757d1618d14",
+    "word": "炸鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-909ea2ab741648e4",
+    "word": "烤串",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-8d56ca5e36ec8d4f",
+    "word": "火锅",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-c4647dac196c870e",
+    "word": "拉面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-f00ffdf5cd1b6828",
+    "word": "饺子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-787d89bb2ba8a2c6",
+    "word": "包子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-04e9839104379d3b",
+    "word": "馒头",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-87ba8cbb50fabc4e",
+    "word": "粽子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-dae9a3d28e2962dc",
+    "word": "月饼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-80ab3590f6610e7d",
+    "word": "汤圆",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-0b8c4bb849e089dd",
+    "word": "蛋糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-ed7d6da2eb335344",
+    "word": "方便面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-748c76a3e05c9e1e",
+    "word": "螺蛳粉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-7e625d35c81efbeb",
+    "word": "臭豆腐",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-f96b783946d36b12",
+    "word": "糖葫芦",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-de789f37fff8c31f",
+    "word": "烤红薯",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-cd1926b514920664",
+    "word": "煎鸡蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-763f31ff64f9377e",
+    "word": "荷包蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-d50a0dad88f865b0",
+    "word": "茶叶蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-dfa4670a83c67131",
+    "word": "玉米",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-5305d3b2b3f1648f",
+    "word": "爆米花",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-54b77038f0df2655",
+    "word": "奶茶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-720ec669f15b87b1",
+    "word": "咖啡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-dbe286d922bc4d31",
+    "word": "可乐",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-9c61c36d4df7f909",
+    "word": "豆浆",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-1c21b306263d2cfd",
+    "word": "油条",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-7212a2c9511ad5e8",
+    "word": "春卷",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-b66b04c2509a7c34",
+    "word": "寿司",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-d5fcdcebc54a63d7",
+    "word": "麻花",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-3ee69fe9792817d0",
+    "word": "小龙虾",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-e1337e15ca73d20d",
+    "word": "黄瓜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-dd1a68cb2c35fb78",
+    "word": "胡萝卜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "food-a64a92c865302906",
+    "word": "土豆",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-4fc10d8f397780f3",
+    "word": "豆腐",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-2e2eadd9e41c4e05",
+    "word": "柠檬",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-b892a42b9695881d",
+    "word": "牛奶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-b4bf241cd10ee181",
+    "word": "面包",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-e233a13a49e51106",
+    "word": "米饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-9af9bd8ab9c684ed",
+    "word": "酸奶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "food-b307176a73c928cc",
+    "word": "青团",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-04081d3010badeed",
+    "word": "奶酪",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-3ececcf7c4ca0b13",
+    "word": "青梅",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-785071dedb9273fc",
+    "word": "普洱茶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-08e9ac6580dae60b",
+    "word": "铁观音",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-bb6da11cdcdf24ad",
+    "word": "西红柿",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-deb9acd8cdce75ec",
+    "word": "木耳",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-4685ff1a62239a62",
+    "word": "生姜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-571f79710d252094",
+    "word": "黄豆",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-2d7fe74d093b5907",
+    "word": "香菇",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-3d03091e423547f4",
+    "word": "海带",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-714304a5fe9d6555",
+    "word": "山药",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-4404ea8981d2fc02",
+    "word": "冬瓜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-42a2a51c9c828059",
+    "word": "韭菜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-468ebeb79e77a3f0",
+    "word": "豆芽",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-873190e4d8c85d46",
+    "word": "泡菜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-5b5b96fd0623a039",
+    "word": "沙拉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-e2fd6979c0a125f8",
+    "word": "羊肉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-9d1e11e8cba926ec",
+    "word": "香菜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-2fa78608c0f5ad2f",
+    "word": "草莓蛋糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "food-e7121cc45eb43a14",
+    "word": "生日蛋糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "food-73b9e5c797336213",
+    "word": "巧克力",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-56ad9259e3e1c67d",
+    "word": "饼干",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-2b5117b8dfe7e851",
+    "word": "曲奇",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-d2c3c128fb278725",
+    "word": "威化饼干",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "food-dec985f376ed2411",
+    "word": "蛋挞",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-5b1e81d0ba29dab7",
+    "word": "泡芙",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-7d17b8d9cb58de7a",
+    "word": "甜甜圈",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-d1a21a9d4a4dc5f7",
+    "word": "马卡龙",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-63072981b1a0caeb",
+    "word": "提拉米苏",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "food-115dd15ffb4edb5d",
+    "word": "瑞士卷",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-2872b3af058c9152",
+    "word": "布丁",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-225a0771890a0c8b",
+    "word": "果冻",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-0a6a7439ce266e3c",
+    "word": "果酱",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-7cca2c8dce56121e",
+    "word": "绿豆糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-9174e442074cc966",
+    "word": "驴打滚",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-a3c46f5f1f79a887",
+    "word": "糯米糍",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-370cd9f46522afa6",
+    "word": "年糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-58e678eef58f8192",
+    "word": "蛋黄酥",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-b6633f75bdec5e21",
+    "word": "老婆饼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-cb3e84a1cd233d40",
+    "word": "沙琪玛",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-2d8cc587f9bf938a",
+    "word": "芝麻糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-dbb610413e50fcf6",
+    "word": "花生糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-0fb200fe6ced86ea",
+    "word": "牛轧糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-de00fe231c1cc285",
+    "word": "跳跳糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-1d3fb48106347278",
+    "word": "口香糖",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-112f44747e5f37e2",
+    "word": "牛肉干",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-82fcd9b622dfc125",
+    "word": "辣条",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-2a1e9606debb3caf",
+    "word": "薯片",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-7977d0528cd2a7cc",
+    "word": "瓜子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-7739ff2ac7a8c5f7",
+    "word": "花生",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-c7a897444f3d6363",
+    "word": "核桃",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-29ffcbc62ecbe3ec",
+    "word": "腰果",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-2667a5fdeb7dcd36",
+    "word": "板栗",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-423d45adea4b94b6",
+    "word": "杏仁",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-8d5da74d031e6c25",
+    "word": "松子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-538adc2ecfda226a",
+    "word": "开心果",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "food-f7d6f172cb4a8d1a",
+    "word": "莲子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-08e2e1d9ab721520",
+    "word": "腊肠",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-b399c827c559aeeb",
+    "word": "火腿",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-06930b2fa5f101d8",
+    "word": "培根",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-8fa7820b4c667210",
+    "word": "香肠",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-dfe5cc3df3047299",
+    "word": "牛排",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "food-c586d89c9d95ffb6",
+    "word": "北京烤鸭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-9d1f81d92d7bcdb5",
+    "word": "宫保鸡丁",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-46c61010c72129fa",
+    "word": "麻婆豆腐",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-c636ca5551ddeac6",
+    "word": "鱼香肉丝",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-e68fcfeb0a76c950",
+    "word": "水煮鱼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-f13dfb1edf4f6d3d",
+    "word": "酸菜鱼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-5352b2cd5189dec2",
+    "word": "毛血旺",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-b27eaa73a0713ccb",
+    "word": "佛跳墙",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-0d59a586997f2cd9",
+    "word": "东坡肉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-583474f5b6ac473e",
+    "word": "红烧肉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-ddd5b2c978a518fd",
+    "word": "糖醋排骨",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-c16c86d389dc0973",
+    "word": "锅包肉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-c47bf578cc65f95a",
+    "word": "地三鲜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-b1269fdc372e27cf",
+    "word": "拔丝地瓜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-59453fb6e0c6492d",
+    "word": "小鸡炖蘑菇",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "food-50086ce5b6dfcea9",
+    "word": "铁锅炖大鹅",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "food-0407b7f147a2c7df",
+    "word": "猪肉炖粉条",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "food-8f99ffc1c7f6c160",
+    "word": "蚂蚁上树",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-b6d8f9c7756e9056",
+    "word": "松鼠桂鱼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-fa3a334bd38b31a0",
+    "word": "夫妻肺片",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-3b0ef0b0abb50d88",
+    "word": "口水鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-292a5cf58dc0cf3f",
+    "word": "白切鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-d7626492230eb97d",
+    "word": "叫花鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-504ada0978f41437",
+    "word": "煲仔饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-0a1cfc99bbda15b7",
+    "word": "荷叶饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-d73ac7f81787cd0e",
+    "word": "扬州炒饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-44344d1e6db2b052",
+    "word": "蛋炒饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-c4ce9cf89a445a7e",
+    "word": "菠萝炒饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-1cbdfd30e71ddab0",
+    "word": "石锅拌饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-0df499aed38c064c",
+    "word": "咖喱饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-60939c3cf01009cf",
+    "word": "手抓饭",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-df6953c9d7c15622",
+    "word": "牛肉拉面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-3fea219bb3077a85",
+    "word": "担担面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-aa0c95b6bc21338e",
+    "word": "热干面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-15a71f8f61b33c4c",
+    "word": "刀削面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-f90c7d600e737f13",
+    "word": "油泼面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-af80dea44df26963",
+    "word": "炸酱面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-56abaaef48f2927f",
+    "word": "阳春面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-b3f06acf98756021",
+    "word": "凉皮",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "food-d27156330f6559c4",
+    "word": "肉夹馍",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-61091b1c72f11b71",
+    "word": "煎饼果子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-4dee8c7255ae6fd3",
+    "word": "鸡蛋灌饼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-4c384c0a76a61104",
+    "word": "灌汤包",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-0fd5c3f50831ed2f",
+    "word": "生煎包",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-cba7c9df1efc2f15",
+    "word": "小笼包",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-1c65a345cedb9907",
+    "word": "馄饨",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "food-4b17b9129d2b5222",
+    "word": "烧麦",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "food-cd6dd7eb2369aa42",
+    "word": "肠粉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "food-83c9b1789aa9b2c8",
+    "word": "双皮奶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "food-3f97732e787b884b",
+    "word": "杨枝甘露",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-17299af5e161117e",
+    "word": "冰糖雪梨",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-76bfc0638386e508",
+    "word": "珍珠奶茶",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-be4bcf0523272c48",
+    "word": "手冲咖啡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-601f49fc2c64d079",
+    "word": "卡布奇诺",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "food-d4a87835d5d71468",
+    "word": "拿铁",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "food-ce13a365ac560aa2",
+    "word": "马蹄糕",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-aeca986d33d12e1b",
+    "word": "叉烧酥",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-62e5458190aadaeb",
+    "word": "糯米鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-5a27fae9b82b4121",
+    "word": "虾饺",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-6be991338ca21ea0",
+    "word": "云吞面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-f372ea71c5280dfa",
+    "word": "车仔面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-da2fe1dc7e4cabc9",
+    "word": "鱼蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-a81ffbb938349b91",
+    "word": "牛杂",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-77e47f8f385eefe7",
+    "word": "肠旺面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-a0e2b05499caabb9",
+    "word": "豆腐脑",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-14169b5c356b4737",
+    "word": "羊肉泡馍",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "food-6b5c1c3c1e83513f",
+    "word": "羊蝎子",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-5087dc7fe555fbc9",
+    "word": "驴肉火烧",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "food-377750cde734a1d4",
+    "word": "泡椒凤爪",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "food-8100d441c862673a",
+    "word": "皮蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-04f088308e37d9a7",
+    "word": "皮蛋瘦肉粥",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "food-76006531b52b2e85",
+    "word": "松花蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-76e2a5903bc562d2",
+    "word": "蟹黄包",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-ca0df7cf89d7de25",
+    "word": "竹升面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-cb6db5602a05dd62",
+    "word": "砂锅粥",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-a2c27cd0f042138e",
+    "word": "猪肚鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-faa80880a71afc80",
+    "word": "盆菜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-d42e6042f9c441ba",
+    "word": "盐焗鸡",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-5001bd4d06866cab",
+    "word": "醉虾",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-2602100345040861",
+    "word": "醉蟹",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-6198517a3d62c83e",
+    "word": "糖蒜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-6268968723b8911c",
+    "word": "腊八蒜",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-123c2e9bf84e8069",
+    "word": "臊子面",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-08178b8128b155aa",
+    "word": "搅团",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-b443c6b624a5d797",
+    "word": "锅盔",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-75663b6941612601",
+    "word": "烧饼",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-2f137c779548132b",
+    "word": "胡辣汤",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-6c02434bfd948eac",
+    "word": "水盆羊肉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "food-ac3251b37579d9f0",
+    "word": "冰粉",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-7aa02b1091ba773d",
+    "word": "凉虾",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-f377dba62075b596",
+    "word": "醪糟",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-a84ba6fd800d2e73",
+    "word": "甜酒酿",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-0811c786c3fc7fd7",
+    "word": "芋圆",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-9b51d5f358928e6d",
+    "word": "龟苓膏",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-7e9638f333537a4f",
+    "word": "米布丁",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-697f8dfea53937ac",
+    "word": "芝士锅",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-9ace6632339cddc5",
+    "word": "惠灵顿牛排",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "food-70df0d7c3feb4f4f",
+    "word": "鹅肝",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "food-ef3bef21a0dfd840",
+    "word": "鱼子酱",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-1905e590a8d3c1a2",
+    "word": "生鱼片",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-6f67c751acf22002",
+    "word": "味噌汤",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-aa7e80d1b7d9d6d2",
+    "word": "天妇罗",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-95e4ee9aac77fc0c",
+    "word": "欧姆蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "food-ae60917d57eb5e04",
+    "word": "班尼迪克蛋",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "food-16cf12e5c31afb04",
+    "word": "烤布蕾",
+    "catId": "food",
+    "cat": "美食水果",
+    "level": 4,
+    "len": 3
+  }
+]
