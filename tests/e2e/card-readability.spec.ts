@@ -1,4 +1,26 @@
-import {test,expect} from "@playwright/test";
+import {test,expect,type Locator} from "@playwright/test";
+
+// Verify the fit after layout and ResizeObserver have converged, without a
+// fixed sleep or changing any of the original readability thresholds.
+async function fittedGeometry(word:Locator){
+ return word.evaluate(async e=>{
+  const measure=()=>{
+   const zone=e.parentElement!,card=zone.closest(".question-default")!,style=getComputedStyle(card),stage=card.parentElement!,stageStyle=getComputedStyle(stage);
+   const count=Array.from(e.textContent||"").length;
+   const cols=count<=4?Math.max(1,count):Math.min(6,Math.ceil(count/2)),rows=Math.ceil(count/cols);
+   const font=parseFloat(getComputedStyle(e).fontSize),available=zone.clientWidth,availableHeight=zone.clientHeight;
+   const expected=Math.max(16,Math.min(160,.96*available/cols,.94*availableHeight/(rows*1.14)));
+   const expectedCard=stageStyle.display==="grid"?(stage.clientWidth-parseFloat(stageStyle.columnGap))*1.65/2.65:stage.clientWidth;
+   return {font,expected,width:e.getBoundingClientRect().width,available,availableHeight,cardInner:card.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight),cardWidth:card.getBoundingClientRect().width,expectedCard,word:e.textContent};
+  };
+  const first=measure();await new Promise<void>(r=>requestAnimationFrame(()=>requestAnimationFrame(()=>r())));
+  const last=measure();return {...last,stable:Math.abs(first.font-last.font)<.5&&first.available===last.available&&first.availableHeight===last.availableHeight};
+ });
+}
+async function assertFitted(word:Locator){
+ await expect.poll(async()=>{const d=await fittedGeometry(word);return d.stable&&Math.abs(d.font-d.expected)<1&&Math.abs(d.cardWidth-d.expectedCard)<2&&d.available/d.cardInner>.95&&d.font>=45&&d.width/d.available>.8},{timeout:2000,message:"Question text must converge to the actual final card geometry"}).toBe(true);
+ const d=await fittedGeometry(word);console.log("Settled card geometry",JSON.stringify(d));expect(d.font).toBeGreaterThanOrEqual(45);expect(d.width/d.available).toBeGreaterThan(.8);expect(d.available/d.cardInner).toBeGreaterThan(.95);
+}
 test("removed elemental preference migrates and all remaining cards prioritize the word",async({page},info)=>{
  await page.addInitScript(()=>localStorage.setItem("party-deck-theme-v1",JSON.stringify({theme:"gpu",quality:"high",favorites:["gpu","warm"]})));
  await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();
@@ -35,17 +57,18 @@ test("WebGL unavailable leaves metal deck readable",async({page})=>{
 test("default gameplay shares fitted question typography",async({page},info)=>{
  await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/Solo 模式/}).click();
  await page.getByLabel("字数筛选",{exact:true}).selectOption("exact");await page.getByLabel("字数",{exact:true}).selectOption("4");await page.getByRole("button",{name:/开始游戏/}).click();
- const word=page.getByTestId("word");await expect(word).toBeVisible();await expect(word).toHaveClass("question-word-text");const dims=await word.evaluate(e=>{const zone=e.parentElement!,card=zone.closest(".question-default")!,style=getComputedStyle(card);return {font:parseFloat(getComputedStyle(e).fontSize),width:e.getBoundingClientRect().width,available:zone.clientWidth,availableHeight:zone.clientHeight,cardInner:card.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight),columns:style.gridTemplateColumns,rows:style.gridTemplateRows,word:e.textContent}});console.log("Default card geometry",JSON.stringify(dims));expect(dims.available/dims.cardInner).toBeGreaterThan(.95);expect(dims.font).toBeGreaterThanOrEqual(45);expect(dims.width/dims.available).toBeGreaterThan(.8);
+ const word=page.getByTestId("word");await expect(word).toBeVisible();await expect(word).toHaveClass("question-word-text");await assertFitted(word);
  await page.screenshot({path:info.outputPath("default-game.png")});
+ // Repeated next-question mounts must not inherit stale setup measurements.
+ for(let i=0;i<3;i++){await page.getByRole("button",{name:/下一题 \/ 跳过/}).click();await assertFitted(word)}
  // Real viewport change: the same current word must grow/shrink with its zone.
  const size=page.viewportSize()!;
  if(info.project.name==="phone"){
   const before=await word.textContent();
   await page.setViewportSize({width:844,height:390});
-  await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!;return Math.abs(parseFloat(getComputedStyle(e).fontSize)-Math.max(16,Math.min(160,.96*p.clientWidth/4,.94*p.clientHeight/1.14)))})).toBeLessThan(1);
-  await expect.poll(()=>word.evaluate(e=>e.getBoundingClientRect().width/e.parentElement!.clientWidth)).toBeGreaterThan(.8);
+  await assertFitted(word);
   await expect(word).toHaveText(before||"");
   await page.setViewportSize(size);
-  await expect.poll(()=>word.evaluate(e=>Math.abs(parseFloat(getComputedStyle(e).fontSize)-.96*e.parentElement!.clientWidth/4))).toBeLessThan(1);
+  await assertFitted(word);
  }
 });
