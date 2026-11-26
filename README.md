@@ -2,6 +2,8 @@
 
 [![Build, test and deploy](https://github.com/blackSnack/charades/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blackSnack/charades/actions/workflows/ci.yml)
 
+[![Latest release](https://img.shields.io/github/v/release/blackSnack/charades)](https://github.com/blackSnack/charades/releases/latest)
+
 ## 在线体验
 
 **[立即开始游戏 → https://blacksnack.github.io/charades/](https://blacksnack.github.io/charades/)**
@@ -45,6 +47,16 @@ npm run test:e2e
 ```
 
 开发地址为 http://localhost:5173/charades/。生产构建位于 dist/；GitHub Actions 在 main 构建及测试通过后发布 GitHub Pages。
+
+## 正式版本与应用更新
+
+- [GitHub Releases](https://github.com/blackSnack/charades/releases)：版本及更新日志。
+- 每次正式发布须同时更新 `package.json` 和 `release-notes.json`，使用 SemVer（例如 3.1.0）。
+- main 通过构建与测试后部署 Pages；部署成功才创建对应 Git Tag / Release。
+- App 在启动、恢复前台、联网恢复及前台每 60 秒检查同源 `version.json` 和 Service Worker；无需直接轮询 GitHub API。
+- 新 Service Worker 等待激活时显示更新提示；当前答题或输入期间延后至首页/结算页。点击「重启并更新」前保存进度，再激活新版并自动刷新。也可以稍后更新或手动检查。
+- 离线时保留当前可用版本。题库仍采用独立版本，不要求每次题库刷新都重启。
+- 版本元数据与 Pages 构建一起发布；GitHub Release 是部署成功后的公开发布记录。
 
 ## 技术与目录
 
