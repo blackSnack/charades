@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "occupations-e8ec877c8da553d3",
+    "word": "医生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-33ebf04d5d994404",
+    "word": "护士",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-3493ce63b9ebcbb0",
+    "word": "牙医",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-f3b0cec1fb28bb53",
+    "word": "厨师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-dc5be31ba8cd6811",
+    "word": "理发师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-3ea3df578027a60c",
+    "word": "消防员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-910a3de487b5956f",
+    "word": "警察",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-516c78a2e3d71eb2",
+    "word": "交警",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-63999287fd4c0928",
+    "word": "飞行员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-a8a2882ea4ffe2d7",
+    "word": "空姐",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-6687e5e0d4b16ed0",
+    "word": "司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-5d5169da72ad0722",
+    "word": "快递员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-ebcfddd741c97a67",
+    "word": "外卖员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-66eedcb516e36163",
+    "word": "摄影师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-06ef5abac1b72f2f",
+    "word": "画家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-cfb624b8a25bf9de",
+    "word": "歌手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-428eb45750365602",
+    "word": "舞蹈演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "occupations-44c9c55b90a858c4",
+    "word": "魔术师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-6c8567d626028c1b",
+    "word": "小丑演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "occupations-7b3a06b077a5db7d",
+    "word": "指挥家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-e134fd01678fdcf6",
+    "word": "钢琴家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-6726e6ca74528eea",
+    "word": "运动员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-5cdacda5a7a96b97",
+    "word": "裁判",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-c9a31a3f670b7f99",
+    "word": "老师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-13a58ec2074e014a",
+    "word": "学生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-69e1e8d520ee5bc8",
+    "word": "程序员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-dfc95b75f3e87d83",
+    "word": "电工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-15a4023a1f43f6a3",
+    "word": "木匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-89a51e0645a33ba6",
+    "word": "农民",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-f814597b1bc179c5",
+    "word": "渔夫",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-73632c37fd078f4f",
+    "word": "保安",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-cf80aba698b91219",
+    "word": "服务员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-fcf9d3057b108532",
+    "word": "收银员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-5df8707c1e58ee5d",
+    "word": "记者",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-f6ed44ed7a95b06e",
+    "word": "主持人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-d9c306281da3e1cf",
+    "word": "导游",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-c223644322c00ca2",
+    "word": "裁缝",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-37625034c45714d3",
+    "word": "修鞋匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-35b73c8648e9d187",
+    "word": "清洁工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-4be86acd4247ddf6",
+    "word": "考古学家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "occupations-0418c97e094d51ca",
+    "word": "宇航员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-a245622e6f949097",
+    "word": "铁匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-0ec3108cfe0cf4cb",
+    "word": "面点师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-b55b5d6248bdd806",
+    "word": "调酒师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-8840e3ad609df55d",
+    "word": "咖啡师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-2d00e29ccaf8230b",
+    "word": "兽医",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-141b16cb769629b9",
+    "word": "建筑工人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "occupations-110c0536e0e0855e",
+    "word": "搬运工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-c90733a5ef39659a",
+    "word": "救生员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-9d5b852e0812b3cf",
+    "word": "邮递员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-729ab671c923e6ce",
+    "word": "园丁",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "occupations-21b855f5efc1ff92",
+    "word": "图书管理员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 5
+  },
+  {
+    "id": "occupations-25fba04c3a933cb3",
+    "word": "健身教练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "occupations-d4e270cb1634f102",
+    "word": "修理工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-3251c0030ca279b8",
+    "word": "理货员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "occupations-711981b85a48159d",
+    "word": "外科医生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-b47e1d877bfc1f46",
+    "word": "眼科医生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-b7a90a7612bfbc0f",
+    "word": "中医",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "occupations-4f6b7fef9b1a59b3",
+    "word": "针灸师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-4737b4fde808e30d",
+    "word": "按摩师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-521ab39caf20c93f",
+    "word": "药剂师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-03e6fc377912b81d",
+    "word": "宠物美容师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-7734336d8c40a0ab",
+    "word": "驯兽师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-8588b83db3029a1f",
+    "word": "饲养员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-e7a4449c1e52bba2",
+    "word": "马戏团演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-0bf8fa1529f1bddf",
+    "word": "杂技演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-c3a8c99c012dd209",
+    "word": "武术教练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-8ec810cf5fb6a674",
+    "word": "跆拳道教练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-e790edea1a51fa15",
+    "word": "游泳教练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-1134e5c1faa3e2e8",
+    "word": "滑雪教练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-6d604a05b89ea537",
+    "word": "足球守门员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-0373462281ef1705",
+    "word": "篮球裁判",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-9cadfd9e039791b2",
+    "word": "网球裁判",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-6cab23e68d81f098",
+    "word": "拳击陪练",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-9047035ff14a86cb",
+    "word": "举重运动员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-8527787ab71e959e",
+    "word": "赛车手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-df00decc537d79af",
+    "word": "摩托车手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-653bac26e42e6ab5",
+    "word": "特技演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-557b1ca09918e4fa",
+    "word": "替身演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-97909204448650d4",
+    "word": "电影导演",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-fda1550adb503cdd",
+    "word": "编剧",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "occupations-bbcc5e1e59cd77b6",
+    "word": "化妆师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-e82e0dd3f15a0bd3",
+    "word": "造型师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-a154d9a4a9401a4c",
+    "word": "服装设计师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-1df627e908271265",
+    "word": "模特",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "occupations-d39b4672fe7c4aa5",
+    "word": "婚礼司仪",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-bffc05ca92e1ea1a",
+    "word": "音响师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-f3ab64276bf1ed49",
+    "word": "灯光师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-fe903de938040195",
+    "word": "新闻主播",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-067235c0529f0f20",
+    "word": "天气预报员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-661dca2f15dcd86a",
+    "word": "足球解说员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "occupations-003155ee97848d3d",
+    "word": "街头艺人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-3941ebd8811c1d3c",
+    "word": "小提琴手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-01e83cd83c3afc88",
+    "word": "吉他手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-8614c6e9d5f10ea2",
+    "word": "萨克斯手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-a90f0c401e237bb3",
+    "word": "相声演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-e72c7e85de3bfb4a",
+    "word": "京剧演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-e2c5334c45b071ed",
+    "word": "木偶师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-861da31283ab90f5",
+    "word": "舞龙演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-84fea314fe0fd430",
+    "word": "舞狮演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-33b12383385886b4",
+    "word": "拉面师傅",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-4cbde9005793ee49",
+    "word": "烧烤师傅",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "occupations-4d030c92c42d20f7",
+    "word": "烘焙师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-7d4d6846a5285a0b",
+    "word": "西点师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "occupations-af141cbc2e65f7a3",
+    "word": "列车员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-1778dde870c13242",
+    "word": "地铁司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-4a3765fb9baaed25",
+    "word": "公交司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-3d340adde3e2afa3",
+    "word": "出租车司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-ad81c6c4e4961e9a",
+    "word": "货车司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-a024744b3ca71b0d",
+    "word": "船长",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-4bd373c9b136e1ff",
+    "word": "水手",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-705982657359d97c",
+    "word": "潜水员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-30b420cc1f391c9b",
+    "word": "领航员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-ec61784787b3bc69",
+    "word": "机场安检员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-4631421c7123175a",
+    "word": "火车检修员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-7992d9dd659ef0a4",
+    "word": "汽车维修师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-6e5c5aa7eaeffcaa",
+    "word": "轮胎修理工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-57814d18d3d137b9",
+    "word": "挖掘机司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-62a15f8925456252",
+    "word": "塔吊司机",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-bceb9c162320d4b8",
+    "word": "电梯维修工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-2a8ee4c3eb804ee3",
+    "word": "管道工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-c42d02190bb9c2e6",
+    "word": "瓦工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-915351fc96a81693",
+    "word": "泥瓦匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-51b902d16af8e725",
+    "word": "油漆工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-c8eeb4704aacccab",
+    "word": "焊工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-1f7ed95f85e729fa",
+    "word": "玻璃工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-b8d46cb9cfc2c12a",
+    "word": "石匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-0575bed662922c24",
+    "word": "装锁师傅",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-6a605dec182ce3e5",
+    "word": "家电维修师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-4188a00751d8a234",
+    "word": "网络工程师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-8e4c705747331965",
+    "word": "硬件工程师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-96b9a625868cafdb",
+    "word": "矿工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-0a1eecb51ac20a98",
+    "word": "测绘员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-1ba527a60cd437ee",
+    "word": "天文学家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-5fe7d78948e2b9b3",
+    "word": "气象观测员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-06d08814793effdb",
+    "word": "科学实验员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-894caef8a7f19813",
+    "word": "消毒员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-dbfe337c8f9f6f4f",
+    "word": "法官",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-8b9a36a968cd1890",
+    "word": "律师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-0ab7c5e5eaeba29c",
+    "word": "法医",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-40eb5803cacd9a5e",
+    "word": "侦探",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-ac74ad87e127a24c",
+    "word": "狱警",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-9f03e7b849299bc0",
+    "word": "刑警",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "occupations-da2a0749fb4631b0",
+    "word": "谈判专家",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-c0461f4af0cc7e58",
+    "word": "银行柜员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-fa7a7f038f5dd4be",
+    "word": "会计师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-0cbc941dbce8aab9",
+    "word": "拍卖师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-334dc0253c4545ad",
+    "word": "验钞员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-9653eb314d6a0104",
+    "word": "房产中介",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "occupations-9027c683dafa46cb",
+    "word": "超市促销员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-73510a95f380ee50",
+    "word": "水果摊老板",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "occupations-1799b3b8abb9a03a",
+    "word": "补锅匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-f33aaa6d00782bce",
+    "word": "磨刀匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "occupations-ce4c1da37cc1506c",
+    "word": "鉴宝师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-ecf8f6335fdb2e81",
+    "word": "品酒师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-8655355fc67a655a",
+    "word": "调香师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-b3afe3b731bb1609",
+    "word": "验尸官",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-d7947ffaa00fece9",
+    "word": "入殓师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-5089338d359ee9d1",
+    "word": "试睡员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-b22a5eb7a819053c",
+    "word": "试飞员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-c9991108fd13b91c",
+    "word": "试吃员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-400ad529a1bbca43",
+    "word": "观鸟员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-2252c2c2c148af39",
+    "word": "遛狗师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-37ce1fe3486798d9",
+    "word": "驯马师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-eb34734e8604eea4",
+    "word": "驯鹰师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-2cd689a40f8807f5",
+    "word": "采珠人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-a156f40e5a8024e2",
+    "word": "牧羊人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-0f266cb8c7af1886",
+    "word": "摆渡人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-dc58799766ddfd9d",
+    "word": "打更人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-7146343215ced6e0",
+    "word": "镖师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "occupations-895fa5f79b8115f1",
+    "word": "捕快",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "occupations-9277b7d8248d9e21",
+    "word": "仵作",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "occupations-6506b38e178e6510",
+    "word": "账房先生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-e800a3c908dec2a8",
+    "word": "掌柜",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "occupations-784dad11d2fc3411",
+    "word": "店小二",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-48d3e4c3fc197f9c",
+    "word": "说书先生",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-9fb35e4f86cad31c",
+    "word": "茶艺师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-018d085687eb32dc",
+    "word": "制琴师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-0a796d8fcf1f5145",
+    "word": "口译员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-5bde72b22f90042e",
+    "word": "同声传译",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-d9904958ec9a6f1f",
+    "word": "速记员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-3f1c282c69849b42",
+    "word": "精算师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-d6ea12e746e926a7",
+    "word": "心理咨询师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-c607c4ac0a28be84",
+    "word": "职业规划师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-168590f02daf1277",
+    "word": "证券分析师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-a489a7301cb28c0a",
+    "word": "配音演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-8f53894e7f96a5d8",
+    "word": "拟音师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-5b1ce6a9ef65432a",
+    "word": "武术指导",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-1902548af82d856e",
+    "word": "游戏原画师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-4d0a4cda610d4144",
+    "word": "建模师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-1a8f0fd6da8c4b77",
+    "word": "动捕演员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-703d173568ffdb6c",
+    "word": "专利代理人",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-0a07ff529e4faa08",
+    "word": "声纳员",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-51d92f3740018bee",
+    "word": "潜水焊工",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "occupations-aee4515bf60189a3",
+    "word": "珠宝鉴定师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-92f624e5d7d48723",
+    "word": "文物修复师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "occupations-b737deedebe06630",
+    "word": "训犬师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-5cceb55c9d37c945",
+    "word": "驯象师",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "occupations-1e4504183e86a220",
+    "word": "修表匠",
+    "catId": "occupations",
+    "cat": "职业身份",
+    "level": 4,
+    "len": 3
+  }
+]

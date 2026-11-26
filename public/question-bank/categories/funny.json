@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "funny-0567740eac2632b6",
+    "word": "憋笑",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-20bd7dbe6fd4812b",
+    "word": "憋尿",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-d43f071d5c3da7f9",
+    "word": "牙疼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-f68a1e1e22e942a9",
+    "word": "抽筋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-a4846a678109c9f8",
+    "word": "晕车",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-675f5375f5c8e31d",
+    "word": "梦游",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-45d904a7b4628900",
+    "word": "尿床",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-fc26588032fb918d",
+    "word": "放屁",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-dd4e86b534f13f6b",
+    "word": "吃醋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-fc7d3b27f0ed0901",
+    "word": "打盹",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "funny-f9db0ae1c9e8403f",
+    "word": "翻白眼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-04cc86267cf2ad4f",
+    "word": "扮鬼脸",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-94d4f63c1891146a",
+    "word": "流口水",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-247eaf7d41b5fa6b",
+    "word": "睡过头",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-58b8aef536fa2124",
+    "word": "起床气",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-5499b9e6987c1fa8",
+    "word": "唱跑调",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-c678e30dbb6ecf8a",
+    "word": "走路滑",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-15dc2afd4cd5d238",
+    "word": "穿反衣服",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-fd3182d865bec6f0",
+    "word": "掉假牙",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-5e33645dacab4106",
+    "word": "打翻水杯",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-e55b3dd9326011a4",
+    "word": "煮饭糊锅",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-f056528107d8fbd6",
+    "word": "被狗追",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-1ba67f5d043e2370",
+    "word": "被鸡追",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-1ea6b4d3e95e89a6",
+    "word": "被雨淋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-e7fbdde0079d61b3",
+    "word": "看到鬼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-58b1d5e5ca8def8b",
+    "word": "找手机",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-da088430f1a04027",
+    "word": "找钥匙",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-c0c4ed8246258154",
+    "word": "闻臭袜子",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-cc3ca551383fbc49",
+    "word": "吃柠檬",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-d8a4da95cf86146b",
+    "word": "被辣哭",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-4e3f294d8cbc43f6",
+    "word": "被蚊子咬",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-8859a99648cb7e3c",
+    "word": "扭到腰",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "funny-3de81583ed764796",
+    "word": "看到蟑螂",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-ebf39759d49b0d2f",
+    "word": "假装睡觉",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-9be54eb388363f72",
+    "word": "吃面烫嘴",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-f52fb2059712af60",
+    "word": "喝水呛到",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-798ac2c9f9d94c8f",
+    "word": "抢不到座",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "funny-48c4de17f01dc226",
+    "word": "被蜜蜂追",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-495bee332697c90f",
+    "word": "踩到香蕉皮",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-81ec15e91a04c986",
+    "word": "踩到乐高",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-0126319ee7b3da99",
+    "word": "被门夹到手",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-b7eecc57f44fffa3",
+    "word": "上厕所没纸",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-609cb436d8976026",
+    "word": "走路撞电线杆",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-d3f0cdadef801520",
+    "word": "公交车急刹车",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-8cb0617c891516dc",
+    "word": "偷吃零食",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-5dafebf39a4cf55c",
+    "word": "做噩梦",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "funny-14ac4dde81a2707e",
+    "word": "打针怕疼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-e574af370324414b",
+    "word": "鬼屋探险",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-efd3487042959aae",
+    "word": "刮大风",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "funny-2e569ca5459ad58d",
+    "word": "自拍闭眼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-fed8379b7bd1b510",
+    "word": "偷拍被发现",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-872890c9b932b5bd",
+    "word": "考试作弊被抓",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-ab6e8be83291a864",
+    "word": "迟到进教室",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-04f3e2b6c61d9677",
+    "word": "上台忘词",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-13882427f11afe7b",
+    "word": "跳舞踩到脚",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-20c42e7c4f06c193",
+    "word": "表白被拒",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-9ca3384544df08f1",
+    "word": "中了彩票",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-c2584b754b06e3f1",
+    "word": "打游戏输了",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-dbdaa7a2d2b3307a",
+    "word": "抢红包没抢到",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-4dc3d8fd3660a4e3",
+    "word": "鞋子进石头",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-c18a717d03c11119",
+    "word": "裤子掉了",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-3a0402cc0d5870b6",
+    "word": "风吹走帽子",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-5769b3986da5905c",
+    "word": "打伞被风吹翻",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-41859557ed79e050",
+    "word": "抓娃娃失败",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-f27fc51e0b28fb9e",
+    "word": "挤地铁",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "funny-8d279b4da298464d",
+    "word": "找停车位",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-19b93a04d198291a",
+    "word": "照镜子自恋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-cad1eecae1fcbed5",
+    "word": "袜子穿破洞",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-9f1c6588755f86b1",
+    "word": "走路掉鞋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-6579f99b4d36c818",
+    "word": "戴眼镜找眼镜",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-228ce438e419708a",
+    "word": "下错公交车",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-739a44256bd46f6b",
+    "word": "赶不上飞机",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "funny-b67d5c5f551fff78",
+    "word": "电梯夹包",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-b187cd60b2b173e0",
+    "word": "洗澡停水",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "funny-015fbe97fe19e3c3",
+    "word": "拉链卡住衣服",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 2,
+    "len": 6
+  },
+  {
+    "id": "funny-45ca6647b8eff588",
+    "word": "手机拿在手里还在找",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 9
+  },
+  {
+    "id": "funny-7a768d4f4a908b13",
+    "word": "钥匙忘在门里面",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-8abb63ee83c48e4f",
+    "word": "出门忘带钱包",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-18a7a6b6bc02eabb",
+    "word": "刚坐下就被叫起来",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-551766ed06273fad",
+    "word": "毛衣穿脱卡住",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-1bf5310a9bfc31ff",
+    "word": "泡面调料撒了一身",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-a08f051e9aa7b62f",
+    "word": "辣椒油溅到白衣服",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-4b18787770379dcf",
+    "word": "吃鱼卡鱼刺",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "funny-41411ec6ee1e644e",
+    "word": "冰淇淋掉到地上",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-ba69e0c304b6b439",
+    "word": "吃冰淇淋冻到头疼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-8f5039933ed66c0c",
+    "word": "牛奶喝到嘴边一圈",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-daf49b34ff72fc58",
+    "word": "切洋葱切到流泪",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-0111479ba1025e89",
+    "word": "打鸡蛋掉进蛋壳",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-b8bd44923451868b",
+    "word": "咬苹果咬到舌头",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-29be75255804f7bb",
+    "word": "吃火锅抢最后一块肉",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 9
+  },
+  {
+    "id": "funny-0cf3d62e9b9229ae",
+    "word": "吃烧烤被烟熏哭",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-cdcb9dd27b590e54",
+    "word": "榨果汁忘记盖盖子",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 8
+  },
+  {
+    "id": "funny-2722fe48f0e7a635",
+    "word": "猫把杯子推下桌",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 7
+  },
+  {
+    "id": "funny-54a729ffe5859ec4",
+    "word": "狗把拖鞋叼走",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-04d585b6fbb2c224",
+    "word": "给猫洗澡被挠",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-ffdb433a35b9a3f2",
+    "word": "被鸭子啄屁股",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-97954a744db7d5a4",
+    "word": "骑车掉进水坑",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-c6616ef7034f4783",
+    "word": "钓鱼钓到破鞋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-00a455ab0b40406f",
+    "word": "跳绳绊倒自己",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-45477aca3554ce17",
+    "word": "拔河突然松手",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-7680e2dc5ed9cd60",
+    "word": "踢足球踢空",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "funny-4cc3ede1965428fa",
+    "word": "打保龄球滑倒",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-194f6221ead44d33",
+    "word": "跑步裤子裂开",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 6
+  },
+  {
+    "id": "funny-9fbbce7339e9facd",
+    "word": "做瑜伽抽筋",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "funny-ba024d7b31116cec",
+    "word": "社死",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-efbe3d56a59d716e",
+    "word": "大冤种",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-52ae0d3ebc783175",
+    "word": "尴尬癌",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-699efbded70eda18",
+    "word": "选择困难",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "funny-3e9e6c5a249c1da4",
+    "word": "脸盲",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-ea79ebdff1dac5ec",
+    "word": "认错人",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-e9e1a2886b9a0184",
+    "word": "走错门",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-bb4dc1882ad594fd",
+    "word": "挖墙脚",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-554abe09efb69113",
+    "word": "摸鱼",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-b362d438ab945ee1",
+    "word": "翻车",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-3da149c563d03ba6",
+    "word": "背锅",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-15b61d749a292902",
+    "word": "吃瓜",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-3732f88c372ca535",
+    "word": "打脸",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-aed755f855432afa",
+    "word": "真香",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-f74901b447d248cc",
+    "word": "假正经",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-5b32e96d46550f66",
+    "word": "装蒜",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-dc041110a9a62807",
+    "word": "鸽子精",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "funny-effb6a347a8e8d0e",
+    "word": "乌龙事件",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "funny-68e50ec4d2f3469d",
+    "word": "笑场",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-fa05b991ec78da31",
+    "word": "穿帮",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-89ab26c310c3c419",
+    "word": "破防",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "funny-9c0cfb87c06f7876",
+    "word": "乐极生悲",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "funny-1f39b49f2254e4e1",
+    "word": "相亲认错人",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "funny-864592387c9ee9ac",
+    "word": "开会忘记关麦",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "funny-d6e424bd9d4dfc4a",
+    "word": "对着假人说话",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "funny-3fe4dc79a54cb59d",
+    "word": "考试只剩一分钟",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "funny-b178e30b54dca201",
+    "word": "忘记写考试姓名",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "funny-5f4ea164a7a5cc55",
+    "word": "上课肚子叫",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "funny-e80821812c26fde5",
+    "word": "假装很忙被识破",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "funny-47e6f2b18bb4c338",
+    "word": "打呼噜把自己吵醒",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 8
+  },
+  {
+    "id": "funny-481bc08d78de55be",
+    "word": "吸尘器吸走袜子",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "funny-bcf4c277e54b47e4",
+    "word": "半夜踩到尖叫玩具",
+    "catId": "funny",
+    "cat": "搞笑情景",
+    "level": 4,
+    "len": 8
+  }
+]

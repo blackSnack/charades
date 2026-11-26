@@ -1,0 +1,1474 @@
+[
+  {
+    "id": "challenge-573b6344531f1e6d",
+    "word": "害羞",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-2c13698649c47f50",
+    "word": "吃惊",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-1080332a28b0e082",
+    "word": "生气",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-3b637c63dece5a11",
+    "word": "愤怒",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-b4ae3bd8b86dd3a9",
+    "word": "失望",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-313c224671ff5c9e",
+    "word": "紧张",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-bff0375aff9a67bc",
+    "word": "焦虑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-571a5f62065064b1",
+    "word": "害怕",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-30724f3f0cd53a77",
+    "word": "激动",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-43932aa17701f5f4",
+    "word": "无聊",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-335bb3aff5daf5c1",
+    "word": "羡慕",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-126724ba2894d640",
+    "word": "嫉妒",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-e5bee77860aa91f3",
+    "word": "得意",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-b118691c27c9015c",
+    "word": "伤心",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-1dbcb9a9b5f1acb2",
+    "word": "骄傲",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-ad353ac8ff79e879",
+    "word": "委屈",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-10c1ef25653cef4e",
+    "word": "后悔",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-3bcd542b08005ab9",
+    "word": "疲惫",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-eb793dd9e6ff71fc",
+    "word": "困惑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-7bb5f03a002359a1",
+    "word": "放松",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-0b795c7fd61ef3a4",
+    "word": "尴尬",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-e738a91616ffca68",
+    "word": "怀疑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-913e7248064f2888",
+    "word": "走神",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-453fbb17b253bf55",
+    "word": "撒娇",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-b30766abd85edea6",
+    "word": "傲娇",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-e80f0017746890b0",
+    "word": "冷漠",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-c207d84bb146473a",
+    "word": "吹牛",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-7b7091eca2cad6f0",
+    "word": "说谎",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-47c301914b025b4f",
+    "word": "耍赖",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-0f8683de28c11f5a",
+    "word": "偷懒",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-f00922269711a588",
+    "word": "叛逆",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-33d62befc4d484bf",
+    "word": "唠叨",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-176c155e4d5d26d7",
+    "word": "悲伤",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-4e8156e47e98f1c7",
+    "word": "满足",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-0d88acb202217baf",
+    "word": "冲动",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-14c180f6b2b24e04",
+    "word": "发呆",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-921735df311fe365",
+    "word": "卖萌",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-5a322a0789d2f976",
+    "word": "害臊",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-a2e6af90723bba8e",
+    "word": "发愁",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-b3c36bfdaf716709",
+    "word": "道歉",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-5f03fecac8095f65",
+    "word": "认输",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "challenge-4d83d28b37eafacf",
+    "word": "一见钟情",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-91fd7a23f269aeb9",
+    "word": "如坐针毡",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-82a45b82d1f14b0e",
+    "word": "半信半疑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-6a337bf4d5ed22a6",
+    "word": "心不在焉",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-21523884c795991e",
+    "word": "忐忑不安",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-4fcbdb71bbab7ff7",
+    "word": "若无其事",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-381d5538a771503c",
+    "word": "欲言又止",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-74a9278b06ba92ae",
+    "word": "心有余悸",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-08fe75e789733757",
+    "word": "恍然大悟",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-8d3d987461f290ad",
+    "word": "不知所措",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-7dd07d25b9af4821",
+    "word": "哭笑不得",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-2fd6f3718f7542e7",
+    "word": "无可奈何",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-ccbbb4c47d25432c",
+    "word": "迫不及待",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-91bbcccdd271b469",
+    "word": "依依不舍",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-70469876e28729a8",
+    "word": "恋恋不舍",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-a962eebf8683c0fb",
+    "word": "满载而归",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-3a6be02ac2f15d95",
+    "word": "幸灾乐祸",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-876cae2cde70bdfb",
+    "word": "提心吊胆",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-8a09a347bc270586",
+    "word": "惊魂未定",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-c5239db6645b51e9",
+    "word": "疑神疑鬼",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-b9fc1b577f4d35b4",
+    "word": "畏首畏尾",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-5490653666c5f017",
+    "word": "缩手缩脚",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-b912dccd89978d1f",
+    "word": "束手无策",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-dbff7d7527a4a31e",
+    "word": "理直气壮",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-0954502f3b4d00dc",
+    "word": "强颜欢笑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-a6dc829fa3c765e5",
+    "word": "忍气吞声",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-07e6d7865335ceeb",
+    "word": "忍无可忍",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-aa81af254d57c920",
+    "word": "受宠若惊",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-5e628fe48e4cfb1f",
+    "word": "心满意足",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-e9bb99584be48c48",
+    "word": "意犹未尽",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-4678cd2b86b3ab35",
+    "word": "望眼欲穿",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-b05f2c544a5e59ce",
+    "word": "自告奋勇",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-74013888adfced68",
+    "word": "勇往直前",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-5984a6079e5fa6e1",
+    "word": "半途而废",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-2f9e7c2f56363bb1",
+    "word": "知难而退",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-84f584f913905c95",
+    "word": "迎难而上",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-a5aced5f28ff0ed1",
+    "word": "临阵脱逃",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-805547240d049df6",
+    "word": "临危不乱",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-db4242e8c67307ff",
+    "word": "临时抱佛脚",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "challenge-1feabd519e432482",
+    "word": "知恩图报",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-af157ca755778319",
+    "word": "见义勇为",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-e146e1893158099a",
+    "word": "喜新厌旧",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-7846d08e6a92e617",
+    "word": "三心二意",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-46d61033f3d0a607",
+    "word": "一心一意",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-3b02ea950339d911",
+    "word": "斤斤计较",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-18eb5fc1a1903bd6",
+    "word": "一毛不拔",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-bc73be73dbc92ffa",
+    "word": "装聋作哑",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-820ae8911fa3b79e",
+    "word": "装腔作势",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-7f31a68c09e9ea82",
+    "word": "故作镇定",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-a0b2954c16108926",
+    "word": "自我陶醉",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "challenge-aaf42a99f22b3a33",
+    "word": "先斩后奏",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-00e5c812813676ce",
+    "word": "先礼后兵",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-569188e9427e433e",
+    "word": "见缝插针",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-035c845e5f9e9475",
+    "word": "故技重施",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-ecff32168ff99db5",
+    "word": "重蹈覆辙",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-09b7928a3d33e71b",
+    "word": "将计就计",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-3fac431f54e4f8b5",
+    "word": "反客为主",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-40098ce68f2d2cb0",
+    "word": "以退为进",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-7ee8eb623540f2f2",
+    "word": "欺软怕硬",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-af34a68dbdaaa189",
+    "word": "投机取巧",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-b0c6e13eec12456a",
+    "word": "投其所好",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-6dbc291459702476",
+    "word": "阿谀奉承",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-41af25e77bb37791",
+    "word": "拍马屁",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "challenge-320f7a0d6e28e0f6",
+    "word": "趁火打劫",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-f7029f1852d2db0e",
+    "word": "趁人之危",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-7971b4fbb874bfaf",
+    "word": "见利忘义",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-59aae02b4c649cf3",
+    "word": "见钱眼开",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-944ed135d8fd9574",
+    "word": "贪小便宜",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-440efc3620bd9f0b",
+    "word": "丢三落四",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-7b44219895949799",
+    "word": "顾此失彼",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-8d149bce58b4a4d5",
+    "word": "本末倒置",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-c739d3063db87301",
+    "word": "颠倒黑白",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-99d1fedfbdabb54a",
+    "word": "混淆视听",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-7928291f0b907287",
+    "word": "掩盖真相",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-b46e86bdf8be34f4",
+    "word": "不打自招",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-261680f79fafecba",
+    "word": "不攻自破",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-6e713b54a3279b84",
+    "word": "原形毕露",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-a079291702323f83",
+    "word": "弄巧成拙",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-d24d29c925007f0c",
+    "word": "歪打正着",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-3037ec6475d4b28a",
+    "word": "大智若愚",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-a1df41572c76811b",
+    "word": "自以为是",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-ff5ca229e73af642",
+    "word": "画饼充饥",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-2b325175da799c92",
+    "word": "镜花水月",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-ac7e0eaee5d2ae25",
+    "word": "雾里看花",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-5f89e64ffb715426",
+    "word": "隔靴搔痒",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-370e63e8dfb76cd1",
+    "word": "水滴石穿",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-cef34c44189ab116",
+    "word": "滴水不漏",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-2cff533b8f454119",
+    "word": "天衣无缝",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-454fe3eef7e55fb8",
+    "word": "无孔不入",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-01c4d6475ee53df4",
+    "word": "无懈可击",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-362a9cdd80a809ec",
+    "word": "一鼓作气",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-43949326a2809e88",
+    "word": "一气呵成",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-4e140a3ab0269dac",
+    "word": "一拍即合",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-51cd8218967aaa55",
+    "word": "不欢而散",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-bc0da4baa78de694",
+    "word": "不约而同",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-91d6c9831a1cce16",
+    "word": "心照不宣",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-a03b23a3ce79e78a",
+    "word": "心领神会",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-dd857296b4c1da22",
+    "word": "心有灵犀",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-2ef53f470e0d191e",
+    "word": "不谋而合",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-5e6290208f9df6da",
+    "word": "异想天开",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-b0cadd63707ad1e5",
+    "word": "想入非非",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-c0b7b1e4c0b30306",
+    "word": "天马行空",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-2b027ef1875a8301",
+    "word": "杞人忧天",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-48f8dd84fdd962ef",
+    "word": "白日做梦",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "challenge-15c8db9549dbd176",
+    "word": "冷暴力",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-7dee621ceb102e8e",
+    "word": "玻璃心",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-c8861b3b91b61999",
+    "word": "乌鸦嘴",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-979c304429881fd2",
+    "word": "口嫌体正直",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-d637406e136b33e6",
+    "word": "刀子嘴豆腐心",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "challenge-a36018ed5e93d10d",
+    "word": "吃软不吃硬",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-a4f18dcc979eb12d",
+    "word": "死要面子活受罪",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-5de4c17556ffda40",
+    "word": "打破砂锅问到底",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-31cfbb2eabdb72a4",
+    "word": "哪壶不开提哪壶",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-d76aad2d35f90543",
+    "word": "站着说话不腰疼",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-767d41f581370139",
+    "word": "一波未平一波又起",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 8
+  },
+  {
+    "id": "challenge-1510e713ace42b2a",
+    "word": "远水救不了近火",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-5b216d19c8db03f7",
+    "word": "一根绳上的蚂蚱",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-28588023135e8210",
+    "word": "跳进黄河洗不清",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-14f174f319c4f31b",
+    "word": "猫哭耗子假慈悲",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 7
+  },
+  {
+    "id": "challenge-5498c2791250857e",
+    "word": "纸包不住火",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-5c6b4515bf0ff224",
+    "word": "强扭的瓜不甜",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "challenge-e77a9e0d1140c67b",
+    "word": "好心办坏事",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-119f1a909119273a",
+    "word": "人不可貌相",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-7cbf3b970ea99402",
+    "word": "说曹操曹操到",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "challenge-6b398aead700c8b4",
+    "word": "吃一堑长一智",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 6
+  },
+  {
+    "id": "challenge-c86eef28e97726eb",
+    "word": "枪打出头鸟",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-d0e0c91ffc7ea90c",
+    "word": "逆反心理",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "challenge-a780a073aebf239c",
+    "word": "双标",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "challenge-79f822e5c9ba3948",
+    "word": "内耗",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "challenge-e6415b73193c3b80",
+    "word": "内卷",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "challenge-d29a4817727e4aa4",
+    "word": "躺平",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "challenge-50c3ccabbd2f934b",
+    "word": "反差感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-215b6f205a41212f",
+    "word": "仪式感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-c15d6a3584065ec3",
+    "word": "安全感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-8bd500f15dfbace7",
+    "word": "违和感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-9370c2ddbeca0c16",
+    "word": "边界感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-99668a104cfeb9fc",
+    "word": "优越感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-17b3b01f0cb048c9",
+    "word": "责任感",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "challenge-f36ed28fae75d176",
+    "word": "从众心理",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "challenge-a8c046a577b76ffa",
+    "word": "幸存者偏差",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "challenge-531c773ef882825c",
+    "word": "心理暗示",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "challenge-de452bbb13cdc85a",
+    "word": "自我感动",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "challenge-339bb30cab05aca8",
+    "word": "情绪价值",
+    "catId": "challenge",
+    "cat": "高难挑战",
+    "level": 4,
+    "len": 4
+  }
+]

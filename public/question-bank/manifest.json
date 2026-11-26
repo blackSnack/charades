@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "36802b1e6c9c6706",
+  "categories": [
+    {
+      "id": "general",
+      "name": "通识百科",
+      "file": "categories/general.json",
+      "count": 175
+    },
+    {
+      "id": "daily",
+      "name": "日常生活",
+      "file": "categories/daily.json",
+      "count": 213
+    },
+    {
+      "id": "actions",
+      "name": "动作行为",
+      "file": "categories/actions.json",
+      "count": 199
+    },
+    {
+      "id": "animals",
+      "name": "动物世界",
+      "file": "categories/animals.json",
+      "count": 220
+    },
+    {
+      "id": "idioms",
+      "name": "成语俗语",
+      "file": "categories/idioms.json",
+      "count": 193
+    },
+    {
+      "id": "characters",
+      "name": "影视动漫人物",
+      "file": "categories/characters.json",
+      "count": 218
+    },
+    {
+      "id": "occupations",
+      "name": "职业身份",
+      "file": "categories/occupations.json",
+      "count": 199
+    },
+    {
+      "id": "sports",
+      "name": "运动娱乐",
+      "file": "categories/sports.json",
+      "count": 204
+    },
+    {
+      "id": "food",
+      "name": "美食水果",
+      "file": "categories/food.json",
+      "count": 235
+    },
+    {
+      "id": "funny",
+      "name": "搞笑情景",
+      "file": "categories/funny.json",
+      "count": 136
+    },
+    {
+      "id": "challenge",
+      "name": "高难挑战",
+      "file": "categories/challenge.json",
+      "count": 184
+    },
+    {
+      "id": "history",
+      "name": "历史名人",
+      "file": "categories/history.json",
+      "count": 175
+    },
+    {
+      "id": "transport",
+      "name": "交通工具",
+      "file": "categories/transport.json",
+      "count": 158
+    },
+    {
+      "id": "plants",
+      "name": "植物花草",
+      "file": "categories/plants.json",
+      "count": 162
+    },
+    {
+      "id": "films",
+      "name": "电影电视作品",
+      "file": "categories/films.json",
+      "count": 132
+    },
+    {
+      "id": "music",
+      "name": "音乐与乐器",
+      "file": "categories/music.json",
+      "count": 164
+    },
+    {
+      "id": "travel",
+      "name": "地理与旅行",
+      "file": "categories/travel.json",
+      "count": 158
+    },
+    {
+      "id": "tech",
+      "name": "科技与工具",
+      "file": "categories/tech.json",
+      "count": 165
+    }
+  ]
+}

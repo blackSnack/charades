@@ -1,5 +1,5 @@
 # Party Deck PWA
 
-你比划我猜 · 正式 React/TypeScript 版本开发中。
+你比划我猜 · React + TypeScript + Vite + Tailwind CSS + shadcn/ui + Neobrutalism + Motion。
 
-`main` 为发布基线；开发分支通过构建及回归验证后再合并。原型的题库及规则迁移，不替换已经确认的技术栈。
+开发：`npm install && npm run dev`，访问 `/charades/`。构建：`npm run build`。题库：`public/question-bank/` 独立维护，更新分类 JSON 后更新 manifest 的 count 和 bankVersion。首次联网加载，后续 IndexedDB 回退。当前开发分支须通过云端测试再发布。

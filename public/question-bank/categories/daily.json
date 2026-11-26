@@ -1,0 +1,1706 @@
+[
+  {
+    "id": "daily-aeb4c474be567690",
+    "word": "牙刷",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-31789e1528f85b15",
+    "word": "牙膏",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-c471aae1a90d63b1",
+    "word": "毛巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-471cc104ad702a4a",
+    "word": "香皂",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-7d3019679d09e8f5",
+    "word": "洗发水",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-fd5d96b3d730bb83",
+    "word": "梳子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-e1a4f5479f90d5f5",
+    "word": "镜子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-9cd8dac6a84ddb7a",
+    "word": "吹风机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-38afcb359a8a1b31",
+    "word": "剃须刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-d2e8afcd6b0da8f1",
+    "word": "浴巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-a42969c173eaab6d",
+    "word": "浴缸",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-3bc965eb3e76d03d",
+    "word": "马桶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-8dcd6fc3ee021d83",
+    "word": "卫生纸",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-11133b9cca7437df",
+    "word": "指甲刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-5e8ea284db435ad3",
+    "word": "掏耳勺",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-6acfa1db6a625946",
+    "word": "洗衣机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-cae1c1cf80204209",
+    "word": "吸尘器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-1bb4d940c799217d",
+    "word": "电风扇",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-9f10fe658f243bc9",
+    "word": "空调",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-f8781a5f97ced96e",
+    "word": "冰箱",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-dd63d785bf0432a6",
+    "word": "微波炉",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-c83e8f83ca55bf72",
+    "word": "电饭煲",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-67962637e95512e4",
+    "word": "平底锅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-247f54f2091500db",
+    "word": "高压锅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-7a3a25167cc4a4d5",
+    "word": "菜刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-f530206bff7d5669",
+    "word": "菜板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-399893f69b9b91c9",
+    "word": "筷子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-72407ec665b596b8",
+    "word": "勺子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-c2d259d7c66746ff",
+    "word": "叉子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-6919397f236dd473",
+    "word": "擀面杖",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-67bff62eb955de53",
+    "word": "削皮刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-aa9acf523e682080",
+    "word": "开瓶器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-39e6ae435af87e6f",
+    "word": "热水壶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-913ea1d8064fda5e",
+    "word": "咖啡机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-a86eaeb98f4ced93",
+    "word": "雨伞",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-c9c1e6e1309def05",
+    "word": "雨衣",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-d3db5e56061937d2",
+    "word": "手套",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-47462640e72be913",
+    "word": "围巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-e4919ea342ea1809",
+    "word": "眼镜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-fc799edba0f2aed0",
+    "word": "口罩",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-f045b9ca8f63f35d",
+    "word": "帽子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-6053e0a7e287f575",
+    "word": "拖鞋",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-f1ea3728d427dc15",
+    "word": "高跟鞋",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-dfc75dfa4f7eab19",
+    "word": "皮鞋",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-2ca95f839d44809f",
+    "word": "袜子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-015845346aa9dc94",
+    "word": "背包",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-4bda402bd5b4c4e3",
+    "word": "行李箱",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-268002cb016d01c8",
+    "word": "钱包",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-6d132744a95cf394",
+    "word": "钥匙",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-2e07333c8c740978",
+    "word": "手机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-bc71dcc29c79594f",
+    "word": "充电器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-1bc009fa87e0dae1",
+    "word": "耳机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-33d3ef284743dbd1",
+    "word": "遥控器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-adca1609663402ad",
+    "word": "电视机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-f93ba1b7e9289659",
+    "word": "鼠标",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-864200bbb241e067",
+    "word": "键盘",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-003e6674d0fe2cf6",
+    "word": "剪刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-84fc114618ec7257",
+    "word": "枕头",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-64569c7e08abbee1",
+    "word": "被子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-a513f59fa3cf9037",
+    "word": "衣架",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-d7b7407bf306922f",
+    "word": "垃圾桶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "daily-3b91114e025d9c3f",
+    "word": "扫把",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-e6496838fd1eac32",
+    "word": "拖把",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-196bf4ec27821c84",
+    "word": "水杯",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-306de547695f668d",
+    "word": "桌子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-e57f49ca9c8120c9",
+    "word": "椅子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-961085f3c7ef705a",
+    "word": "沙发",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-5404e5f1f0110766",
+    "word": "门铃",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "daily-802fed187e89f5c2",
+    "word": "订书机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-0775a683adcbd1dc",
+    "word": "卷尺",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-d753d54fa91fa2ae",
+    "word": "锤子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-75f22e74c471bd35",
+    "word": "螺丝刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-f5a84f25411054ca",
+    "word": "扳手",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-c389ea0e765ad3cf",
+    "word": "手电筒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-7abab69f06e9585b",
+    "word": "蜡烛",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-617bcd49fd62f050",
+    "word": "闹钟",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-445c69bb4948c671",
+    "word": "自拍杆",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-ee3aba3b75731c14",
+    "word": "晒衣架",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-bf10f001e1f6b0be",
+    "word": "抹布",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-e977b15161a397db",
+    "word": "百洁布",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-bbbdd15da6bb65ea",
+    "word": "钢丝球",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-edf001fccd462857",
+    "word": "洗洁精",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-0b533701577b4513",
+    "word": "保鲜膜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-86fea91e87d65c35",
+    "word": "铝箔纸",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-ea1de1cdb8d24864",
+    "word": "牙签",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-1b07c1415d206fd4",
+    "word": "纸巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-8246ab0fc363f423",
+    "word": "湿巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-64a49c85703a63de",
+    "word": "暖水袋",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-656ab75d6d3a824d",
+    "word": "暖宝宝",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-35edd378252cca5a",
+    "word": "搓澡巾",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-f3352a4e1dba4202",
+    "word": "花洒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-81ecf135e563e8e1",
+    "word": "水龙头",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-71e5381b5b316ae9",
+    "word": "脸盆",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-92bf0b8e6afb6997",
+    "word": "水桶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-a4079116caf6f1f1",
+    "word": "搓衣板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-1c785313b3dd1b25",
+    "word": "晾衣绳",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-5f55b8c31c52541c",
+    "word": "缝衣针",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-ccb340fb4fe15310",
+    "word": "顶针",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-6f5578490e116e7d",
+    "word": "纽扣",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-91e04277e6d07dff",
+    "word": "拉链",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-f31f0bc2a7cde09f",
+    "word": "皮带",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-f1745edb47dd12c1",
+    "word": "鞋拔子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-d79b51dd0101a884",
+    "word": "鞋刷",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-f4002a497d81dee5",
+    "word": "鞋油",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-214cc8a400c80213",
+    "word": "太阳镜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-3c8f68235662af64",
+    "word": "老花镜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-7c45c1510065f845",
+    "word": "隐形眼镜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "daily-e7f6ac2702fa935b",
+    "word": "发卡",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-8022c7f24d9117bf",
+    "word": "假发",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-00b55a0887a724a0",
+    "word": "唇膏",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-8f67a1fbce18c463",
+    "word": "粉底液",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-eb884693d9940114",
+    "word": "睫毛夹",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-9f356f27ba308999",
+    "word": "眉笔",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-2af77f5856a1510a",
+    "word": "香水",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-6df164c443dca4db",
+    "word": "首饰盒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-7786711e616fa113",
+    "word": "电熨斗",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-6aa41c004953ae81",
+    "word": "挂烫机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-807ddaef20492b18",
+    "word": "加湿器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-733c3f2beeb8cee0",
+    "word": "除湿机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-3f173809cb58e48e",
+    "word": "电磁炉",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-c9a4f4a60bc9e4c1",
+    "word": "烤箱",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-2d17ca927219150b",
+    "word": "榨汁机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-ad8649472fd10026",
+    "word": "面包机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-596482e76c16a080",
+    "word": "电子秤",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-c9853c5952c230f9",
+    "word": "漏勺",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "daily-fc64397110268abf",
+    "word": "打蛋器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "daily-7a6bfcf5f31942e4",
+    "word": "捕鼠夹",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-cc3ae98472bf5102",
+    "word": "蚊香",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-d981712c7f84e11b",
+    "word": "电蚊拍",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-2529f12ff5338fcd",
+    "word": "粘鼠板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-97caceb4bff99e87",
+    "word": "马桶搋子",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "daily-fae4fdf901da3668",
+    "word": "防滑垫",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-7d413bb4596ada6c",
+    "word": "密码锁",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-ef4905368bdb6018",
+    "word": "防盗链",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-92032e6e8d132393",
+    "word": "折叠椅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-27f1ebdaa0ae0601",
+    "word": "轮椅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-8893cae54a2d71e9",
+    "word": "拐杖",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-dc2ed4c62c4097ac",
+    "word": "助听器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-b234cd7f8aa4c3f1",
+    "word": "假牙",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-5772954477beb398",
+    "word": "假睫毛",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-9a8fbc178e146b52",
+    "word": "卷发棒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-4c2a87c92a42b064",
+    "word": "冲牙器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-fd31042476d8dda0",
+    "word": "眼罩",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-686bea8878a8f46c",
+    "word": "耳塞",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-cf33cdce276a2664",
+    "word": "颈枕",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-9ba6eff3af036d01",
+    "word": "按摩椅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-2b62c623cb84025d",
+    "word": "筋膜枪",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-ea76462969f5781e",
+    "word": "足浴盆",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-b797a9e0a48eaead",
+    "word": "指压板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-8d54d23b741515fb",
+    "word": "泡沫轴",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-31b60e4daaf1f07f",
+    "word": "挂钟",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-bd5b4bba5dbdeb54",
+    "word": "摇椅",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-e2eeefe44c888a61",
+    "word": "吊床",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-17cc3866eaeaa477",
+    "word": "双层床",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-7076a18c68b4d688",
+    "word": "蚊帐",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-4ade800346c293a6",
+    "word": "蒸笼",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-895948221312d652",
+    "word": "漏斗",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-c5a7d7e69b029e83",
+    "word": "研钵",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "daily-dfb0e7526c3c5899",
+    "word": "开罐器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-2212ae93923820c1",
+    "word": "磨刀石",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-1999fa2893dc581d",
+    "word": "蒜泥器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-2f1cecfac210b597",
+    "word": "核桃夹",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-ae3402c762ac21a0",
+    "word": "磨豆机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-cb46446f27f6368f",
+    "word": "打奶泡器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "daily-9551ce749655607a",
+    "word": "压面机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-670d4e6b4e6ace12",
+    "word": "绞肉机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-b5dc5c082f0e22f0",
+    "word": "保险柜",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-d1b21bd72a071a7a",
+    "word": "缝纫机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-a603d6e7d7c76b1f",
+    "word": "对讲机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-8b38145f4316dea7",
+    "word": "验钞机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-2d32bbdb0d20bf8b",
+    "word": "碎纸机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-36a69cd3097c529f",
+    "word": "打孔器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-446ae7fdabc502cb",
+    "word": "取钉器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-936c8593c97aaa56",
+    "word": "接线板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-02b201f0516b226d",
+    "word": "卷线器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "daily-7801f6ae1c0ac214",
+    "word": "猫眼",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-504d17055f37d0c5",
+    "word": "门吸",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-0b28bbc9303f7515",
+    "word": "地漏",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-92c631e216977ff2",
+    "word": "合页",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-b03d80cee117aee9",
+    "word": "卡扣",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-6d1f643532246190",
+    "word": "暗锁",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-2007cadbf066c12e",
+    "word": "插销",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-b61add7ad7b03391",
+    "word": "榫卯",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-12f22cce1de022de",
+    "word": "活扳手",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-967125f619797190",
+    "word": "游标卡尺",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "daily-fa8d0dc51f39c4a9",
+    "word": "千分尺",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-7a01b827871070cc",
+    "word": "水平仪",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-6da6bf8b248d1809",
+    "word": "打气筒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-55dc4635fc796782",
+    "word": "千斤顶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-f14ffbe65bd048e5",
+    "word": "滑轮",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-14c9b22a75833bb1",
+    "word": "冲击钻",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-0863e737d33fe2a6",
+    "word": "热熔枪",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-e287c4e7dedf9252",
+    "word": "万用表",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-8c830999e928ec71",
+    "word": "电烙铁",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-600abcd9cb95f26e",
+    "word": "熨衣板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-ea654893802869d3",
+    "word": "冰格",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "daily-fc1e39a00635f82a",
+    "word": "雪克壶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-776831c7b4d26bd7",
+    "word": "虹吸壶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-101e1e131fedbd32",
+    "word": "摩卡壶",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-3290143e98faedbe",
+    "word": "手摇钻",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-a46cb557efadbec6",
+    "word": "美工刀",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-83904edad2a249c1",
+    "word": "封口机",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-43c67741980ea6c8",
+    "word": "真空袋",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-dedf05d5834c92d4",
+    "word": "真空泵",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-a8a97e4240a80f61",
+    "word": "洗鼻器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-8dd8bdef83ec036d",
+    "word": "刮痧板",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-60f2d8c0262751c2",
+    "word": "艾灸盒",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-9793cd9f71c2b683",
+    "word": "雾化器",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-b98d851ac7192860",
+    "word": "扫地机器人",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "daily-eacd1d88b0afc01c",
+    "word": "感应水龙头",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "daily-bff58ae04f62f97e",
+    "word": "密封圈",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-e810ab9e775731eb",
+    "word": "生料带",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "daily-45545f894876b018",
+    "word": "力矩扳手",
+    "catId": "daily",
+    "cat": "日常生活",
+    "level": 4,
+    "len": 4
+  }
+]

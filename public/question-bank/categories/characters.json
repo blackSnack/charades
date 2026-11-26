@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "characters-8675b38c5979bc4f",
+    "word": "孙悟空",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-95600fd43fc5fdf0",
+    "word": "猪八戒",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-20b0551997d0a253",
+    "word": "唐僧",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-24d95f314f3fa51c",
+    "word": "沙和尚",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-cfcb79708bcd8a54",
+    "word": "哪吒",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-e665be92f77393a1",
+    "word": "葫芦娃",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-a014189fb052f4f5",
+    "word": "白雪公主",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-2a092dfdf05091f5",
+    "word": "灰姑娘",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-be39120153ff3fb1",
+    "word": "小红帽",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-d5d839802cb1e2a8",
+    "word": "奥特曼",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-d946f0e17d8a4063",
+    "word": "蜘蛛侠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-cc6838fa4f3414c3",
+    "word": "钢铁侠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-04f08bd24305a959",
+    "word": "蝙蝠侠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-eb7a516d0e62f373",
+    "word": "超人",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-e037d243ed6a8cfc",
+    "word": "绿巨人",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-350c2108b9c441e4",
+    "word": "海绵宝宝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-727b5463619a72c6",
+    "word": "派大星",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-305b7ce76f7826b2",
+    "word": "哆啦A梦",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-822c4a3f965ffded",
+    "word": "蜡笔小新",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-241e6cad9afce57a",
+    "word": "皮卡丘",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-a95f7ccb200c8f80",
+    "word": "米老鼠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-ce709a0871bc7054",
+    "word": "唐老鸭",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-bff6e1866c3f46a5",
+    "word": "熊大",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-545266cdc0555017",
+    "word": "熊二",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-6d835df67934a7f6",
+    "word": "光头强",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-647711b032b6e2ca",
+    "word": "喜羊羊",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-fcceea1e6dc7c33f",
+    "word": "灰太狼",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-930c9ca07a5b0aec",
+    "word": "美人鱼",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-60311a83e6e50588",
+    "word": "哈利波特",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-079c8c284c60016e",
+    "word": "杰克船长",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-53081486f9dbff93",
+    "word": "诸葛亮",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-12f4ce9786251d41",
+    "word": "武松",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-dc6f51e236083370",
+    "word": "林黛玉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-eabca6702d59f66d",
+    "word": "许仙",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-35c4dd9a460f28b2",
+    "word": "白娘子",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-829b5622facaba43",
+    "word": "法海",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-1f5020699bc6658e",
+    "word": "姜太公",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-357046d4189bc9a9",
+    "word": "后羿",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-2149b25f34c17bb6",
+    "word": "嫦娥",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-4b97cac39000f1c8",
+    "word": "关羽",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-95264f699dc47847",
+    "word": "张飞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-6ac96bdd6c97c064",
+    "word": "济公",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-6f9fa3f87fc4cf80",
+    "word": "包青天",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-535320da46397a78",
+    "word": "李小龙",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-feff0bdf7995d2a7",
+    "word": "叶问",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-c257c35518c7f9d2",
+    "word": "功夫熊猫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-aa16d85e3deb0a7a",
+    "word": "花木兰",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-3929781ef4c23b01",
+    "word": "艾莎",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-9bb1438764f803c2",
+    "word": "雪宝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-ea70eca282138186",
+    "word": "小黄人",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-a855ec8205c20400",
+    "word": "擎天柱",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-5176f2c950d1ddd0",
+    "word": "大黄蜂",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-bfc17cf23cbe36ca",
+    "word": "忍者神龟",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-0426ab9bed42b2bd",
+    "word": "路飞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-6371ea6c1afe6763",
+    "word": "柯南",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "characters-244dabd27ff62209",
+    "word": "樱桃小丸子",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 5
+  },
+  {
+    "id": "characters-79e8210eb45fd32e",
+    "word": "黑猫警长",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "characters-be011a4255735fef",
+    "word": "阿凡提",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "characters-b0bb7571937db997",
+    "word": "二郎神",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-8f54c839e47f2a0d",
+    "word": "红孩儿",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-840184b5c696ed4c",
+    "word": "铁扇公主",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-81ef5fff5e1c4e0c",
+    "word": "牛魔王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-9bd5a43169c32630",
+    "word": "白骨精",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-80300475660cade3",
+    "word": "太上老君",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-820789f817a0e11c",
+    "word": "玉皇大帝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-7b97753ab654cf8b",
+    "word": "王母娘娘",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-b924048ea4d9bc2a",
+    "word": "东海龙王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-e310c4679e5cc969",
+    "word": "土地公公",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-78ca9ba365c49b23",
+    "word": "雷公",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-b5d18de2368fdf0b",
+    "word": "电母",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-dde8b9ca239800f7",
+    "word": "观音菩萨",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-e53fa7da60153d6f",
+    "word": "托塔天王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-d3db775f66a6ccd3",
+    "word": "妲己",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-23ac666349bc069a",
+    "word": "申公豹",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-6deca125bfffad33",
+    "word": "纣王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-082a529c4eeaa7e0",
+    "word": "土行孙",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-265ba8225085a5b5",
+    "word": "鲁智深",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-49f24f2ccfcb34fe",
+    "word": "林冲",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-59ae118948bc2090",
+    "word": "李逵",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-fe92282bc29032e5",
+    "word": "宋江",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-da929663c2e41087",
+    "word": "西门庆",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-b993c2911c1a43ff",
+    "word": "潘金莲",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-35a3b2d040386034",
+    "word": "贾宝玉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-bc21f362d796c123",
+    "word": "王熙凤",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-be2288f9d7b4d845",
+    "word": "刘姥姥",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-daf7b56cd3aea44f",
+    "word": "刘备",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-4fbe01ab8d14bc66",
+    "word": "曹操",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-ff0ae9c2a3b32145",
+    "word": "周瑜",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-d949c9c8d528498c",
+    "word": "赵云",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-990961b2ffc3e614",
+    "word": "吕布",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-5d3f27adabcf2be8",
+    "word": "貂蝉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-c9065395c9a7298a",
+    "word": "黄忠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-32ae32453c0b8b8c",
+    "word": "司马懿",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-bf8fb5888f1dde97",
+    "word": "霍元甲",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-071aab6a34910091",
+    "word": "黄飞鸿",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-103441b338f12515",
+    "word": "展昭",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-567ff36d6b6dc1cc",
+    "word": "牛郎",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-002de427c0e004fe",
+    "word": "织女",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-0693739d821f7313",
+    "word": "许三多",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-f7d944ff72eff294",
+    "word": "燕小六",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-225dd1d044fea0f9",
+    "word": "吕秀才",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-71fd72147b0dc995",
+    "word": "郭芙蓉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-51a386d36de16113",
+    "word": "佟湘玉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-5073a6e10845a02e",
+    "word": "白展堂",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-ddf1a33015258236",
+    "word": "洪七公",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-5526c85b5f5a9b92",
+    "word": "欧阳锋",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-a51b6586c8d3b42c",
+    "word": "黄蓉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-7f328b696bb234fa",
+    "word": "郭靖",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-c50ae39ea1d3ef1d",
+    "word": "杨过",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "characters-9ef680fcc0b62078",
+    "word": "小龙女",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-166d6c6e8671d8a2",
+    "word": "令狐冲",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-642c16361b73311f",
+    "word": "东方不败",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "characters-f892fa26a65056a8",
+    "word": "韦小宝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "characters-474cac5faa371ed6",
+    "word": "雷神",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-be0ae9cca626eca6",
+    "word": "美国队长",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-783fd58504df3a06",
+    "word": "黑寡妇",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-73d1a9822f5c6335",
+    "word": "鹰眼",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-60869b0666ee5242",
+    "word": "奇异博士",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-c752b50bf013b861",
+    "word": "死侍",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-713b177bc688e91e",
+    "word": "金刚狼",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-a3a57aaecde3dcfd",
+    "word": "万磁王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-5ae1ddd255ca0e43",
+    "word": "小丑",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-20277c4ee340d201",
+    "word": "哈莉奎茵",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-f782df4c76fe704c",
+    "word": "闪电侠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-efdd8cc3433ac707",
+    "word": "神奇女侠",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-1ab0035b2b6f3068",
+    "word": "海王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-47ee4dc66d25c07b",
+    "word": "洛基",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-1aeb931730093e5a",
+    "word": "灭霸",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-f3a6d694835ff95e",
+    "word": "格鲁",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-f052f7786117a1f0",
+    "word": "史莱克",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-72941e4291b44cdf",
+    "word": "长发公主",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-060504b4004de050",
+    "word": "辛巴",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-6f088558058e537d",
+    "word": "丁满",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-101a964227ff73ba",
+    "word": "彭彭",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-f49cd25b96e741bc",
+    "word": "史迪奇",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-d75a1ca64bbd4ed4",
+    "word": "米妮",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-030a3955d4c4b2e3",
+    "word": "高飞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-306d45068ee2ed9a",
+    "word": "布鲁托",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-c1424a0b42f8356f",
+    "word": "巴斯光年",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-06a83b922f01c292",
+    "word": "胡迪",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-f668806f78489708",
+    "word": "麦昆",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-bc33e744b961aed5",
+    "word": "大眼仔",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-a0898e665a9b018b",
+    "word": "毛怪",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-643494b4d9a2eb72",
+    "word": "尼莫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-bc282fdce57dfd52",
+    "word": "多莉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-65c065dca72e19bf",
+    "word": "朱迪兔",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-be3e3482b461794c",
+    "word": "狐尼克",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-93ba1a15d0eef375",
+    "word": "加菲猫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-ccec00021e19ac87",
+    "word": "史努比",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-3a1629c7c667590f",
+    "word": "汤姆猫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-91f130727c9190b9",
+    "word": "杰瑞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-69d3122a3014f6e6",
+    "word": "蓝精灵",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-7fb38bbfb945fe58",
+    "word": "格格巫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-4c213c911d3d1ad3",
+    "word": "大力水手",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-bcc615aacd32ccdd",
+    "word": "铁臂阿童木",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "characters-cc9ea870cff97a76",
+    "word": "怪盗基德",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "characters-711e0fd8011bc5f9",
+    "word": "毛利小五郎",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "characters-98e8af72f7265aa1",
+    "word": "孙悟饭",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-bfc0523d2a06278a",
+    "word": "贝吉塔",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-68b19b139e2aaf6d",
+    "word": "龟仙人",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-493159088b50d176",
+    "word": "卡卡西",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-ebc83899d3671102",
+    "word": "鸣人",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-9c462ab638f09429",
+    "word": "佐助",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-bcb31febac77cf93",
+    "word": "索隆",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-031c630a135045d3",
+    "word": "山治",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-44639e7a13e72c78",
+    "word": "乔巴",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-34195341061ca8be",
+    "word": "哆啦美",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "characters-6d8575709ff8d5c1",
+    "word": "大雄",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-6f7b4186bf2a98f5",
+    "word": "胖虎",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-14895f8c5b0314f9",
+    "word": "小夫",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-4970fbb8bd6bac22",
+    "word": "静香",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "characters-ac534e94ebdbea40",
+    "word": "段誉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-33143b7c0331724e",
+    "word": "虚竹",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-712acdf2ce54fb67",
+    "word": "乔峰",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-fd2d45f601bad796",
+    "word": "慕容复",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-2303aade9d2ac6fe",
+    "word": "王语嫣",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-61571e7385a94173",
+    "word": "周伯通",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-91dceaaef911cf34",
+    "word": "柯镇恶",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-85c8ee30ad5a0590",
+    "word": "瑛姑",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-e4f115a0f325b806",
+    "word": "裘千仞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-3a5c9fa9ce1bbf4f",
+    "word": "丁春秋",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-1f963cab5898706d",
+    "word": "张无忌",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-6b582516b486e1d9",
+    "word": "赵敏",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-1b7e276122bb43d7",
+    "word": "周芷若",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-bb99f3e33e621f67",
+    "word": "小昭",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-cd61f667b370586d",
+    "word": "张三丰",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-fbd558d2dd5d83fc",
+    "word": "灭绝师太",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "characters-b12705e9bff0a444",
+    "word": "岳不群",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-d764d4e4fd3a055c",
+    "word": "任盈盈",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-fad26824143a69ee",
+    "word": "林平之",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-4d4e6b707b07ba62",
+    "word": "风清扬",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-0b28590eec09293a",
+    "word": "田伯光",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-ea1cf83004ff0c65",
+    "word": "甄嬛",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-63bf2b287b1b720b",
+    "word": "华妃",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-609e65c1ebf31a45",
+    "word": "安陵容",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-7189cd5a16979a18",
+    "word": "沈眉庄",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-9b4621158f70e93e",
+    "word": "苏培盛",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-48d3a6eadc3bf24b",
+    "word": "如懿",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-b3b12dccaf706522",
+    "word": "魏璎珞",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-c88a3aa56e38968b",
+    "word": "梅长苏",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-48495359560d3c57",
+    "word": "靖王",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-661aeb88554a6c10",
+    "word": "萧景琰",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-e22274c7e9898b55",
+    "word": "高启强",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-497b0c3d0374e0ef",
+    "word": "高启盛",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-ad90820f1a8063f2",
+    "word": "安欣",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-fd4f9192b02b0972",
+    "word": "祁同伟",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-af8e937755d8d557",
+    "word": "李达康",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-9fba3da82317bfb1",
+    "word": "范闲",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-fb2cf2fc0395770a",
+    "word": "五竹",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-5f0ee9537143d42e",
+    "word": "庆帝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-4fef0e32fb38a1bd",
+    "word": "徐凤年",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-c0b119922451368f",
+    "word": "李淳罡",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-969459abfad8ed89",
+    "word": "张楚岚",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-e2ebe51b6d7baa4c",
+    "word": "冯宝宝",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-2c5f47f3ba1a0398",
+    "word": "王也",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-73a332d974657c8a",
+    "word": "琦玉",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "characters-3cfbe3d9a0fff572",
+    "word": "利威尔",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "characters-bd30bf7ccdda8530",
+    "word": "米卡莎",
+    "catId": "characters",
+    "cat": "影视动漫人物",
+    "level": 4,
+    "len": 3
+  }
+]

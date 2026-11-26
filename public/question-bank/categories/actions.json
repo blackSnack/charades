@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "actions-b4ffef701723d1f3",
+    "word": "刷牙",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-11a125593d9c7476",
+    "word": "洗脸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-4c0daafbd3be4bb3",
+    "word": "洗头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-302da04c596b7645",
+    "word": "梳头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-3e313d8a843d6c3b",
+    "word": "刮胡子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-79e8cf88218030a7",
+    "word": "化妆",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-deafdd96edaf59af",
+    "word": "打喷嚏",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-111c0b80deb898ca",
+    "word": "打哈欠",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-8f8333b1c7b1bfc1",
+    "word": "打嗝",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-3abb2ee972859bdc",
+    "word": "打呼噜",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-48ec5542baf2b5c8",
+    "word": "擤鼻涕",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-d83439a285fc06a2",
+    "word": "掏耳朵",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-04958f8b0253c829",
+    "word": "挖鼻孔",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-835eba29c48f59ae",
+    "word": "剪指甲",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-20565832789e880f",
+    "word": "系鞋带",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-4ca55321dbc0ba2c",
+    "word": "穿袜子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-b10c3fbdad26b6bd",
+    "word": "戴帽子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-1e0444c0a0ede9f1",
+    "word": "撑伞",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-e814d1afbbf0fd22",
+    "word": "拖地",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-af7d9826708fce0a",
+    "word": "扫地",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-a38cb7b8b5d8c7ca",
+    "word": "擦玻璃",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-a94621d66053a3d1",
+    "word": "洗碗",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-d9938dab5b825cc5",
+    "word": "晾衣服",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-d155aed3b77af42c",
+    "word": "叠被子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-2eff606e016a6518",
+    "word": "煮面条",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-fc8194190b1cf963",
+    "word": "切洋葱",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-cab38d1092c87971",
+    "word": "削苹果",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-e1200ddd3931ed20",
+    "word": "剥香蕉",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-698242d3b0ccd52c",
+    "word": "包饺子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-d8e382e01f67736a",
+    "word": "搓麻将",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-7f9dc03c7fdc818e",
+    "word": "打电话",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-6e3a10ade7c74955",
+    "word": "拍照",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-2ae6536f8eb235bb",
+    "word": "自拍",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-1c462308b734ebc6",
+    "word": "照镜子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-17e4549b02587546",
+    "word": "打蚊子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-3c4ab11fc51c8316",
+    "word": "挠痒痒",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-195e5f5009033053",
+    "word": "挤牙膏",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-eb224774d28b2869",
+    "word": "拧瓶盖",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-9ba43c03328c1941",
+    "word": "开锁",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-8f38f53523395061",
+    "word": "搬家",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-c5b6c49aac81d287",
+    "word": "敲门",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-2c467ffeee0b0f8d",
+    "word": "擦汗",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-02e493038d21faf3",
+    "word": "浇花",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-e489e4ef81ec1953",
+    "word": "赶公交",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-3b163ca44b5c366d",
+    "word": "爬楼梯",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-b4e5f1bb23425ef3",
+    "word": "过马路",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-92883f83be7c1e32",
+    "word": "骑自行车",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "actions-5fab2f084348e09e",
+    "word": "开汽车",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-81b3ea83769bb4e8",
+    "word": "吃火锅",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-b748e1867440a08b",
+    "word": "吹蜡烛",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-6c8bff9609a3e059",
+    "word": "拆快递",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-a3f32f9fb3277c67",
+    "word": "看手表",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-bc03e8a661bf819d",
+    "word": "擦鞋",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-2662eea552076136",
+    "word": "放风筝",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "actions-1db55bca179fee6f",
+    "word": "数钱",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-0147dc31ac1357bf",
+    "word": "钓鱼",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-591052c733499bad",
+    "word": "跑步",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-a8720cdfc7de0556",
+    "word": "喝水",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-b38a4b4c3335f2d4",
+    "word": "睡觉",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "actions-60b48d90fa662b92",
+    "word": "倒车入库",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-01dc23c44c83b852",
+    "word": "穿针引线",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-73d7174910d7ff27",
+    "word": "挤牛奶",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-90124d4bd5895549",
+    "word": "揉面团",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-ad61941176e53140",
+    "word": "擀饺子皮",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-89db23d3667658f3",
+    "word": "捏泥人",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-0e457f8c6dec1b02",
+    "word": "折纸飞机",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-ae0114688db7233c",
+    "word": "吹气球",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-1205549511418386",
+    "word": "扎辫子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-3493b3721a8dd732",
+    "word": "涂口红",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-48972c8107e276e8",
+    "word": "夹睫毛",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-a4043f1cbb30519e",
+    "word": "拔眉毛",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-c5da18f2f1d63253",
+    "word": "滴眼药水",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-b72eab9476614ed7",
+    "word": "捶背",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-26d4b4389fb2c491",
+    "word": "捏鼻子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-371f55aa9dc9b6ce",
+    "word": "揉眼睛",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-6dd94c3b1bdb1e34",
+    "word": "摸肚子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-269b77b4baa10883",
+    "word": "拍大腿",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-328c985c5b403b89",
+    "word": "托下巴",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-70c17ed10ef0ac32",
+    "word": "翘二郎腿",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-ef0b0e7c7bac079b",
+    "word": "伸懒腰",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-f3cdfdcfa0bfbf1e",
+    "word": "做鬼脸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-01789f89bbda5758",
+    "word": "吐舌头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-3311f298d750bc30",
+    "word": "鼓掌",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-8a3639e900e1fd54",
+    "word": "敬礼",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-384a3f02be7ab280",
+    "word": "举手",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-14abb8137a3f16dd",
+    "word": "握手",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-f54741449f2e0176",
+    "word": "拥抱",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-9dd94a11d9c70004",
+    "word": "鞠躬",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-784d6242554fb8d1",
+    "word": "作揖",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-f923767cf7b5beb8",
+    "word": "抱拳",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-b509ed14bf660158",
+    "word": "下跪",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-2ddc4e1b1d58829f",
+    "word": "磕头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-8be7156a778f1478",
+    "word": "摇头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-68f8249523811e47",
+    "word": "点头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-7c9e37acfca5cd93",
+    "word": "招手",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-dccddd66bd6323e7",
+    "word": "打响指",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-0d8996305f3a5b33",
+    "word": "比心",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-39fe9ef0b2886cce",
+    "word": "飞吻",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-780967b63cb65448",
+    "word": "吹口哨",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-b8dceaf16ca60896",
+    "word": "偷笑",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-dec50404c9dfdb2e",
+    "word": "假哭",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-7cde33496abcca08",
+    "word": "擦眼泪",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-44a9a0e7ff811660",
+    "word": "抿嘴",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-902a4e4289fa4dea",
+    "word": "噘嘴",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-2842faefff1e8cdc",
+    "word": "吹泡泡糖",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "actions-fae810fe85b7c79b",
+    "word": "转笔",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-a988b626abd8d17d",
+    "word": "咬指甲",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-6a0b4885e6f5da46",
+    "word": "搓手",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-5e25bb8518b8facf",
+    "word": "跺脚",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "actions-5f7ee9770fb81ba3",
+    "word": "端盘子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-8b5c59aee2ae400a",
+    "word": "背书包",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-8df960009685d759",
+    "word": "提水桶",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-46f45014e6bc235d",
+    "word": "扛麻袋",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "actions-6552f1a0b3d7a5ef",
+    "word": "倒立行走",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-c726b57a0d175275",
+    "word": "单脚跳",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-589ff4536d9ac575",
+    "word": "蒙眼走路",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-a3549846082255e6",
+    "word": "匍匐前进",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-87eb1b17eec7e51d",
+    "word": "爬电线杆",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-c0f46e4b91052f00",
+    "word": "攀爬绳索",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-851184d99f50d28a",
+    "word": "滚雪球",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-8e473b074a46fb0a",
+    "word": "堆雪人",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-0066e60308ccc90e",
+    "word": "扔雪球",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-ef68fbe012bc5559",
+    "word": "铲雪",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-6841bfb290ac569f",
+    "word": "挖地洞",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-75a581c8ddb7bc32",
+    "word": "播种",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-ac643c05b61438e0",
+    "word": "插秧",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-0231980b7c1fccf1",
+    "word": "割麦子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-e5f44b5dd6e8adcc",
+    "word": "摘苹果",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-6b9cb4c6607e3ad3",
+    "word": "掏鸟窝",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-dc084f328aab81e2",
+    "word": "捕蝴蝶",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-242f605390904e9d",
+    "word": "捉迷藏",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-f2dc305ff17b4980",
+    "word": "拍苍蝇",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-b13d6641868297f4",
+    "word": "挤痘痘",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-cfac09c2fe13a27a",
+    "word": "给狗洗澡",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-f9e883f291d654e8",
+    "word": "给猫剪指甲",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "actions-52b3512333fe080d",
+    "word": "换尿布",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-10bc00856725f987",
+    "word": "背小孩",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-28478597bd6287c2",
+    "word": "喂饭",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-60a8b326c1e0d005",
+    "word": "人工呼吸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-4950cb77834f8d68",
+    "word": "心肺复苏",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-aa2452fffbdf15d2",
+    "word": "打针",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-333ce87aca6b7c41",
+    "word": "抽血",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-92e4c567b6fa18e5",
+    "word": "拔牙",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-29242c74defa43c0",
+    "word": "缝伤口",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-8b3c5b710b2a9241",
+    "word": "打石膏",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-a733666b4bfec6ea",
+    "word": "量血压",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-bb6cd8946e898cdf",
+    "word": "撬锁",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-1ce04c964d530fd3",
+    "word": "钻孔",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-26be2e59b782d98e",
+    "word": "拧螺丝",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-c92465aeed63c27e",
+    "word": "焊接电路板",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "actions-a7f08945901d8d5f",
+    "word": "锯木头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-11d8d8e345ff142b",
+    "word": "钉钉子",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-7c90810366befaa6",
+    "word": "砌砖",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "actions-21c00fc465aa6a46",
+    "word": "刷油漆",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-6056da9058069164",
+    "word": "修水管",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-de8b2a02b37f7964",
+    "word": "换轮胎",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-86f058e69f75b247",
+    "word": "系安全带",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-30068fc7097abea6",
+    "word": "拉手刹",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "actions-02c618cdffcd6018",
+    "word": "贴创可贴",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "actions-9654018741ba1bc4",
+    "word": "翻跟头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-d0d722c74ece30ec",
+    "word": "打水漂",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-257477a0545f89cd",
+    "word": "倒挂金钩",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-75f1941fc14caab4",
+    "word": "单手倒立",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-083f49de134769ac",
+    "word": "蒙眼投篮",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-e08d53dd760d427d",
+    "word": "踮脚尖",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-822e6ea4199b2cd2",
+    "word": "压腿",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-3d03b78b7963e106",
+    "word": "劈叉",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-43e717423528dc69",
+    "word": "下腰",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-9c6a238df7fd7de1",
+    "word": "扯铃",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-822eb85aa0ec7a92",
+    "word": "吞剑",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-1635565b4033853c",
+    "word": "顶碗",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-020e09e8480d7a6d",
+    "word": "喷火",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-1764a63d360a610f",
+    "word": "变脸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-dc96a0f5e5272e01",
+    "word": "走梅花桩",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-45de3a8cdfbfd428",
+    "word": "拉坯",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-7ec3aca99f5c0e4b",
+    "word": "捏陶器",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-32f5f8a7f95cf633",
+    "word": "雕刻木头",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-52b93562c642deb7",
+    "word": "拔火罐",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-1115b3eb9fe8d1c0",
+    "word": "刮痧",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-2f7be00d496c8ab0",
+    "word": "针灸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-8731cd7fa70782ea",
+    "word": "艾灸",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-53452f2799d49b53",
+    "word": "推拿",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-c538b73b7fd17745",
+    "word": "钉马掌",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-f5370190b2fe91e8",
+    "word": "磨剪刀",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-46d31ec1ac5b5896",
+    "word": "打铁",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-a2526d1c67ad6dea",
+    "word": "织毛衣",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-e7a6931535ce6de2",
+    "word": "编竹篮",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-f1b60cce6f326f00",
+    "word": "打中国结",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "actions-24118bea093da04d",
+    "word": "扎风筝",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-49d0369c01764085",
+    "word": "斗鸡眼",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-e20dde4d156b6f01",
+    "word": "扭秧歌",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-802a7d1d2585953f",
+    "word": "舞龙",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-e29fcd14920f1d86",
+    "word": "舞狮",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "actions-1b809b18e5b542a0",
+    "word": "耍花枪",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-de6006b0faaade2e",
+    "word": "抖空竹",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-70d5c210570cf60e",
+    "word": "盘核桃",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-6608cb9e1d7f0c5f",
+    "word": "抛绣球",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-11ffd71d5dc073fb",
+    "word": "抖包袱",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "actions-f316c5642d94de03",
+    "word": "徒手攀岩",
+    "catId": "actions",
+    "cat": "动作行为",
+    "level": 4,
+    "len": 4
+  }
+]

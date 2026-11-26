@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "general-eeef861b87676f3f",
+    "word": "地球",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-917705b6ba5e02dd",
+    "word": "月亮",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-5c313602f7beb485",
+    "word": "太阳",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-6a9fec7faf975f2e",
+    "word": "星星",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-5f916af93041cdca",
+    "word": "彩虹",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a8c1b5b5b172b128",
+    "word": "闪电",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-562c94de29220ae6",
+    "word": "雷雨",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-4c1d79e56f4a5428",
+    "word": "雪花",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a85607ea655f9f89",
+    "word": "冰雹",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-3de63d961d58ce0b",
+    "word": "龙卷风",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-dc749837f4e08a5a",
+    "word": "火山",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-9466fa8b991f06af",
+    "word": "地震",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a0b39b94f49d34cc",
+    "word": "海啸",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-4fbf406572d59250",
+    "word": "沙漠",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-754be6e24f80ed3b",
+    "word": "绿洲",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-3bfbf21e2f002bc2",
+    "word": "森林",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-1621d3c7d730ff52",
+    "word": "草原",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-01761d7b169daace",
+    "word": "瀑布",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-eebe4a446561e818",
+    "word": "河流",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-f8d50e250d182897",
+    "word": "湖泊",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-44467431f287c616",
+    "word": "海洋",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-6776e93ccf41eb37",
+    "word": "冰山",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a637fb3627eedc54",
+    "word": "山洞",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-8c23e4334d264763",
+    "word": "岛屿",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-3ca0d8d999f25a08",
+    "word": "日出",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-67995f590a93c211",
+    "word": "日落",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-65a58dd11a378518",
+    "word": "北极",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a93c06b381ea30f6",
+    "word": "南极",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-9f9a95299a7588a3",
+    "word": "地球仪",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-fb735e3bd2e78aec",
+    "word": "指南针",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-a1f29d646a56b87b",
+    "word": "放大镜",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-40be8d4ccba52b67",
+    "word": "显微镜",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-4767d3bb5cb66f03",
+    "word": "望远镜",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-afa5d75c7f6cadd7",
+    "word": "温度计",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-0f58fd2a2e0f4f4f",
+    "word": "时钟",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-d713a486248366b0",
+    "word": "沙漏",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-41ab2e0ecbec6674",
+    "word": "地图",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-2ad57a3da04a8082",
+    "word": "国旗",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-eb80747dbecd82d4",
+    "word": "红绿灯",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-80cc7255894aae21",
+    "word": "斑马线",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-f35bae3bc45a7e20",
+    "word": "金字塔",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-c9917b939d6974de",
+    "word": "长城",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-f1910650c9d12548",
+    "word": "摩天轮",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-974d260fe95ce1d5",
+    "word": "过山车",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-93b0259cb97de50a",
+    "word": "风车",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-081c74c379363346",
+    "word": "水车",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-db7ced4f3f972272",
+    "word": "独木桥",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "general-c23ad3a9a1f63aec",
+    "word": "山峰",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-a1aca9fd68a97328",
+    "word": "石头",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-9c448c90a5b044fd",
+    "word": "泥土",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-6064a9108356b7c4",
+    "word": "云朵",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-b80b2398566a42ea",
+    "word": "流星",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-262710de054dd8af",
+    "word": "山泉",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "general-541417fd78dc82e3",
+    "word": "火山爆发",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-8a6e9a1d79537fb6",
+    "word": "流星雨",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-54b0eec2cdc395b3",
+    "word": "日食",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-d662a1c8bc9c5fba",
+    "word": "月食",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-8c912fde6f28dd78",
+    "word": "北极光",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-64311488dd2aa738",
+    "word": "恐龙化石",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-c8590eeb8fae7364",
+    "word": "木乃伊",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-d898778e4fbbd6b3",
+    "word": "兵马俑",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-1e889b3b436a621d",
+    "word": "埃菲尔铁塔",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "general-f216a0c5ff7fafde",
+    "word": "比萨斜塔",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-c563b24291f0d584",
+    "word": "罗马斗兽场",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "general-2c92b18e193b77a2",
+    "word": "自由女神像",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "general-609f0740929e5e2e",
+    "word": "航天飞机",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-c94b403e51d00a10",
+    "word": "太空站",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-0b8c985491602b71",
+    "word": "月球车",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-b51b3af153b989db",
+    "word": "降落伞",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-5823cb82fdaf9cf4",
+    "word": "太阳能板",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-c90244ac1bee783e",
+    "word": "地球自转",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-77071b054c916048",
+    "word": "磁铁",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-8a2fd55b01182162",
+    "word": "电池",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-b64b2a54fd652b8f",
+    "word": "电灯泡",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-a4d14414860b025b",
+    "word": "机器人",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-b18adaa988f7874d",
+    "word": "无人机",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-c4d0aea9e2da2f9f",
+    "word": "电梯",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-78addc72bb654ad7",
+    "word": "自动扶梯",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "general-70b41c7440b801c7",
+    "word": "缆车",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-b7c9a4940d9bfa8c",
+    "word": "冰川",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-adab3e189ec57f97",
+    "word": "沙尘暴",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-ae1f820d9c8debc3",
+    "word": "泥石流",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-a030b50241a0f011",
+    "word": "雪崩",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-d946d47a800e4dc3",
+    "word": "台风",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-65b61b8b720d06e7",
+    "word": "洪水",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-e2f38e1d8248de5e",
+    "word": "潮汐",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-050b8dcfaf78299f",
+    "word": "罗盘",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-a25f7afbdeabbf5b",
+    "word": "天平",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-0cf5f3661ade6a1e",
+    "word": "三角尺",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-b5631004469ce87d",
+    "word": "地震仪",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-1ae76d12b0b41645",
+    "word": "潜望镜",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-3a4daea32f040469",
+    "word": "风向标",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-13a9221fbefed8a2",
+    "word": "避雷针",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-bf259856d4c3ba9e",
+    "word": "温泉",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-5ce2e9f7ebcfe571",
+    "word": "钟乳石",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-e11d492d7e1ee232",
+    "word": "珊瑚礁",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "general-bd79bd5067deb461",
+    "word": "雾霾",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-72b977ec2e0295bb",
+    "word": "回声",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-d3d8ca4e4285190b",
+    "word": "静电",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "general-74d505b611257cd4",
+    "word": "失重",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-313c6b4d4437f727",
+    "word": "月球漫步",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-f52f3440fc955f2a",
+    "word": "太空行走",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-3984d896b5299256",
+    "word": "火箭发射",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-c330a254c3337ec1",
+    "word": "黑洞",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-e1912de151a3d5af",
+    "word": "虫洞",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-1ee65e6100c5a404",
+    "word": "太阳系",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-2e62a55c360a60e1",
+    "word": "地壳运动",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-fdc10ced036cc70a",
+    "word": "大陆漂移",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-f7d58e467f6c5368",
+    "word": "水循环",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-871ea0e0eab787d4",
+    "word": "光合作用",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-d8c812aa9fe2d602",
+    "word": "蒸发",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-4f590bc8df3f0fa0",
+    "word": "凝结",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-41f3335252940adb",
+    "word": "折射",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-8a8f1a0cf7cf089a",
+    "word": "反射",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-c7f5059c423f3243",
+    "word": "磁悬浮",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-fb6b9364901108b0",
+    "word": "摩擦力",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-68cbf27774485908",
+    "word": "离心力",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-cd47301be6ed06ef",
+    "word": "杠杆",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-c08773a966573ba6",
+    "word": "齿轮",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-e0cc9798b9ac82ad",
+    "word": "滑轮组",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-54a9e0f69f5dac02",
+    "word": "多米诺骨牌",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "general-dde19ac5bd39605f",
+    "word": "摆钟",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-5baa8c09e5a1c741",
+    "word": "超声波",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-3e8bf69edaa8b8c3",
+    "word": "无线电",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-45e4c41a652720b2",
+    "word": "人工降雨",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-34ac98d2eefc017c",
+    "word": "钻木取火",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-79f0fc54df13d8b4",
+    "word": "热带雨林",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-3035bc7899acb20b",
+    "word": "极地探险",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-00bd6c2637e5adfd",
+    "word": "海上漂流",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-de0a530fb595c072",
+    "word": "丝绸之路",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-a65ae88c6549614d",
+    "word": "活字印刷",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-40a77613e0f31e9a",
+    "word": "造纸术",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-e302e8799f8264e5",
+    "word": "火药",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-28432629dbf4b960",
+    "word": "海市蜃楼",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-2a46b9f79c754496",
+    "word": "地球公转",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-b6230a1dc3fc24cb",
+    "word": "地心引力",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "general-06ecf1d6fd582d05",
+    "word": "电磁铁",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-7f11c9fb86a4fbe2",
+    "word": "液压机",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "general-423fa0708d09a584",
+    "word": "赤道",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "general-1931e34a7c5240e5",
+    "word": "蝴蝶效应",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-917274181a3b9170",
+    "word": "多普勒效应",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "general-6f519f47467197b6",
+    "word": "温室效应",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-73dcae6d88b3c1a0",
+    "word": "量子纠缠",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-493d46b667e106a9",
+    "word": "相对论",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-5108eeb18a166dc8",
+    "word": "薛定谔的猫",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "general-6ecc5b4b021f8c4f",
+    "word": "时空穿越",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-8aef8f418ebc8bf9",
+    "word": "电磁感应",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-54f0615da1752994",
+    "word": "核裂变",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-931c7615d1b81448",
+    "word": "核聚变",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-8a1a41271e052493",
+    "word": "光年",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-d491e888eef62830",
+    "word": "音障",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-227c9d43e4c696d1",
+    "word": "真空",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-4e4e42368b82b567",
+    "word": "绝对零度",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-22326a57db51fdc8",
+    "word": "日心说",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-354a9de45b70d31b",
+    "word": "地心说",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-81fac924741aa17e",
+    "word": "大爆炸",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-ce693a6bfce406d1",
+    "word": "自然选择",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-bc010245652e1fee",
+    "word": "基因突变",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-161332dd5ba244f1",
+    "word": "人工智能",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-e0d5ba86ed901980",
+    "word": "能量守恒",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-9e58136db183ccbc",
+    "word": "惯性定律",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-7cd8a647affedbc5",
+    "word": "布朗运动",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-3c452ec70ccf97e6",
+    "word": "毛细现象",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-4c331555cd1bedc0",
+    "word": "表面张力",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "general-64bf9808a373a103",
+    "word": "浮力",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-ba7638de403421ba",
+    "word": "虹吸",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-43c930461c13a2f6",
+    "word": "共振",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-f8e1512ca9c47e45",
+    "word": "日晷",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-2c437ec583393cfb",
+    "word": "浑天仪",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-db6514af70dfe940",
+    "word": "地动仪",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-d493052e559075f7",
+    "word": "圆周率",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-2306fc03b85c874d",
+    "word": "经纬度",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-275c419545726e3e",
+    "word": "子午线",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "general-fcdffcb5cc3ad8a2",
+    "word": "奇点",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "general-ffe2f6a83c1900aa",
+    "word": "反物质",
+    "catId": "general",
+    "cat": "通识百科",
+    "level": 4,
+    "len": 3
+  }
+]

@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "sports-d0f7307dd4e2b7f6",
+    "word": "打篮球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-5386f36a02953218",
+    "word": "踢足球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-a186fb26fc8f0d68",
+    "word": "打排球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-146b9e09dfd08e1f",
+    "word": "打羽毛球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-d2136e5251fbfd67",
+    "word": "打乒乓球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-087551cbb068dfe8",
+    "word": "打网球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-a3a6af44f0763fae",
+    "word": "打高尔夫",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-63c1192897122fb2",
+    "word": "打保龄球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-b0a4af110b6d9ce1",
+    "word": "打台球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-0e271cbc8c4d7faa",
+    "word": "打棒球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-b609872e77c53e0a",
+    "word": "拳击",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-fd09c017d41408e6",
+    "word": "摔跤",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-85efe392fda1a48c",
+    "word": "举重",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-b6d12ec60ba3295d",
+    "word": "射箭",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-203cc8f947e2e41a",
+    "word": "跳绳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-a64a3c2107678b8c",
+    "word": "跳远",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-57acbac3141bae19",
+    "word": "跳高",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-f8b07155bc109c9f",
+    "word": "跨栏",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-f864303afb4e4a85",
+    "word": "游泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-c8641c3a1031e09c",
+    "word": "蛙泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-0a4a3212a7a24e86",
+    "word": "潜水",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-1b44b4a7c98063d3",
+    "word": "冲浪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-5e6dbb1fcc4e27af",
+    "word": "滑雪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-6ae9b614455e2e43",
+    "word": "滑冰",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-6125f086d05dccee",
+    "word": "滑板",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-ae9049c6f5aff8a9",
+    "word": "攀岩",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-09dcfa68c2aa1fee",
+    "word": "骑马",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-580334843753b797",
+    "word": "击剑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-0636a1aa94a1d2ee",
+    "word": "划船",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-bd4e166240089036",
+    "word": "瑜伽",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-a2c014ee7d1b0c44",
+    "word": "俯卧撑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-eb7f98cd02a1bee6",
+    "word": "仰卧起坐",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-14906fe65951b860",
+    "word": "深蹲",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-17f856755af7a442",
+    "word": "平板支撑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-d0dca518d14ba539",
+    "word": "太极拳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-33a9851168d64927",
+    "word": "广场舞",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-a661e9abde374366",
+    "word": "芭蕾舞",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-54eeab6b993e5f59",
+    "word": "街舞",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-68f9f8c6ea2be319",
+    "word": "踢毽子",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-2a0a535bef0bfdb5",
+    "word": "转呼啦圈",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-86d347aaa30d1b43",
+    "word": "唱歌",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-463d9ca5b9a939a0",
+    "word": "弹钢琴",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-0bd3759a6fb8a88f",
+    "word": "拉小提琴",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-af1d85f180be2fc3",
+    "word": "弹吉他",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-e5c54bd7d19f70f5",
+    "word": "打鼓",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-668323c00a41a112",
+    "word": "吹口琴",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-f1ca886dbe83db58",
+    "word": "吹笛子",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-7b0a85d252cc4c3c",
+    "word": "拉二胡",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-4d9d6bcf3de7a317",
+    "word": "指挥乐队",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-93d35a84d030f6cb",
+    "word": "变魔术",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-ca0ec4cb31cc8b60",
+    "word": "杂技",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-2379d30d4efe6d3c",
+    "word": "走钢丝",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-7dd35ca0ab53cf74",
+    "word": "模特走秀",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-9c30881dacf6b03b",
+    "word": "下象棋",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-1d87ebbb7ac768b1",
+    "word": "下围棋",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-73290bdd45e5d8a6",
+    "word": "玩溜溜球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "sports-0f207ac409107ad2",
+    "word": "拔河",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "sports-a80c6477d33565d9",
+    "word": "摇骰子",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-8cd6279596119d92",
+    "word": "跳皮筋",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "sports-fde197b2c6fc95d9",
+    "word": "自由泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-b1e77c55e70fe4be",
+    "word": "仰泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-906dbf40affc4ec9",
+    "word": "蝶泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-f65a2d06d196bd0c",
+    "word": "花样游泳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-6852aa7f164faf96",
+    "word": "跳水",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-3169dac8b5c15077",
+    "word": "水球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-89d02b92ff9be5b1",
+    "word": "皮划艇",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-ec536c9eebf4ccb4",
+    "word": "龙舟竞渡",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-144ea446087b6054",
+    "word": "帆船运动",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-5dde0b566ebf56e3",
+    "word": "赛艇",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-dd41265c9374b37b",
+    "word": "桨板",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-e70113a011eac6d7",
+    "word": "水上摩托",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-0f235c23efdd8974",
+    "word": "滑水",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-1333997d37a5f34c",
+    "word": "冰球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-68c342e2f3b6682e",
+    "word": "冰壶",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-47b9f8279912dcaf",
+    "word": "速滑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-4f115de3d4932649",
+    "word": "花样滑冰",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-b21b7381b47ab5aa",
+    "word": "单板滑雪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-c2f8966e28da9436",
+    "word": "双板滑雪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-8baec580349044d6",
+    "word": "跳台滑雪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-e8cf1bf90ea727f9",
+    "word": "越野滑雪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-c0efeeb31866cc4a",
+    "word": "雪地摩托",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-36d318c4ed76d315",
+    "word": "跆拳道",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-8bb373db776da480",
+    "word": "空手道",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-d35f4b2932a9b3e4",
+    "word": "柔道",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-a8c5991a1b3359b1",
+    "word": "散打",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-55b4885f77d4cdf1",
+    "word": "咏春拳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-1e25e12cb0e959e7",
+    "word": "少林拳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-c7f1cf2e9a6129ea",
+    "word": "醉拳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-0a3f4f8cc22395da",
+    "word": "螳螂拳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-376fe0e747ebfb8c",
+    "word": "双节棍",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-340b159c3f1a1cc3",
+    "word": "太极剑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-25cfebe81445cfba",
+    "word": "铁人三项",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-ac4ca14fecbf860c",
+    "word": "马拉松",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-3a8d2c0072b5989c",
+    "word": "接力赛",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-c05691909ec8500f",
+    "word": "竞走",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-36b9cf058f184b49",
+    "word": "标枪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-61d434b263b05cfa",
+    "word": "铅球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-ba51b9acdefef2c0",
+    "word": "铁饼",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-cca5fc954379310b",
+    "word": "撑杆跳高",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-ed24d698ab582aa8",
+    "word": "跳马",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-bba8b6c33bc7236b",
+    "word": "吊环",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-b7c10c3c2e946be6",
+    "word": "双杠",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-c01a0a340034d25f",
+    "word": "单杠",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-baaeb30e26393db5",
+    "word": "平衡木",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-1ce428a6b8821b99",
+    "word": "鞍马",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-dccf7ec0a3559ac0",
+    "word": "自由体操",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-d5780935eeacaaf4",
+    "word": "艺术体操",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-3f97a47fd0c7b7bc",
+    "word": "蹦床",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-6df3602e1f7e8456",
+    "word": "蹦极",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-b427aac3025d3896",
+    "word": "跳伞",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-670212da4993964d",
+    "word": "滑翔伞",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-997f9dc58fc95c6f",
+    "word": "赛车",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "sports-3cfc292f5fe41224",
+    "word": "定向越野",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-f75542f20ecbd8d0",
+    "word": "沙滩排球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "sports-6eff82b98d986836",
+    "word": "橄榄球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "sports-cf9d02d39ca21151",
+    "word": "足球点球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-9be356a1de7d84c9",
+    "word": "足球守门",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-957d045916d6a690",
+    "word": "足球假摔",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-22c8e0bafe06c9d5",
+    "word": "足球头球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-9691011d7dae331b",
+    "word": "足球任意球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-37f9b2f1562f4cfc",
+    "word": "足球过人",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-ac4d499ea6c77b49",
+    "word": "篮球罚球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-087942a89f5992e5",
+    "word": "篮球灌篮",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-5acca8db0b5cd717",
+    "word": "篮球盖帽",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-92356165d18e8112",
+    "word": "篮球抢断",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-7a257b8d6c1843d8",
+    "word": "胯下运球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-08eb4e66ce48cd99",
+    "word": "三步上篮",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-e810e08aed5f9401",
+    "word": "三分投篮",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-deed2ad1554fd5df",
+    "word": "排球扣杀",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-d466489b1280f53f",
+    "word": "排球拦网",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-ddbfbc409eb47b55",
+    "word": "网球发球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-e8ce8a169401768c",
+    "word": "乒乓球削球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-91969e433f82cfa2",
+    "word": "全垒打",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-135dd9553716c144",
+    "word": "高尔夫推杆",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-5d9313816b1a93a4",
+    "word": "保龄球全中",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-fb506f5ff90063a2",
+    "word": "拳击躲闪",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-8e7db1d1119df31f",
+    "word": "举重挺举",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-75b506b736d85312",
+    "word": "举重抓举",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-3eaa94385d7bd7fc",
+    "word": "百米起跑",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-2a7adc331d8c9ee6",
+    "word": "接力交棒",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-8d426b6928c55672",
+    "word": "背越式跳高",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-0333316eddf36891",
+    "word": "跳水压水花",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "sports-797f5901859a802b",
+    "word": "引体向上",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-67bbc97aea216d4c",
+    "word": "硬拉",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "sports-ef1b37790ea83916",
+    "word": "卧推",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "sports-68759217c3bb5a8f",
+    "word": "哑铃弯举",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-a21f75cfc1301663",
+    "word": "划船机",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-3ed6d5d86af827b5",
+    "word": "椭圆机",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-c96f3a5d5a5dab78",
+    "word": "动感单车",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-0e72f5e01b174c3b",
+    "word": "拉伸热身",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "sports-8ee813aa033e726c",
+    "word": "跳箱",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "sports-e794fe242da50296",
+    "word": "波比跳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-e6275b4b4d81126a",
+    "word": "开合跳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-a1a565dd76c56685",
+    "word": "高抬腿",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-cfa6394c203edc6f",
+    "word": "弓步蹲",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-7f5819b3d85e3a33",
+    "word": "飞盘",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "sports-83c8c4ce92012286",
+    "word": "飞镖",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "sports-c328d90e3324f2ef",
+    "word": "沙狐球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "sports-279d35deeecb996a",
+    "word": "回旋踢",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-3942b1854aeaeeeb",
+    "word": "凌空抽射",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-cead9a9ced14c487",
+    "word": "传切配合",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-8b0b8c48259e3b70",
+    "word": "帽子戏法",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-5f87180db251473b",
+    "word": "越位",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-c1740c375723cb1b",
+    "word": "乌龙球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-48d7c2b865554025",
+    "word": "绝杀",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-4edbb396efc1863b",
+    "word": "假动作",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-ed38187c211507fa",
+    "word": "勺子点球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-f7315836996952ab",
+    "word": "电梯球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-38ae6b47124042f6",
+    "word": "外脚背",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-795a2726efcf9c9b",
+    "word": "牛尾巴过人",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "sports-1adb7b1ce1309bdf",
+    "word": "欧洲步",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-35a7717df639d0b0",
+    "word": "后仰跳投",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-f949e0503ef8e5f3",
+    "word": "空中接力",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-ad4ce5646273638e",
+    "word": "拉杆上篮",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-02be133e8ee5b9b6",
+    "word": "干拔跳投",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-2dc16122dce2d2bb",
+    "word": "走步",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-5a70204d430e50d9",
+    "word": "三不沾",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-118b261389aadbb2",
+    "word": "压哨球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-40a2e10bd40d4026",
+    "word": "逆转",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-38ba6378a5c04335",
+    "word": "加时赛",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-bf4a2956dd6ba4f5",
+    "word": "淘汰赛",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-ea4ee3480745094b",
+    "word": "车轮战",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-041303274a5c2e33",
+    "word": "循环赛",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-de16523f8b715847",
+    "word": "抢七",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-bf6221d4cce48515",
+    "word": "鹰眼挑战",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-26504f1700e5c37a",
+    "word": "香蕉球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-8aec27935269ab74",
+    "word": "斯诺克",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-b1f50120ac2fab1d",
+    "word": "母球走位",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-bd437335c4e48183",
+    "word": "扎杆",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-59fbc78f8cb1c2be",
+    "word": "跳杆",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-134aa8652f8223e5",
+    "word": "推杆",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-e314025a78d017d0",
+    "word": "冰上芭蕾",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-6b7cdf1f7f9a2bab",
+    "word": "雪车",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-a3aeaf997c08a431",
+    "word": "自由潜",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "sports-0f114285c16f2bb3",
+    "word": "铁人两项",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-2f256b01e5cfb530",
+    "word": "花式跳绳",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-6f995121479a8ed7",
+    "word": "手指滑板",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-246b300e42a70149",
+    "word": "竞技叠杯",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-07008673a289ea06",
+    "word": "桌上足球",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "sports-1e7af99cd35e56b0",
+    "word": "抛竿",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-4e8d59b3346241fa",
+    "word": "海钓",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-eb85bf21c48fd781",
+    "word": "路亚",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-959436ca322a237d",
+    "word": "抖竿",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "sports-fbd9aa26907f45af",
+    "word": "骆驼式",
+    "catId": "sports",
+    "cat": "运动娱乐",
+    "level": 4,
+    "len": 3
+  }
+]

@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "music-df3ce0fb82b6b8b1",
+    "word": "钢琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-6b533a8c6ba1dd93",
+    "word": "吉他",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-ec30387d53a25f2a",
+    "word": "小提琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-545c8031df48e5ab",
+    "word": "大提琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-308d4670695fb00a",
+    "word": "二胡",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-fa15b9438346c604",
+    "word": "古筝",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-ed618202665c437e",
+    "word": "琵琶",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-8f69be1a06d5625b",
+    "word": "笛子",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-4a14ba86f19640a0",
+    "word": "萨克斯",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-511f41e70f233e70",
+    "word": "小号",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-9b19e253b6f87ef2",
+    "word": "长号",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-c9edefdf78cbde9c",
+    "word": "口琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-82dffcce85733943",
+    "word": "手风琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-2aa48745e6402706",
+    "word": "架子鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-97eb5c6c68b705a8",
+    "word": "电子琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-02790f9a0da2d5b4",
+    "word": "锣",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 1
+  },
+  {
+    "id": "music-999fd21dbb6b2268",
+    "word": "大鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-d68c21a613a46643",
+    "word": "三角铁",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-8272591dd562b697",
+    "word": "木琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-bba5f6cf2b173542",
+    "word": "竖琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-223120067ce426b1",
+    "word": "唢呐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-af12c910e29037bf",
+    "word": "快板",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-59e3ea7588a8111b",
+    "word": "葫芦丝",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-84821b185b281992",
+    "word": "竹笛",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-306fc716a38aef94",
+    "word": "口哨",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-f0c875bd73876c0c",
+    "word": "音箱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-714cac30e2ff8bc9",
+    "word": "麦克风",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-b3bf1f0ccd2c38d4",
+    "word": "耳麦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-291c6551ee4e40ee",
+    "word": "音符",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-d3f3f8ccd845f04d",
+    "word": "五线谱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-2f2b7b30adf3e5a2",
+    "word": "乐谱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-c963341bb10e8853",
+    "word": "指挥棒",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-da7efa96d4ffeaf8",
+    "word": "唱片",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-1726b4f55258fc72",
+    "word": "留声机",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "music-16a93750793bb94c",
+    "word": "卡拉OK",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "music-5b51d08f271d003a",
+    "word": "摇滚",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-bed8953d5ab12529",
+    "word": "民谣",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-a13f4f69b82e3ffb",
+    "word": "合唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-18c759db80da44d2",
+    "word": "独唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-c5461adeb616f71b",
+    "word": "对唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "music-c840905c0b889eca",
+    "word": "贝斯",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-f7cbd342e791dead",
+    "word": "电吉他",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-6ffd26ab7be13059",
+    "word": "尤克里里",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "music-c7b47fc5941ebaf3",
+    "word": "曼陀铃",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-503b80942277cd95",
+    "word": "低音提琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "music-8fa071bf4f67d176",
+    "word": "中提琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-48a33ddd80563726",
+    "word": "圆号",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-1af59924facffd9c",
+    "word": "双簧管",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-95ab864f766ee87d",
+    "word": "单簧管",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-9a84e5b9fd5d709f",
+    "word": "巴松管",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-dca9dbf028eb6492",
+    "word": "黑管",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-dddbc28b8fb5edcb",
+    "word": "短笛",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-931d587b710c9d63",
+    "word": "长笛",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-20979a20701c51b3",
+    "word": "马头琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-52391d8334cb570e",
+    "word": "冬不拉",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-16a60def00d62a04",
+    "word": "三弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-7784e420a5847e95",
+    "word": "古琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-b628ae44f8a373ae",
+    "word": "扬琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-d22fe6ffb8c55551",
+    "word": "月琴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-2d518fb7f0a2c8ab",
+    "word": "阮",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 1
+  },
+  {
+    "id": "music-cce055a45c67a9e5",
+    "word": "埙",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 1
+  },
+  {
+    "id": "music-967c5bc1a3ea76d0",
+    "word": "陶笛",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-3a5f279cd6ffe585",
+    "word": "排箫",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-74d5ef2615f4eab3",
+    "word": "卡林巴",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-f0207fe63c22e098",
+    "word": "沙锤",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-fe86e9e85599f5c0",
+    "word": "铃鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-f5dd78c80850ba19",
+    "word": "响板",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-cfcdb7fc725a1dd6",
+    "word": "木鱼",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-b5c32bff2489c9b3",
+    "word": "编钟",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-ba53c2803b80ce2d",
+    "word": "定音鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-70cea25f2081dd71",
+    "word": "手鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-181e86f78d8a10ef",
+    "word": "非洲鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-760956f59325e817",
+    "word": "爵士鼓",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-97c562e997ecb1d2",
+    "word": "拨片",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-3ea42413583117ae",
+    "word": "调音器",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-c0b3ca2763ccbed3",
+    "word": "节拍器",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-be7f75bc07e119c0",
+    "word": "效果器",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-b4f8ff69926dd459",
+    "word": "变调夹",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "music-fbfdf6037b5e1672",
+    "word": "弹唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-a2902b1e557c7003",
+    "word": "伴奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "music-a1f98e1d9b0f26a8",
+    "word": "独奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-c8b6e919d8781e2c",
+    "word": "重奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-6dd32621ae11f695",
+    "word": "齐奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-7168b346e114c368",
+    "word": "协奏曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-e297a8a54ab88a28",
+    "word": "交响乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-adac6e7bc75efc4a",
+    "word": "进行曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-0354f7684f4616a7",
+    "word": "圆舞曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-abdc94191db0d74c",
+    "word": "夜曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-a59b8d4665b142b1",
+    "word": "小夜曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-570aca7ee16c0186",
+    "word": "摇篮曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-3ddc07f7f5b57a16",
+    "word": "钢琴曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-248e79826919fea2",
+    "word": "奏鸣曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-e656634ed9878fe3",
+    "word": "咏叹调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-db0f4d86d98f4be6",
+    "word": "歌剧",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-aeb697e63f53c903",
+    "word": "音乐剧",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-c9131c62721282e2",
+    "word": "民族音乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "music-c6e8fe08ba2c727d",
+    "word": "流行音乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "music-9f8b78df2bdc2bf1",
+    "word": "电子音乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "music-804be0df4f3a9f0d",
+    "word": "爵士乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-70359072bc524fa7",
+    "word": "布鲁斯",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-7c49df354ffa3fe6",
+    "word": "嘻哈",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-74adf7cd30932a28",
+    "word": "说唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-2ccad171d17a5914",
+    "word": "乡村音乐",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "music-2d8a97cac37ae251",
+    "word": "无伴奏合唱",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "music-68d94330d15ebf59",
+    "word": "男高音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-9a4152ee7c534818",
+    "word": "女高音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-7cc9b1874ae9236e",
+    "word": "男中音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-d2191481914729a2",
+    "word": "女低音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "music-73a310c333d1b66f",
+    "word": "音阶",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-317e1d7fe6a999c5",
+    "word": "和弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-19398ba1998340c3",
+    "word": "琶音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-61b5660e2fe12776",
+    "word": "高音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-2ae01773a23d8e60",
+    "word": "低音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-8df27d9c4aa1707b",
+    "word": "转调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-5bed439c1d551c22",
+    "word": "走音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-da3d6808ee6e0eac",
+    "word": "跑调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-33624323e10ec4ad",
+    "word": "假声",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-df76bbf6144c3b44",
+    "word": "颤音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-b679c307de4d947c",
+    "word": "气声",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-22fcc15d56520672",
+    "word": "口技",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "music-5529892e40cfc97d",
+    "word": "绝对音感",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-c45d7efc4c9f6e43",
+    "word": "相对音感",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-4bf87800cf4bf107",
+    "word": "十二平均律",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "music-23e617d14a0997fd",
+    "word": "五声音阶",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-c0137933ddc6cabb",
+    "word": "大调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-f43ceb2f48e759a5",
+    "word": "小调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-65f3791bb7096003",
+    "word": "复调",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-042092fb42c295ac",
+    "word": "对位",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-b6f69ad5ed46474b",
+    "word": "切分音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "music-aa955138a38599e6",
+    "word": "变奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-c9f67ee24ff97940",
+    "word": "卡农",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-e0ffca6586c0c4e1",
+    "word": "赋格",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-f9a3f06ae8881e8b",
+    "word": "三连音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "music-7c37dd987b10d629",
+    "word": "延音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-0529338c4f01ce99",
+    "word": "休止符",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "music-74f775ea4cf799b9",
+    "word": "弱起",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-c227a49b5ff4ae39",
+    "word": "滑音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-d1f7dbb7ba522f57",
+    "word": "泛音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-e903cb7c0ac20dc3",
+    "word": "震音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-729334d982723db5",
+    "word": "揉弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-721470e84906efe1",
+    "word": "轮指",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-09d89ec09d648eea",
+    "word": "点弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-efced788b7f8a2d3",
+    "word": "扫弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-7b1b5793d2a5aa42",
+    "word": "拨弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-2d755e6c0a051ae0",
+    "word": "击弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-20cf46ca7ebd84c5",
+    "word": "推弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-672720ad724b6a59",
+    "word": "拉弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-bb45d46f120e2d02",
+    "word": "甩弦",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-2230bf1609b0253d",
+    "word": "打碟",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-3ad98c6147478448",
+    "word": "采样",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-f4379dffcf147af3",
+    "word": "混音",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-6439bcf7edc330af",
+    "word": "母带",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-b6dd16ff52ebd549",
+    "word": "音轨",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-0c9669f1aeefc99d",
+    "word": "声部",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "music-e4a0be9ce974ca95",
+    "word": "即兴演奏",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-6f9202bbd60e7036",
+    "word": "音乐治疗",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-1c13fae5d658289a",
+    "word": "人声合成",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-c8ed2865da506ba6",
+    "word": "腹式呼吸",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-84d7df4ba54da0b6",
+    "word": "歌剧魅影",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "music-c24717370318cd1a",
+    "word": "蓝色多瑙河",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "music-470900f3fbff6930",
+    "word": "命运交响曲",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "music-0a617fac3992a32e",
+    "word": "欢乐颂",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "music-a4eb34fb4888f7cc",
+    "word": "天鹅湖",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "music-0768e84d00e77cd1",
+    "word": "胡桃夹子",
+    "catId": "music",
+    "cat": "音乐与乐器",
+    "level": 4,
+    "len": 4
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "tech-d48f1dcf88d2ca0d",
+    "word": "电脑",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-2e48db143a3c2740",
+    "word": "平板",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-155c2f5d0a3b2394",
+    "word": "笔记本",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-1a13ea5910a0c5e6",
+    "word": "显示器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-6b35f0323d386dc6",
+    "word": "投影仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-7d6376ef9fb5c530",
+    "word": "打印机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-77464977b1eb6fd8",
+    "word": "复印机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-70d23798aee6a8db",
+    "word": "扫描仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-fac308fbabb82692",
+    "word": "摄像头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-dacf0702602643bb",
+    "word": "相机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-a4cfa40611ee25b2",
+    "word": "摄影机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-e7c9fee8150e627b",
+    "word": "录音笔",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-7efc57164e31b277",
+    "word": "充电宝",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-17cb9752132236a7",
+    "word": "插座",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-a2749b3c17ad2d74",
+    "word": "插头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-92d9be0a0e94eb16",
+    "word": "开关",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-dab3ad1f980b65a0",
+    "word": "灯泡",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-032ba3b4bcd071c9",
+    "word": "电线",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-0109b5c2a5308d8f",
+    "word": "电钻",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-4cc3fcab5ddc47f3",
+    "word": "电锯",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-f23e1634184a6014",
+    "word": "电焊机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-88048abb33c44d7a",
+    "word": "电动机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-b8a09bdf1d1b3f26",
+    "word": "发电机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-9b16462c57afa539",
+    "word": "电路板",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-d114e1ce659a106d",
+    "word": "机器人手臂",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 5
+  },
+  {
+    "id": "tech-a4f7cbe44e925942",
+    "word": "传感器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-984636a8319ea56b",
+    "word": "芯片",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-7d8f8c37ec7885bc",
+    "word": "内存",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-1e7098fe0f6eaae2",
+    "word": "硬盘",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-6f397e1fc22386ce",
+    "word": "U盘",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-0ffb5ceb5608b8c6",
+    "word": "光盘",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-97b31b5d63f57e51",
+    "word": "网络",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-e8c68b5e46c67427",
+    "word": "路由器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-7e02ff3f0c7871a2",
+    "word": "无线网",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-aa86faacd6fee3e4",
+    "word": "蓝牙",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-9b1cd3668052b24b",
+    "word": "二维码",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-53de2dd66d311452",
+    "word": "条形码",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-0d6a14a9ab254ec6",
+    "word": "指纹",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 2
+  },
+  {
+    "id": "tech-e8c92c9f1f1bca6d",
+    "word": "人脸识别",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 4
+  },
+  {
+    "id": "tech-c51454557e573a3b",
+    "word": "电子表",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 1,
+    "len": 3
+  },
+  {
+    "id": "tech-3b43089648d6a155",
+    "word": "机械键盘",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-dc4ef50b71f369e6",
+    "word": "触摸屏",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-3e7896c97447ac97",
+    "word": "数位板",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-4e2a817d9b817d65",
+    "word": "游戏手柄",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-7856f1310cd439f1",
+    "word": "无线鼠标",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-ee3b510189d85642",
+    "word": "智能手表",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-e326e641b138dbc0",
+    "word": "智能手环",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-970fafd543849196",
+    "word": "无线充电",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-86cc97e14252ef01",
+    "word": "太阳能电池",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "tech-3ff77be070b2e2a9",
+    "word": "远程控制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-480ea23e628171a1",
+    "word": "无人驾驶",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-de5bd92a9081bc13",
+    "word": "机械狗",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-05e6abf0a99261cb",
+    "word": "人形机器人",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "tech-117da40dd80c9428",
+    "word": "虚拟现实",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-aa3682cd3a3823a2",
+    "word": "增强现实",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-81a18d74d1e7642a",
+    "word": "头戴显示器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "tech-e34e978328890f5f",
+    "word": "三脚架",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-b1e0a9174c735e4b",
+    "word": "云台",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "tech-f6ccb7020cc6d097",
+    "word": "稳定器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-2e46437cc70390b8",
+    "word": "广角镜头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-fbcaebf1b654d8b3",
+    "word": "长焦镜头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-3967758901cb04ad",
+    "word": "鱼眼镜头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-2bfa07202bb9254a",
+    "word": "微距镜头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-0706c19f69619e69",
+    "word": "红外线",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-491f4e3f30972e23",
+    "word": "激光笔",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-4fc5a97f41e0a01b",
+    "word": "测距仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-9bbba7d337fcc80f",
+    "word": "热成像",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-80991f5560b73b5c",
+    "word": "夜视仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-00dc2e5d032dc147",
+    "word": "示波器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-a0354fe9ed2592b6",
+    "word": "信号发生器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 5
+  },
+  {
+    "id": "tech-99faf39f8dee3bc3",
+    "word": "电源",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "tech-83f998515590baa3",
+    "word": "电阻",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "tech-9619612caaa16344",
+    "word": "电容",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "tech-edc483f964cb40d6",
+    "word": "电感",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 2
+  },
+  {
+    "id": "tech-1f10826526d1b4ec",
+    "word": "二极管",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-138f3302b8f6baaf",
+    "word": "三极管",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-c41577f16a9bbed0",
+    "word": "继电器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-58538b4389681a6c",
+    "word": "晶体管",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-cab6a14980d24b9d",
+    "word": "蜂鸣器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 3
+  },
+  {
+    "id": "tech-936f4bbd59194a7f",
+    "word": "步进电机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 2,
+    "len": 4
+  },
+  {
+    "id": "tech-360480034cc3e9d3",
+    "word": "操作系统",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-7c7802d8adaed72e",
+    "word": "文件夹",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-ba35dc23b245e61e",
+    "word": "回收站",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-e19c3b9e266c69c9",
+    "word": "浏览器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-82cbe72ab9d93e0a",
+    "word": "搜索引擎",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-0049d6ff3b27b4fe",
+    "word": "聊天机器人",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 5
+  },
+  {
+    "id": "tech-357c8b7131fac56d",
+    "word": "语音助手",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-654a661d749296d9",
+    "word": "语音识别",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-b06f4948ac04f3ed",
+    "word": "机器翻译",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-1b2714b812d42f77",
+    "word": "电子邮件",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-eee30e9d97ca1e61",
+    "word": "防火墙",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-2388cbc6a486af9f",
+    "word": "服务器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-be0cc94f44c106d2",
+    "word": "云计算",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-263200d7d529b522",
+    "word": "数据库",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-e6f04ffbaa424001",
+    "word": "代码",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-84f1a53f97f12db5",
+    "word": "编程",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-a3ba53fadbaed9d7",
+    "word": "调试",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-a064a6e578e285d6",
+    "word": "单元测试",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-29edd066d17f045b",
+    "word": "病毒",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-5fb84439c13a147f",
+    "word": "木马",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-1cabd93ff50cc128",
+    "word": "勒索软件",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-06971d5f36dccc53",
+    "word": "黑客",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-1283ddbf69566ff8",
+    "word": "计算器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-f1ec0b0221301e86",
+    "word": "进制转换",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-d9b89d61399269fe",
+    "word": "二进制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-c7ea10c948fefc40",
+    "word": "十六进制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-82fecaa2dd4a86cb",
+    "word": "磁盘阵列",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-81527a20da5b08f2",
+    "word": "局域网",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-f71a68e22434c780",
+    "word": "光纤",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-649720149fdbdfd8",
+    "word": "光模块",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-0dec14c01ad353d8",
+    "word": "网线",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-6a8f0f0f14920e4a",
+    "word": "水晶头",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-01810be58756e7ae",
+    "word": "交换机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-38f36ed30008bc7c",
+    "word": "网关",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-668565e0df22eea7",
+    "word": "基站",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-51591b00983160b0",
+    "word": "通信卫星",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-8f9036d707d1c82b",
+    "word": "导航仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-058ba68a9fdc337a",
+    "word": "北斗",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 2
+  },
+  {
+    "id": "tech-176c7866b945713f",
+    "word": "GPS",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 3
+  },
+  {
+    "id": "tech-d3b5bd9b3ea9affc",
+    "word": "街景地图",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 3,
+    "len": 4
+  },
+  {
+    "id": "tech-9bea2bda7ac5f70a",
+    "word": "深度学习",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-eeed14fad8af23d2",
+    "word": "神经网络",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-94b8d2ab625dd979",
+    "word": "大语言模型",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "tech-87302efabd07d293",
+    "word": "机器视觉",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-00cc94fba412807a",
+    "word": "自动控制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-59c7ad93c3e21ef8",
+    "word": "闭环控制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-1a2cdd9e06472fe4",
+    "word": "前馈控制",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-71eb92ff746b5613",
+    "word": "陀螺仪",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-71fab52574078c00",
+    "word": "加速度计",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-b89ce371db972f2a",
+    "word": "光电编码器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "tech-d46c322a7fbccc3e",
+    "word": "霍尔传感器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "tech-f758f4ea17eaa90d",
+    "word": "压力传感器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "tech-b242ece7979d1ba3",
+    "word": "称重传感器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 5
+  },
+  {
+    "id": "tech-4d35c3b7ece67ab7",
+    "word": "电磁阀",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-d969d7c054625f52",
+    "word": "水泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "tech-aeccb5963d7b5dd6",
+    "word": "旋转泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-d8095b64f61ff002",
+    "word": "震动泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-8fc3396c91cc624d",
+    "word": "齿轮泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-768a2d234c99983e",
+    "word": "蠕动泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-8f5ab6b8fb0dd1f2",
+    "word": "离心泵",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-976b2914e77c015a",
+    "word": "止回阀",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-9e9c58181d7084f4",
+    "word": "安全阀",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-131c9136746dc4f2",
+    "word": "减压阀",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-5acf16d4027837ee",
+    "word": "热电偶",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-dc8a42c2781ec81a",
+    "word": "热敏电阻",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-e974bf936143d688",
+    "word": "分压器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-35e7b4b9e86b7e6e",
+    "word": "整流器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-2ddcf6fb426a5daa",
+    "word": "变压器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-02f3fe693674eee6",
+    "word": "逆变器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-f9811fddf90a6803",
+    "word": "稳压器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-f01d6ccae33cc44d",
+    "word": "放大器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-506001ffaa291238",
+    "word": "比较器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-c8d59734ccfc806d",
+    "word": "振荡器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-50200d910a246da7",
+    "word": "单片机",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-788d6f82c93d74f5",
+    "word": "微控制器",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-9dd3b0d5ee103e92",
+    "word": "逻辑门",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-8fa258bcd8ff24c3",
+    "word": "与门",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "tech-0cc3bba802448046",
+    "word": "或门",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "tech-5bbe0f088c7c7e06",
+    "word": "非门",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "tech-5c33694dc200303e",
+    "word": "电桥",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  },
+  {
+    "id": "tech-3f15f3b06bbcc8eb",
+    "word": "负反馈",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-844b901f845995a3",
+    "word": "正反馈",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-0f549853799d6bde",
+    "word": "采样率",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 3
+  },
+  {
+    "id": "tech-6559d393dfe80d4e",
+    "word": "频率响应",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 4
+  },
+  {
+    "id": "tech-950bfe032ddfb0a2",
+    "word": "谐振",
+    "catId": "tech",
+    "cat": "科技与工具",
+    "level": 4,
+    "len": 2
+  }
+]
