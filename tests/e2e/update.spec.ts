@@ -9,18 +9,22 @@ test("installed app detects a new release, defers and restarts without losing ga
  // An older version of the same shell served with a minimal real, active worker.
  // Once published, the server serves the unmodified production build and Workbox worker.
  const oldVersion="0.0.1";let published=false;
+ const index=await readFile(resolve(root,"index.html"),"utf8");
+ const entry=index.match(/assets\/index-[^"\s]+\.js/)?.[0];if(!entry)throw Error("Missing production entry");
+ const oldEntry="assets/index-legacy.js";
  const oldWorker='self.addEventListener("install",()=>self.skipWaiting());self.addEventListener("activate",e=>e.waitUntil(self.clients.claim()));';
  const server=createServer(async(req,res)=>{
   try{
    const url=new URL(req.url||"/","http://localhost");
    const rel=url.pathname.replace(/^\/charades\//,"")||"index.html";
-   const file=resolve(root,rel);if(!file.startsWith(root+sep)){res.writeHead(404).end();return}
+   const file=resolve(root,rel===oldEntry?entry:rel);if(!file.startsWith(root+sep)){res.writeHead(404).end();return}
    const mime:Record<string,string>={".html":"text/html",".js":"application/javascript",".css":"text/css",".json":"application/json",".webmanifest":"application/manifest+json",".svg":"image/svg+xml",".png":"image/png"};
    res.setHeader("Content-Type",mime[extname(file)]||"application/octet-stream");res.setHeader("Cache-Control","no-store");
    if(!published&&rel==="sw.js"){res.end(oldWorker);return}
    if(!published&&rel==="version.json"){res.end(JSON.stringify({version:oldVersion,notes:[]}));return}
    const data=await readFile(file);
-   if(!published&&/^assets\/index-.*\.js$/.test(rel)){res.end(data.toString().replaceAll(JSON.stringify(latest.version),JSON.stringify(oldVersion)));return}
+   if(!published&&rel==="index.html"){res.end(index.replace(entry,oldEntry));return}
+   if(rel===oldEntry){res.end(data.toString().replaceAll(JSON.stringify(latest.version),JSON.stringify(oldVersion)));return}
    res.end(data)
   }catch{res.writeHead(404).end()}
  });
@@ -45,7 +49,9 @@ test("installed app detects a new release, defers and restarts without losing ga
   await dialog.getByRole("button",{name:"稍后更新"}).click();await expect(dialog).toHaveCount(0);
   await expect(page.getByTestId("app-version")).toHaveText("v"+oldVersion);
   await page.getByRole("button",{name:"新版本已就绪 · 更新"}).click();
+  const navigation=page.waitForEvent("framenavigated",{predicate:frame=>frame===page.mainFrame(),timeout:20000});
   await dialog.getByRole("button",{name:"重启并更新"}).click();
+  await navigation;
   await expect(page.getByTestId("app-version")).toHaveText("v"+latest.version,{timeout:20000});
   await expect(dialog).toHaveCount(0);
   await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("word")).toHaveText(word||"");
