@@ -4,19 +4,20 @@ import {APP_VERSION,fetchRelease,newerVersion,type ReleaseInfo} from "./version"
 export function useAppUpdate(){
  const [registration,setRegistration]=useState<ServiceWorkerRegistration>(),[release,setRelease]=useState<ReleaseInfo|null>(null);
  const [dismissed,setDismissed]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(""),[checking,setChecking]=useState(false),[message,setMessage]=useState("");
- const running=useRef(false),timer=useRef<number|undefined>(undefined),detach=useRef<(()=>void)|null>(null),mounted=useRef(true);
+ const running=useRef(false),manualRequested=useRef(false),timer=useRef<number|undefined>(undefined),detach=useRef<(()=>void)|null>(null),mounted=useRef(true);
  const {needRefresh:[needRefresh]}=useRegisterSW({onRegisteredSW:(_url,r)=>{if(r)setRegistration(r)}});
  const check=useCallback(async(manual=false)=>{
+  if(manual){manualRequested.current=true;setChecking(true);setMessage("")}
   if(running.current||(!manual&&document.hidden))return;
-  running.current=true;if(manual){setChecking(true);setMessage("")}
+  running.current=true;
   const controller=new AbortController(),timeout=window.setTimeout(()=>controller.abort(),8000);
   try{
    const latest=await fetchRelease(controller.signal);
    if(latest&&newerVersion(latest.version,APP_VERSION))setRelease(latest);
    if(registration&&!registration.installing&&!registration.waiting)await registration.update();
-   if(manual)setMessage(latest?newerVersion(latest.version,APP_VERSION)?"发现新版本，正在准备更新。":"当前已是最新版本。":"暂时无法获取版本信息。")
-  }catch{if(manual)setMessage("暂时无法检查更新，请稍后重试。")}
-  finally{clearTimeout(timeout);running.current=false;if(mounted.current)setChecking(false)}
+   if(manualRequested.current)setMessage(latest?newerVersion(latest.version,APP_VERSION)?"新版准备中…":"已是最新版本":"无法获取版本")
+  }catch{if(manualRequested.current)setMessage("检查失败，请重试")}
+  finally{clearTimeout(timeout);running.current=false;manualRequested.current=false;if(mounted.current)setChecking(false)}
  },[registration]);
  useEffect(()=>{mounted.current=true;const wake=()=>{if(!document.hidden)void check()};wake();const interval=window.setInterval(wake,60000);
  window.addEventListener("online",wake);window.addEventListener("focus",wake);document.addEventListener("visibilitychange",wake);
