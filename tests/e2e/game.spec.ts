@@ -8,14 +8,21 @@ const input=page.getByRole("textbox",{name:"玩家 8"});await input.scrollIntoVi
 await page.getByRole("button",{name:"2",exact:true}).click();
 const first=page.getByRole("textbox",{name:"玩家 1"});await first.fill("小明");
 await first.dispatchEvent("compositionstart",{data:"ming"});await first.dispatchEvent("compositionend",{data:"明"});await expect(first).toHaveValue("小明");
-await page.getByRole("button",{name:"5题",exact:true}).click();await page.getByRole("button",{name:"1次",exact:true}).click();
+const target=page.getByRole("button",{name:"5题",exact:true});
+await target.click();
+await expect(target).toHaveAttribute("aria-pressed","true");
+await expect(page.getByText("2 人 · 每轮共 10 题")).toBeVisible();
+const skip=page.getByRole("button",{name:"1次",exact:true});
+await skip.click();
+await expect(skip).toHaveAttribute("aria-pressed","true");
 await page.getByRole("button",{name:/下一步/}).click();
 await page.getByLabel("字数筛选").selectOption("max");await page.getByLabel("字数",{exact:true}).selectOption("4");
 await page.getByLabel("难度",{exact:true}).selectOption("p");await page.getByLabel("升级速度").selectOption("1");
 await page.getByRole("button",{name:/开始游戏/}).click();await expect(page.getByText("小明",{exact:true})).toBeVisible();
 await page.getByRole("button",{name:/准备好了/}).click();await expect(page.getByTestId("word")).toBeVisible();
+await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuemax","5");
 await page.getByRole("button",{name:/换题 · 剩余 1/}).click();await expect(page.getByRole("button",{name:/换题 · 剩余 0/})).toBeDisabled();
-for(let i=0;i<5;i++)await page.getByRole("button",{name:/答对！/}).click();
+for(let i=0;i<5;i++){await page.getByRole("button",{name:/答对！/}).click();if(i<4)await expect(page.getByRole("progressbar")).toHaveAttribute("aria-valuenow",String(i+1));}
 await expect(page.getByText("回合完成！")).toBeVisible();await expect(page.getByTestId("word")).toHaveCount(0);
 await page.getByRole("button",{name:/准备好了/}).click();await expect(page.getByText("玩家 2的回合")).toBeVisible();
 for(let i=0;i<5;i++)await page.getByRole("button",{name:/答对！/}).click();
