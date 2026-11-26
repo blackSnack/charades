@@ -15,3 +15,5 @@ Question bank migrated from the previously reviewed prototype. Some words were p
 - Magic UI Border Beam, MIT: https://github.com/magicuidesign/magicui/blob/85f97fd27b053339af74ba9dd4ca428ee25989fb/apps/www/registry/magicui/border-beam.tsx (blob f35bb34ccbeb836013f4b3b4b4bebe1084a8482d); license in licenses/magicui.txt.
 - canvas-confetti 1.9.3, ISC: https://github.com/catdad/canvas-confetti; license in licenses/canvas-confetti.txt.
 - Original decorative SVG flame shapes are animated by the existing Motion library. No WebGL/WASM engine or generated raster images included.
+
+- Experimental enhanced renderer: agent-aura 1.1.1, MIT, https://github.com/wangmiaozero/agent-aura; license in licenses/agent-aura.txt. Only fire and thunder subpaths imported. Previous SVG implementation retained as the comparison and fallback. Not used in normal gameplay.
