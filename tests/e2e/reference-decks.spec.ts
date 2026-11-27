@@ -24,7 +24,7 @@ test("all sixteen reference cards have distinct reference plates and readable li
    await stage.screenshot({path:info.outputPath(id+"-"+(i+1)+"-static.png"),animations:"disabled"});
    // Capture the rendered art separately from the live word for palette diagnostics.
    const content=stage.locator(".vfx-front-content");await content.evaluate(e=>{(e as HTMLElement).style.visibility="hidden"});
-   let image:Buffer;try{image=await stage.locator(".vfx-front").screenshot({animations:"disabled"})}finally{await content.evaluate(e=>{(e as HTMLElement).style.visibility=""})}
+   let image:Buffer;try{image=await stage.locator(".vfx-front").screenshot({path:info.outputPath(id+"-"+(i+1)+"-art.png"),animations:"disabled"})}finally{await content.evaluate(e=>{(e as HTMLElement).style.visibility=""})}
    const observed=await page.evaluate(async data=>{const im=new Image();im.src="data:image/png;base64,"+data;await im.decode();const c=document.createElement("canvas");c.width=im.width;c.height=im.height;const g=c.getContext("2d")!;g.drawImage(im,0,0);const pixels=g.getImageData(0,0,c.width,c.height).data;
     const median=(x0:number,x1:number,y0:number,y1:number)=>{const a=[[],[],[]] as number[][];for(let y=Math.floor(c.height*y0);y<Math.floor(c.height*y1);y++)for(let x=Math.floor(c.width*x0);x<Math.floor(c.width*x1);x++){const k=(y*c.width+x)*4;for(let z=0;z<3;z++)a[z].push(pixels[k+z])}return a.map(v=>v.sort((a,b)=>a-b)[Math.floor(v.length/2)])};
     return [median(.30,.70,.27,.34),median(.02,.045,.30,.70)];
