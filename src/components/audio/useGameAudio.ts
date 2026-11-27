@@ -24,6 +24,7 @@ class Player{
  private desired="";
  private profile:AudioProfile|null=null;
  private allowed=false;
+ private musicQuietUntil=0;
  constructor(private onState:(s:string)=>void,private onCue:(s:string)=>void){}
  private module(){if(!this.score)this.score=import("./score").catch(e=>{this.score=null;throw e});return this.score}
  async buffer(id:string,key:Scene|Effect){
@@ -47,8 +48,10 @@ class Player{
    const b=await this.buffer(id,scene);
    if(generation!==this.musicToken||!this.allowed)return;
    const old=this.music,now=this.context.currentTime,node=this.context.createBufferSource(),gain=this.context.createGain();
-   node.buffer=b;node.loop=true;node.connect(gain);gain.connect(this.context.destination);gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(this.profile?.music??0,now+.35);
-   node.onended=()=>{node.disconnect();gain.disconnect()};node.start();this.music={node,gain};this.stop(old,.35);this.onState(scene);
+   // The two arrangements may use unrelated harmonies. Fade through silence, not through each other.
+   if(old){this.stop(old,.20);this.musicQuietUntil=Math.max(this.musicQuietUntil,now+.22)}
+   const start=Math.max(now,this.musicQuietUntil);node.buffer=b;node.loop=true;node.connect(gain);gain.connect(this.context.destination);gain.gain.setValueAtTime(0,start);gain.gain.linearRampToValueAtTime(this.profile?.music??0,start+.48);
+   node.onended=()=>{node.disconnect();gain.disconnect()};node.start(start);this.music={node,gain};this.onState(scene);
   }catch{if(generation===this.musicToken){this.desired="";this.onState("error")}}
  }
  warm(profile:AudioProfile){void this.buffer(profile.lounge,"lounge").catch(()=>{});void this.buffer(profile.play,"play").catch(()=>{});for(const e of ["tap","select","back","start","correct","skip","handoff","finish","flip1","flip2","flip3","flip4"] as const)void this.buffer(profile.sfx,e).catch(()=>{})}
@@ -59,10 +62,11 @@ class Player{
    const b=await this.buffer(p.sfx,event);
    if(generation!==this.effectToken||!this.allowed||performance.now()-started>300||this.profile?.sfx!==p.sfx)return;
    this.stop(this.effect,.025);const node=this.context.createBufferSource(),gain=this.context.createGain(),now=this.context.currentTime;
-   node.buffer=b;node.connect(gain);gain.connect(this.context.destination);gain.gain.value=this.profile.effects;
+   node.buffer=b;node.connect(gain);gain.connect(this.context.destination);gain.gain.value=this.profile.effects*.78;
    node.onended=()=>{node.disconnect();gain.disconnect();if(this.effect?.node===node)this.effect=null};node.start();this.effect={node,gain};this.onCue(event);
    // Mild ducking for game events, never for a normal UI tap.
-   if(this.music&&event!=="tap"&&event!=="back"){const g=this.music.gain.gain,v=this.profile.music;g.cancelScheduledValues(now);g.setValueAtTime(g.value,now);g.linearRampToValueAtTime(v*.72,now+.045);g.linearRampToValueAtTime(v,now+Math.min(.7,b.duration+.16))}
+   // Frequent cues are deliberately quiet and do not pump the music fader. For a scene transition,
+   // the existing fade-through-silence already separates the musical cue from the next arrangement.
   }catch{}
  }
  close(){this.stopAll();void this.context.close().catch(()=>{})}
