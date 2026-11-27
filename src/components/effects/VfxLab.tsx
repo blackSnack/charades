@@ -24,7 +24,7 @@ function Preview({level,quality,revealed,visible,renderer,word,category,game=fal
  <Card className={`vfx-face vfx-front vfx-level-${level+1} deck-${renderer} ${refMaterial?"reference-card":""}`} style={refMaterial?{"--vfx-bg":refMaterial.paper,"--vfx-fg":refMaterial.ink,"--ref-label":refMaterial.label} as React.CSSProperties:undefined} aria-hidden={!revealed}>
  {renderer==="warm"&&revealed&&<WarmSurface level={level} active={active&&flipDone} quality={quality}/>}
  {renderer==="metal"&&revealed&&<MetalRim level={level} active={active&&flipDone} quality={quality}/>}
- {isReference(renderer)&&revealed&&<ReferenceFrame id={renderer} level={level} active={active&&flipDone} quality={quality}/>}
+ {isReference(renderer)&&revealed&&<ReferenceFrame id={renderer} level={level} active={active} quality={quality}/>}
  <div className="vfx-front-content" data-preview={!game}><div className="vfx-tags"><span>{category||"示例题目"}</span><span>{theme.name}</span></div><div className="question-word-zone"><QuestionWord word={word??(refMaterial?"大熊猫":theme.word)} testId={game?"word":"vfx-word"}/></div></div>
  </Card></motion.div></div>
 }
