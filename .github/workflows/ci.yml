@@ -1,7 +1,7 @@
 name: Build, test and deploy
 on:
   push:
-    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer, feat/deck-themes, fix/card-readability, fix/card-fit-stability, fix/turn-count-abandon]
+    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer, feat/deck-themes, fix/card-readability, fix/card-fit-stability, fix/turn-count-abandon, fix/question-abandon]
   workflow_dispatch:
 permissions:
   contents: read
