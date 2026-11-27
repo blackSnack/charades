@@ -86,7 +86,7 @@ function frequency(note:number){return 440*Math.pow(2,(note-69)/12)}
 const roots={piano:[48,57,60,65,72],guitar:[45,48,57,60,69,77]} as const;
 type SampleKind=keyof typeof roots;
 type SampleBank=Map<string,AudioBuffer>;
-const sampleBytes=new Map<string,Promise<ArrayBuffer>>();
+const sampleBytes=new Map<string,Promise<ArrayBuffer>>(),decodedSamples=new Map<string,Promise<AudioBuffer>>();
 function sampledKind(voice:Voice):SampleKind|undefined{
  if(voice==="rhodes")return "piano";
  if(voice==="guitar"||voice==="pizz"||voice==="harp")return "guitar";
@@ -96,12 +96,17 @@ async function loadSamples(ctx:BaseAudioContext,kinds:SampleKind[]):Promise<Samp
  await Promise.all([...new Set(kinds)].flatMap(kind=>roots[kind].map(async root=>{
   const id=kind+"-"+root;let request=sampleBytes.get(id);
   if(!request){request=fetch(import.meta.env.BASE_URL+"audio-samples/v2/"+id+".ogg").then(r=>{if(!r.ok)throw Error("Sample unavailable: "+id);return r.arrayBuffer()});sampleBytes.set(id,request);request.catch(()=>sampleBytes.delete(id))}
-  const raw=await ctx.decodeAudioData((await request).slice(0));
-  // Normalize note-to-note differences but preserve decay, stereo and playing texture.
-  let peak=0;for(let ch=0;ch<raw.numberOfChannels;ch++){const a=raw.getChannelData(ch);for(let i=0;i<a.length;i++)peak=Math.max(peak,Math.abs(a[i]))}
-  if(!peak)throw Error("Empty sample: "+id);
-  const gain=.68/peak;for(let ch=0;ch<raw.numberOfChannels;ch++){const a=raw.getChannelData(ch);for(let i=0;i<a.length;i++)a[i]*=gain}
-  bank.set(id,raw)
+  const cacheKey=ctx.sampleRate+":"+id;let decoded=decodedSamples.get(cacheKey);
+  if(!decoded){decoded=(async()=>{
+   const raw=await ctx.decodeAudioData((await request).slice(0));
+   // Preserve the attack and decay; keep only the audible portion used by the score.
+   const frames=Math.min(raw.length,Math.ceil(raw.sampleRate*3.5)),trim=ctx.createBuffer(raw.numberOfChannels,frames,raw.sampleRate);
+   let peak=0;for(let ch=0;ch<raw.numberOfChannels;ch++){const a=raw.getChannelData(ch);for(let i=0;i<frames;i++)peak=Math.max(peak,Math.abs(a[i]))}
+   if(!peak)throw Error("Empty sample: "+id);
+   const gain=.68/peak;for(let ch=0;ch<raw.numberOfChannels;ch++){const src=raw.getChannelData(ch),a=trim.getChannelData(ch);for(let i=0;i<frames;i++)a[i]=src[i]*gain*Math.min(1,(frames-i)/(raw.sampleRate*.06))}
+   return trim
+  })();decodedSamples.set(cacheKey,decoded);decoded.catch(()=>decodedSamples.delete(cacheKey))}
+  bank.set(id,await decoded)
  })));
  return bank
 }

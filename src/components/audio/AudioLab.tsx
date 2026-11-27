@@ -33,7 +33,7 @@ export default function AudioLab({onBack,profile,onApply}:{onBack:()=>void;profi
    node.start();setBusy(false)
   }catch{if(generation===token.current){halt();setMessage("音频播放失败，请重新点击试听或检查浏览器声音权限。")}}
  }
- function apply(a:Album){halt();const valid=(s:Tab)=>albums.find(x=>x.id===review.picks[a.theme+":"+s]&&x.theme===a.theme)?.id??a.id;const next={lounge:valid("lounge"),play:valid("play"),sfx:valid("sfx"),enabled:true,music:profile?.music??.32,effects:profile?.effects??.65};next[tab]=a.id;setMessage(onApply(next)?"已应用到游戏，返回首页开始或继续游戏即可体验。":"本次已应用，但无法保存声音设置。")}
+ function apply(a:Album){halt();const picks={...review.picks,[a.theme+":"+tab]:a.id};const valid=(s:Tab)=>albums.find(x=>x.id===picks[a.theme+":"+s]&&x.theme===a.theme)?.id??a.id;const next={lounge:valid("lounge"),play:valid("play"),sfx:valid("sfx"),enabled:true,music:profile?.music??.32,effects:profile?.effects??.65};persist({...review,picks});setMessage(onApply(next)?"已应用到游戏，返回首页开始或继续游戏即可体验。":"本次已应用，但无法保存声音设置。")}
  const visible=albums.filter(a=>theme==="all"||a.theme===theme);
  function exportReview(){const b=new Blob([JSON.stringify({version:1,review,albums:albums.map(a=>({id:a.id,title:a.title,theme:a.theme}))},null,2)],{type:"application/json"}),url=URL.createObjectURL(b),a=document.createElement("a");a.href=url;a.download="party-deck-audio-review.json";a.click();window.setTimeout(()=>URL.revokeObjectURL(url),1000)}
  return <section className="group" data-testid="audio-lab">

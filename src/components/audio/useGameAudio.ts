@@ -24,7 +24,7 @@ class Player{
  private desired="";
  private profile:AudioProfile|null=null;
  private allowed=false;
- constructor(private onState:(s:string)=>void){}
+ constructor(private onState:(s:string)=>void,private onCue:(s:string)=>void){}
  private module(){if(!this.score)this.score=import("./score").catch(e=>{this.score=null;throw e});return this.score}
  async buffer(id:string,key:Scene|Effect){
   const k=id+":"+key;let task=this.cache.get(k);
@@ -35,7 +35,7 @@ class Player{
   if(!p)return;const t=this.context.currentTime;
   try{p.gain.gain.cancelScheduledValues(t);p.gain.gain.setValueAtTime(p.gain.gain.value,t);p.gain.gain.linearRampToValueAtTime(0,t+fade);p.node.stop(t+fade+.01)}catch{}
  }
- stopAll(){this.allowed=false;this.desired="";this.musicToken++;this.effectToken++;this.stop(this.music);this.stop(this.effect,.03);this.music=null;this.effect=null;this.onState("")}
+ stopAll(){this.allowed=false;this.desired="";this.musicToken++;this.effectToken++;this.stop(this.music);this.stop(this.effect,.03);this.music=null;this.effect=null;this.onState("");this.onCue("")}
  async configure(profile:AudioProfile|null,scene:Scene|null){
   this.profile=profile;
   if(!profile?.enabled||!scene){this.stopAll();return}
@@ -60,7 +60,7 @@ class Player{
    if(generation!==this.effectToken||!this.allowed||performance.now()-started>300||this.profile?.sfx!==p.sfx)return;
    this.stop(this.effect,.025);const node=this.context.createBufferSource(),gain=this.context.createGain(),now=this.context.currentTime;
    node.buffer=b;node.connect(gain);gain.connect(this.context.destination);gain.gain.value=this.profile.effects;
-   node.onended=()=>{node.disconnect();gain.disconnect();if(this.effect?.node===node)this.effect=null};node.start();this.effect={node,gain};
+   node.onended=()=>{node.disconnect();gain.disconnect();if(this.effect?.node===node)this.effect=null};node.start();this.effect={node,gain};this.onCue(event);
    // Mild ducking for game events, never for a normal UI tap.
    if(this.music&&event!=="tap"&&event!=="back"){const g=this.music.gain.gain,v=this.profile.music;g.cancelScheduledValues(now);g.setValueAtTime(g.value,now);g.linearRampToValueAtTime(v*.72,now+.045);g.linearRampToValueAtTime(v,now+Math.min(.7,b.duration+.16))}
   }catch{}
@@ -68,11 +68,11 @@ class Player{
  close(){this.stopAll();void this.context.close().catch(()=>{})}
 }
 export function useGameAudio(profile:AudioProfile|null,page:string,g:Game|null,serial:number,events:string[]){
- const player=useRef<Player|null>(null),[ready,setReady]=useState(false),[visible,setVisible]=useState(!document.hidden),[status,setStatus]=useState("");
+ const player=useRef<Player|null>(null),[ready,setReady]=useState(false),[visible,setVisible]=useState(!document.hidden),[status,setStatus]=useState(""),[lastCue,setLastCue]=useState("");
  const experimental=page==="lab"||page==="cardLab"||page==="audioLab";
  const scene:Scene|null=experimental?null:page==="game"&&g?.phase==="play"?"play":"lounge";
  function unlock(p=profile){if(!p?.enabled)return;
-  try{const engine=player.current??new Player(setStatus);player.current=engine;
+  try{const engine=player.current??new Player(setStatus,setLastCue);player.current=engine;
    if(engine.context.state==="running"){setReady(true);return}
    void engine.context.resume().then(()=>{if(player.current===engine)setReady(true)}).catch(()=>{setStatus("error")})
   }catch{setStatus("error")}
@@ -82,5 +82,5 @@ export function useGameAudio(profile:AudioProfile|null,page:string,g:Game|null,s
  useEffect(()=>{if(player.current)void player.current.configure(profile,ready&&visible?scene:null)},[profile,scene,ready,visible]);
  const lastSerial=useRef(0);
  useEffect(()=>{if(serial===lastSerial.current)return;lastSerial.current=serial;if(!ready||!visible||experimental)return;const cue=gameCue(events,g);if(cue)void player.current?.cue(cue)},[serial,events,g,ready,visible,experimental]);
- return {unlock,status,tap:()=>{if(!experimental&&visible&&page!=="game"&&page!=="confirm"&&page!=="abandon")void player.current?.cue("tap")}}
+ return {unlock,status,lastCue,tap:()=>{if(!experimental&&visible&&page!=="game"&&page!=="confirm"&&page!=="abandon")void player.current?.cue("tap")}}
 }

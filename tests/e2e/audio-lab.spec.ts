@@ -16,7 +16,7 @@ test("unified lab offers audio candidates, local review and real playback",async
  await page.getByRole("button",{name:/音频实验/}).click();await expect(page.getByTestId("audio-ep").first().getByRole("button",{name:"已选为此主题候选"})).toBeVisible();await expect(page.getByTestId("audio-ep").first().getByLabel("试听反馈")).toHaveValue("温暖");
 });
 
-test("applied EP plays during actual Solo and multiplayer game, persists and can mute",async({page})=>{
+test("applied EP plays during actual Solo game, persists and can mute",async({page})=>{
  await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();
  await page.getByRole("button",{name:/音频实验/}).click();
  await page.getByRole("button",{name:"午后微风 应用到游戏"}).click();
@@ -28,6 +28,7 @@ test("applied EP plays during actual Solo and multiplayer game, persists and can
  await page.getByRole("button",{name:/开始游戏/}).click();
  await expect(page.locator("main")).toHaveAttribute("data-audio-state","play",{timeout:30000});
  await page.getByRole("button",{name:/下一题/}).click();
+ await expect(page.locator("main")).toHaveAttribute("data-audio-cue",/flip[1-4]/);
  await page.getByRole("button",{name:"静音",exact:true}).click();
  await expect(page.locator("main")).toHaveAttribute("data-audio-state","");
  await page.getByRole("button",{name:"开启声音",exact:true}).click();
@@ -37,4 +38,19 @@ test("applied EP plays during actual Solo and multiplayer game, persists and can
  await expect(page.locator("main")).toHaveAttribute("data-audio-state","lounge",{timeout:30000});
  await page.getByRole("button",{name:"返回首页"}).click();
  await page.reload();await expect(page.getByRole("button",{name:"关闭游戏声音"})).toBeVisible();
+});
+
+test("multiplayer correct, skip and handoff produce actual game cues",async({page})=>{
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/音频实验/}).click();
+ await page.getByRole("button",{name:"午后微风 应用到游戏"}).click();
+ await page.getByRole("button",{name:"返回实验室"}).click();await page.getByRole("button",{name:"返回",exact:true}).click();
+ await expect(page.locator("main")).toHaveAttribute("data-audio-state","lounge",{timeout:30000});
+ await page.getByRole("button",{name:/多人模式/}).click();await page.getByRole("button",{name:"5题",exact:true}).click();
+ await page.getByRole("button",{name:/下一步：选择题库/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
+ await page.getByRole("button",{name:/准备好了，开始/}).click();
+ await expect(page.locator("main")).toHaveAttribute("data-audio-state","play",{timeout:30000});
+ await page.getByRole("button",{name:/答对/}).click();await expect(page.locator("main")).toHaveAttribute("data-audio-cue","correct");
+ await page.getByRole("button",{name:/换题 ·/}).click();await expect(page.locator("main")).toHaveAttribute("data-audio-cue","skip");
+ for(let i=0;i<4;i++)await page.getByRole("button",{name:/答对/}).click();
+ await expect(page.locator("main")).toHaveAttribute("data-audio-cue","handoff");await expect(page.locator("main")).toHaveAttribute("data-audio-state","lounge",{timeout:30000});
 });
