@@ -60,3 +60,20 @@ test("reference deck is applied to real game and persisted",async({page})=>{
  await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
  await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toBeVisible();const text=await page.getByTestId("word").textContent();await page.reload();await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toHaveText(text!);await expect(page.locator(".reference-frame")).toHaveAttribute("data-art-state","ready");await page.getByTestId("vfx-stage").screenshot({path:test.info().outputPath("occult-real-game.png"),animations:"disabled"});
 });
+
+test("four families render the same real four-character question and cached art survives offline",async({page,context},info)=>{
+ test.setTimeout(90000);
+ await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();
+ await page.evaluate(()=>navigator.serviceWorker.ready.then(()=>true));await page.reload();await expect(page.getByText("3290 道题")).toBeVisible();await page.waitForFunction(()=>!!navigator.serviceWorker.controller);
+ const before=await page.evaluate(()=>performance.getEntriesByType("resource").map(x=>x.name));expect(before.some(n=>n.includes("/deck-art/"))).toBe(false);
+ await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByLabel("字数筛选",{exact:true}).selectOption("exact");await page.getByLabel("字数",{exact:true}).selectOption("4");await page.getByRole("button",{name:/开始游戏/}).click();const word=page.getByTestId("word");await expect(word).toBeVisible();const expected=await word.textContent();await page.getByRole("button",{name:/暂停/}).click();
+ for(const [name,id] of themes){
+  await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:new RegExp(name)}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/继续游戏/}).click();
+  const stage=page.getByTestId("vfx-stage"),art=stage.locator(".reference-frame");await expect(stage).toHaveAttribute("data-theme",id);await expect(art).toHaveAttribute("data-art-state","ready");await expect(word).toHaveText(expected!);
+  await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!,s=getComputedStyle(e);return parseFloat(s.fontSize)>=45&&e.getBoundingClientRect().width/p.clientWidth>.8&&e.scrollWidth<=e.clientWidth+1&&e.scrollHeight<=e.clientHeight+1}),{message:"Real gameplay word fit "+id}).toBe(true);
+  await stage.screenshot({path:info.outputPath(id+"-game.png"),animations:"disabled"});
+  await page.getByRole("button",{name:/暂停/}).click();
+ }
+ await page.waitForFunction(async()=>{const cache=await caches.open("party-deck-art-v2");const urls=(await cache.keys()).map(x=>x.url);return ["balatro","gwent","infernal","occult"].every(id=>urls.some(url=>url.includes("/"+id+"-")&&!url.includes("-map.")))});
+ await context.setOffline(true);try{await page.reload();await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.locator(".reference-frame")).toHaveAttribute("data-art-state","ready");await expect(word).toHaveText(expected!)}finally{await context.setOffline(false)}
+});

@@ -39,3 +39,8 @@
 @media(min-height:600px) and (orientation:portrait){.deck-game.question.reference-stage:not([data-theme=infernal]){height:clamp(270px,108vw,440px)}}
 @media(orientation:portrait){.deck-game.question.reference-stage[data-theme=infernal]{height:clamp(175px,53vw,260px)}}
 @media(min-width:600px) and (min-height:600px){.deck-game.question.reference-stage:not([data-theme=infernal]){height:clamp(340px,69dvh,500px)}}
+
+/* On a short landscape screen preserve vertical-family craftsmanship instead
+   of stretching a tall source across the whole left column. Keep actions in
+   the original right column; the infernal family is intrinsically horizontal. */
+@media(orientation:landscape) and (min-width:600px) and (max-height:599px){.deck-game.question.reference-stage:not([data-theme=infernal]){width:min(100%,max(250px,79dvh));justify-self:center}}
