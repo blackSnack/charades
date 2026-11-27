@@ -26,3 +26,6 @@ header{display:flex;align-items:center;gap:10px;justify-content:space-between}h1
 /* Definite block size: size-contained children must never determine their own grid track. */
 .question.question-default{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);justify-content:stretch;justify-items:stretch;align-self:stretch;width:100%;height:clamp(210px,42dvh,400px);min-height:0;gap:8px;padding:12px;min-width:0}.question-default .question-word-zone{width:100%;height:100%;min-height:0;min-width:0}.question-word-text{width:min(100%,calc(var(--word-cols)*1em + .08em))}
 @media(orientation:landscape) and (min-width:600px){.question.question-default{height:clamp(220px,64dvh,400px)}}@media(max-height:550px) and (orientation:portrait){.question.question-default{height:clamp(190px,42dvh,230px);padding:10px}}
+
+/* A slot is resolved once: green correct, red abandoned, neutral pending. */
+.progress .segment{height:14px}.progress .segment i{width:100%;height:100%;background:transparent;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:900;font-size:12px;line-height:1}.progress .segment[data-outcome=correct] i{background:#80D9A8}.progress .segment[data-outcome=abandoned] i{background:#C92F45;color:#fff}.actions .abandon-turn-button{height:44px;font-size:14px;background:#FFFCF5}
