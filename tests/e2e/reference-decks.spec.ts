@@ -16,7 +16,7 @@ test("all sixteen reference cards have distinct reference plates and readable li
    await page.getByRole("button",{name:/翻牌揭晓/}).click();
    const stage=page.getByTestId("vfx-stage"),word=stage.getByTestId("vfx-word"),art=stage.locator(".reference-frame");
    await expect(art).toHaveAttribute("data-reference",id);await expect(art).toHaveAttribute("data-art-state","ready");await expect(stage).toHaveAttribute("data-level",String(i+1));
-   await expect(word).toHaveText("大熊猫");await expect(stage.getByTestId("reference-shader")).toHaveCount(0);
+   await expect(word).toHaveText("大熊猫");await expect(stage.getByTestId("reference-shine")).toHaveCount(0);
    await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!,s=getComputedStyle(e);return p.clientWidth>0&&parseFloat(s.fontSize)>=45&&e.getBoundingClientRect().width/p.clientWidth>.8&&e.scrollWidth<=e.clientWidth+1}),{message:"Text fit "+id+" "+level}).toBe(true);
    materials.add((await art.getAttribute("data-material"))!);
    await stage.screenshot({path:info.outputPath(id+"-"+(i+1)+"-static.png"),animations:"disabled"});
@@ -32,51 +32,46 @@ test("all sixteen reference cards have distinct reference plates and readable li
   }
   expect(materials.size).toBe(4);
   await page.getByRole("button",{name:"四级对照"}).click();
-  const gallery=page.getByLabel("四级样式对照");await expect(gallery.locator(".reference-art")).toHaveCount(4);await expect(gallery.getByTestId("reference-shader")).toHaveCount(0);await expect(gallery.locator("[data-art-state=ready]")).toHaveCount(4);await gallery.screenshot({path:info.outputPath(id+"-comparison.png"),animations:"disabled"});
+  const gallery=page.getByLabel("四级样式对照");await expect(gallery.locator(".reference-art")).toHaveCount(4);await expect(gallery.getByTestId("reference-shine")).toHaveCount(0);await expect(gallery.locator("[data-art-state=ready]")).toHaveCount(4);await gallery.screenshot({path:info.outputPath(id+"-comparison.png"),animations:"disabled"});
   await page.getByRole("button",{name:"收起四级对照"}).click();
  }
  writeFileSync(info.outputPath("reference-color-diagnostics.json"),JSON.stringify(diagnostics,null,2));
 });
-test("real WebGL effects animate only the actual rim for each reference family",async({page},info)=>{
+test("upstream Shine Border softly sweeps a one pixel mask without changing the card face",async({page},info)=>{
  test.setTimeout(120000);await page.emulateMedia({reducedMotion:"no-preference"});
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();
+ await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:"完整",exact:true}).click();
  for(const [name,id] of themes){
   await page.getByRole("button",{name:new RegExp(name)}).click();
+  await page.getByRole("button",{name:"简单",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);
   for(const level of ["中等","困难","地狱"]){
    await page.getByRole("button",{name:level,exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();
-   const canvas=page.getByTestId("reference-shader");await expect(canvas).toHaveAttribute("data-fx-state","active",{timeout:10000});await expect(canvas).toHaveAttribute("data-relief","active",{timeout:10000});
-   // Read actual framebuffer, including the frames after the old delayed overlay appeared.
-   const sample=()=>canvas.evaluate((c:HTMLCanvasElement)=>{
-    const gl=c.getContext("webgl")!,w=c.width,h=c.height,cw=c.clientWidth,ch=c.clientHeight,buf=new Uint8Array(w*h*4);
-    gl.readPixels(0,0,w,h,gl.RGBA,gl.UNSIGNED_BYTE,buf);
-    let edge=0,center=0,maxDepth=0,hash=0,sx=0,sy=0;
-    for(let y=0;y<h;y++)for(let x=0;x<w;x++){
-     const i=(y*w+x)*4,a=buf[i+3];if(a>5){
-      edge++;hash=(hash+Math.imul(i+1,a+buf[i]))>>>0;
-      const px=(x+.5)*cw/w,py=(y+.5)*ch/h;
-      sx+=px;sy+=py;
-      const r=Math.min(20,cw*.5,ch*.5),qx=Math.abs(px-cw*.5)-cw*.5+r,qy=Math.abs(py-ch*.5)-ch*.5+r;
-      const depth=r-Math.hypot(Math.max(qx,0),Math.max(qy,0))-Math.min(Math.max(qx,qy),0);
-      maxDepth=Math.max(maxDepth,depth);
-      if(x>w*.2&&x<w*.8&&y>h*.2&&y<h*.8)center++;
-     }
-    }
-    return {edge,center,maxDepth,hash,x:sx/Math.max(edge,1),y:sy/Math.max(edge,1),coverage:edge*cw*ch/(w*h)/(2*(cw+ch)-8*20+2*Math.PI*20)/3};
-   });
-   await expect.poll(async()=>(await sample()).edge).toBeGreaterThan(0);
-   const first=await sample();expect(first.center).toBe(0);expect(first.maxDepth).toBeLessThanOrEqual(4);expect(first.coverage).toBeLessThan(.35);
-   const stage=page.getByTestId("vfx-stage");
-   await stage.screenshot({path:info.outputPath(id+"-"+level+"-flow-start.png"),animations:"disabled"});
-   await expect.poll(async()=>{const next=await sample();return next.edge>0&&next.center===0&&next.maxDepth<=4&&next.coverage<.35&&Math.hypot(next.x-first.x,next.y-first.y)>18},{timeout:5000}).toBe(true);
-   // A later screenshot and measurement catches the old ring appearing ~1s after reveal.
-   await page.waitForTimeout(1100);
-   const later=await sample();expect(later.edge).toBeGreaterThan(0);expect(later.center).toBe(0);expect(later.maxDepth).toBeLessThanOrEqual(4);expect(later.coverage).toBeLessThan(.35);
-   await stage.screenshot({path:info.outputPath(id+"-"+level+"-gpu.png"),animations:"disabled"});
-   console.log("Flow rim",JSON.stringify({theme:id,level,first,later}));
-   await page.getByRole("button",{name:/重置卡背/}).click();await expect(canvas).toHaveCount(0);
+   const shine=page.getByTestId("reference-shine"),stage=page.getByTestId("vfx-stage"),face=stage.locator(".vfx-front");
+   await expect(shine).toBeVisible();await page.waitForFunction(()=>{const e=document.querySelector(".vfx-flipper");return !!e&&Math.abs(new DOMMatrixReadOnly(getComputedStyle(e).transform).m11+1)<.01});
+   await expect(shine).toHaveCSS("padding-top","1px");await expect(shine).toHaveCSS("background-size","300% 300%");
+   await expect.poll(()=>shine.evaluate(e=>e.getAnimations().length)).toBeGreaterThan(0);
+   const position=await shine.evaluate(e=>getComputedStyle(e).backgroundPosition);
+   await expect.poll(()=>shine.evaluate(e=>getComputedStyle(e).backgroundPosition)).not.toBe(position);
+   // Capture stable browser pixels at several actual animation phases. No synthetic rendering.
+   await shine.evaluate(e=>{e.getAnimations().forEach(a=>a.pause());(e as HTMLElement).style.visibility="hidden"});
+   const base=await face.screenshot({scale:"css"});
+   await shine.evaluate(e=>{(e as HTMLElement).style.visibility=""});
+   const phases=[1800,4100,7300];let lit=0;const frames:string[]=[];
+   for(const time of phases){
+    await shine.evaluate((e,t)=>{e.getAnimations().forEach(a=>{a.currentTime=t})},time);
+    const img=await face.screenshot({scale:"css",path:info.outputPath(id+"-"+level+"-shine-"+time+".png")});
+    const result=await page.evaluate(async({before,after})=>{
+     async function decode(data:string){const im=new Image();im.src="data:image/png;base64,"+data;await im.decode();const c=document.createElement("canvas");c.width=im.width;c.height=im.height;const g=c.getContext("2d")!;g.drawImage(im,0,0);return {w:c.width,h:c.height,p:g.getImageData(0,0,c.width,c.height).data}}
+     const a=await decode(before),b=await decode(after);let changed=0,center=0,maxDepth=0;
+     for(let y=0;y<a.h;y++)for(let x=0;x<a.w;x++){const i=(y*a.w+x)*4;if(Math.max(Math.abs(a.p[i]-b.p[i]),Math.abs(a.p[i+1]-b.p[i+1]),Math.abs(a.p[i+2]-b.p[i+2]))>5){changed++;const r=Math.min(20,a.w/2,a.h/2),qx=Math.abs(x+.5-a.w/2)-a.w/2+r,qy=Math.abs(y+.5-a.h/2)-a.h/2+r;maxDepth=Math.max(maxDepth,r-Math.hypot(Math.max(qx,0),Math.max(qy,0))-Math.min(Math.max(qx,qy),0));if(x>a.w*.2&&x<a.w*.8&&y>a.h*.2&&y<a.h*.8)center++}}
+     return {changed,center,maxDepth};
+    },{before:base.toString("base64"),after:img.toString("base64")});
+    expect(result.center).toBe(0);expect(result.maxDepth).toBeLessThanOrEqual(3);lit+=result.changed;frames.push(img.toString("base64"));console.log("Shine pixels",JSON.stringify({id,level,time,...result}));
+   }
+   expect(lit).toBeGreaterThan(10);expect(new Set(frames).size).toBeGreaterThan(1);
+   await page.getByRole("button",{name:/重置卡背/}).click();await expect(shine).toHaveCount(0);
   }
  }
- await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shader")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toHaveText("大熊猫");
+ await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toHaveText("大熊猫");
 });
 test("reference deck is applied to real game and persisted",async({page})=>{
  await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();

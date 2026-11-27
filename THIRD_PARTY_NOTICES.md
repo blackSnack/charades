@@ -18,3 +18,5 @@ Question bank migrated from the previously reviewed prototype. Some words were p
 - @kongyo2/cards-css 0.5.0, MIT, https://github.com/kongyo2/cards-css; license in licenses/cards-css.txt. Warm collector deck uses upstream foil presets and one-shot showcase with procedural textures, with custom warm palette and HTML text overlay.
 
 - metal-fx 1.0.4, MIT, https://github.com/Jakubantalik/metal-fx; license in licenses/metal-fx.txt. Actual MetalFx ring component, following MengTo liquid-metal-border skill (https://github.com/MengTo/Skills/blob/main/agent-skills/web-design/liquid-metal-border/SKILL.md). No Agent Aura or confetti runtime.
+
+- Magic UI Shine Border, MIT: https://github.com/magicuidesign/magicui/blob/a54d9edd7bd01dfb4fa72641df2b84da449a5e35/apps/www/registry/magicui/shine-border.tsx (blob 1a55bfc86be5e80c7e2ee7820469946bcb5bc45c). Original source and shine keyframes; local class name, duration and colors adapted. Existing licenses/magicui.txt applies.

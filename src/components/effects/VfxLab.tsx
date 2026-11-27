@@ -48,5 +48,5 @@ export default function VfxLab({onBack,preference,onApply}:{onBack:()=>void;pref
  <div className="vfx-controls"><Button size="lg" className="min-h-12 bg-[#80D9A8] text-base" disabled={revealed} onClick={()=>setRevealed(true)}>翻牌揭晓 <Sparkles/></Button><Button size="lg" variant="neutral" className="min-h-12" onClick={reset}><RotateCcw/>重置卡背</Button></div>
  <div role="group" aria-label="特效质量" className="vfx-options">{([["off","关闭"],["low","简洁"],["high","完整"]] as const).map(([v,t])=><Button key={v} variant="noShadow" aria-pressed={quality===v} className={quality===v?"bg-[#80D9A8] min-h-11":"bg-secondary-background min-h-11"} onClick={()=>setQuality(v)}>{t}</Button>)}</div>
  <div className="grid2"><Button className="min-h-12 bg-[#80D9A8]" onClick={apply}>应用到游戏</Button><Button variant="neutral" className="min-h-12" onClick={favorite}>{favorites.includes(renderer)?"取消收藏":"收藏此卡组"}</Button></div><small role="status">{message}</small>
- <small>美术纹理底板 · 实时 WebGL 材质</small></section>
+ <small>美术纹理底板 · 柔和流光</small></section>
 }

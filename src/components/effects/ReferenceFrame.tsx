@@ -1,6 +1,6 @@
-import {useEffect,useLayoutEffect,useRef,useState} from "react";
+import {useLayoutEffect,useRef,useState} from "react";
 import {material,type ReferenceId} from "./referenceMaterials";
-import ReferenceShader from "./ReferenceShader";
+import {ShineBorder} from "./ShineBorder";
 import type {DeckQuality} from "@/services/deckTheme";
 
 // Five horizontal slices preserve the corners AND the center plaque. The
@@ -27,8 +27,8 @@ function paint(canvas:HTMLCanvasElement,img:HTMLImageElement,width:number,height
  }
 }
 export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId;level:number;quality:DeckQuality;active:boolean}){
- const host=useRef<HTMLDivElement>(null),base=useRef<HTMLCanvasElement>(null),map=useRef<HTMLCanvasElement>(null);
- const [ready,setReady]=useState(false),[revision,setRevision]=useState(0),[failed,setFailed]=useState(false);
+ const host=useRef<HTMLDivElement>(null),base=useRef<HTMLCanvasElement>(null);
+ const [ready,setReady]=useState(false),[failed,setFailed]=useState(false);
  const m=material(id,level),name=id+"-"+(level+1);
  useLayoutEffect(()=>{
   let live=true;const e=host.current,c=base.current;if(!e||!c)return;
@@ -39,19 +39,10 @@ export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId
   plate.src=import.meta.env.BASE_URL+"deck-art/v1/"+name+".webp";
   const observer=new ResizeObserver(render);observer.observe(e);return()=>{live=false;observer.disconnect();plate.onload=null;plate.onerror=null};
  },[name]);
- // Map is fetched only for active animation. Static gallery and reduced-motion
- // users get the same art, without a second texture or any WebGL work.
- useEffect(()=>{
-  const e=host.current,c=map.current;if(!active||quality==="off"||level===0||!e||!c)return;
-  let live=true,loaded=false;const image=new Image();
-  const render=()=>{if(!live||!loaded||!e.clientWidth||!e.clientHeight)return;const w=e.clientWidth,h=e.clientHeight,s=Math.min(1,640/Math.max(w,h));paint(c,image,Math.max(1,Math.round(w*s)),Math.max(1,Math.round(h*s)));setRevision(n=>n+1)};
-  image.onload=()=>{if(live){loaded=true;render()}};image.src=import.meta.env.BASE_URL+"deck-art/v1/"+name+"-map.webp";
-  const o=new ResizeObserver(render);o.observe(e);return()=>{live=false;image.onload=null;o.disconnect();setRevision(0)};
- },[active,quality,level,name]);
+ const shine=id==="balatro"?(level===2?["#bacbdb66","#f5e6f4dd","#e5d6b8aa"]:["#b9c9d977","#fff5e3dd","#b5c5d899"]):id==="gwent"?["#a7947066","#fff0cddd","#d0b78299"]:id==="infernal"?["#b4794f77","#f6d1a3dd","#b97e5d99"]:["#ab8b6466","#f7dfb3dd","#c0a07999"];
  return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} data-art-state={ready?"ready":failed?"fallback":"loading"} aria-hidden="true">
  <div className="reference-art-fallback" style={{background:m.paper,borderColor:m.rim,boxShadow:"inset 0 0 0 3px "+m.light}}/>
  <canvas ref={base} className="reference-art" style={{visibility:ready?"visible":"hidden"}}/>
- <canvas ref={map} hidden/>
- {ready&&active&&quality!=="off"&&level>0&&<ReferenceShader key={name+quality} material={m} quality={quality} normalMap={map} revision={revision}/>}
+ {ready&&active&&quality!=="off"&&level>0&&<ShineBorder data-testid="reference-shine" borderWidth={1} duration={quality==="low"?16:12} shineColor={shine} style={{opacity:quality==="low"?.65:.9}}/>}
  </div>
 }
