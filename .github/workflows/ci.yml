@@ -1,7 +1,7 @@
 name: Build, test and deploy
 on:
   push:
-    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer, feat/deck-themes, fix/card-readability, fix/card-fit-stability, fix/turn-count-abandon, fix/question-abandon, feat/four-reference-decks, fix/thin-flow-rim, fix/magicui-shine-border, fix/card-art-readiness-and-shine, feat/audio-lab]
+    branches: [main, feat/react-pwa, feat/vfx-lab, fix/update-footer, feat/deck-themes, fix/card-readability, fix/card-fit-stability, fix/turn-count-abandon, fix/question-abandon, feat/four-reference-decks, fix/thin-flow-rim, fix/magicui-shine-border, fix/card-art-readiness-and-shine, feat/audio-lab, feat/audio-game-preview]
   workflow_dispatch:
 permissions:
   contents: read
