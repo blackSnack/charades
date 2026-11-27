@@ -45,10 +45,34 @@ test("real WebGL effects animate only the actual rim for each reference family",
   for(const level of ["中等","困难","地狱"]){
    await page.getByRole("button",{name:level,exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();
    const canvas=page.getByTestId("reference-shader");await expect(canvas).toHaveAttribute("data-fx-state","active",{timeout:10000});await expect(canvas).toHaveAttribute("data-relief","active",{timeout:10000});
-   const sample=()=>canvas.evaluate((c:HTMLCanvasElement)=>{const gl=c.getContext("webgl")!;const w=c.width,h=c.height,buf=new Uint8Array(w*h*4);gl.readPixels(0,0,w,h,gl.RGBA,gl.UNSIGNED_BYTE,buf);let edge=0,center=0,hash=0;for(let y=0;y<h;y++)for(let x=0;x<w;x++){const i=(y*w+x)*4,a=buf[i+3];if(a){edge++;hash=(hash+Math.imul(i+1,a+buf[i]))>>>0;if(x>w*.2&&x<w*.8&&y>h*.2&&y<h*.8)center++}}return {edge,center,hash}});
-   const first=await sample();expect(first.edge).toBeGreaterThan(0);expect(first.center).toBe(0);
-   await expect.poll(async()=>{const next=await sample();return next.edge>0&&next.center===0&&next.hash!==first.hash}).toBe(true);
-   await page.getByTestId("vfx-stage").screenshot({path:info.outputPath(id+"-"+level+"-gpu.png"),animations:"disabled"});
+   // Read actual framebuffer, including the frames after the old delayed overlay appeared.
+   const sample=()=>canvas.evaluate((c:HTMLCanvasElement)=>{
+    const gl=c.getContext("webgl")!,w=c.width,h=c.height,cw=c.clientWidth,ch=c.clientHeight,buf=new Uint8Array(w*h*4);
+    gl.readPixels(0,0,w,h,gl.RGBA,gl.UNSIGNED_BYTE,buf);
+    let edge=0,center=0,maxDepth=0,hash=0,sx=0,sy=0;
+    for(let y=0;y<h;y++)for(let x=0;x<w;x++){
+     const i=(y*w+x)*4,a=buf[i+3];if(a>5){
+      edge++;hash=(hash+Math.imul(i+1,a+buf[i]))>>>0;
+      const px=(x+.5)*cw/w,py=(y+.5)*ch/h;
+      sx+=px;sy+=py;
+      const r=Math.min(20,cw*.5,ch*.5),qx=Math.abs(px-cw*.5)-cw*.5+r,qy=Math.abs(py-ch*.5)-ch*.5+r;
+      const depth=r-Math.hypot(Math.max(qx,0),Math.max(qy,0))-Math.min(Math.max(qx,qy),0);
+      maxDepth=Math.max(maxDepth,depth);
+      if(x>w*.2&&x<w*.8&&y>h*.2&&y<h*.8)center++;
+     }
+    }
+    return {edge,center,maxDepth,hash,x:sx/Math.max(edge,1),y:sy/Math.max(edge,1),coverage:edge*cw*ch/(w*h)/(2*(cw+ch)-8*20+2*Math.PI*20)/3};
+   });
+   await expect.poll(async()=>(await sample()).edge).toBeGreaterThan(0);
+   const first=await sample();expect(first.center).toBe(0);expect(first.maxDepth).toBeLessThanOrEqual(4);expect(first.coverage).toBeLessThan(.35);
+   const stage=page.getByTestId("vfx-stage");
+   await stage.screenshot({path:info.outputPath(id+"-"+level+"-flow-start.png"),animations:"disabled"});
+   await expect.poll(async()=>{const next=await sample();return next.edge>0&&next.center===0&&next.maxDepth<=4&&next.coverage<.35&&Math.hypot(next.x-first.x,next.y-first.y)>18},{timeout:5000}).toBe(true);
+   // A later screenshot and measurement catches the old ring appearing ~1s after reveal.
+   await page.waitForTimeout(1100);
+   const later=await sample();expect(later.edge).toBeGreaterThan(0);expect(later.center).toBe(0);expect(later.maxDepth).toBeLessThanOrEqual(4);expect(later.coverage).toBeLessThan(.35);
+   await stage.screenshot({path:info.outputPath(id+"-"+level+"-gpu.png"),animations:"disabled"});
+   console.log("Flow rim",JSON.stringify({theme:id,level,first,later}));
    await page.getByRole("button",{name:/重置卡背/}).click();await expect(canvas).toHaveCount(0);
   }
  }
