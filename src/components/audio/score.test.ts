@@ -1,6 +1,6 @@
 import {describe,expect,it} from "vitest";
 import {albums,effects,loopSeconds} from "./score";
-import {deckThemes} from "@/services/deckTheme";
+import {deckThemes} from "../../services/deckTheme";
 describe("audio EP catalogue",()=>{
  it("covers every existing deck theme with unique IDs and two musical states",()=>{
   expect(albums).toHaveLength(12);expect(new Set(albums.map(a=>a.id)).size).toBe(12);

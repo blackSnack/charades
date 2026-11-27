@@ -111,9 +111,11 @@ export async function renderEffect(album:Album,event:Effect):Promise<AudioBuffer
   if(level===4){note("bass",36,.18,.5,.28);hit(84,.43,.22,.72)}
  }else if(event==="tap"){note("wood",72,0,.07,.37);note(album.chord,60,0,.065,.09)}
  else if(event==="select"){hit(72,0,.32,.13);hit(76,.065,.16,.13)}
- else if(event==="back"||event==="skip"){hit(69,0,.22,.14);hit(64,.09,.19,.18)}
+ else if(event==="back"){hit(67,0,.2,.13);hit(60,.065,.16,.15)}
+ else if(event==="skip"){paper(0,.12);hit(69,.035,.22,.14);hit(64,.12,.19,.18)}
  else if(event==="correct"){hit(72,0,.30,.18);hit(76,.09,.30,.22);hit(79,.17,.34,.38)}
- else if(event==="start"||event==="handoff"){[60,64,67,72].forEach((p,i)=>hit(p,i*.12,.31,.38))}
+ else if(event==="start"){[60,64,67,72].forEach((p,i)=>hit(p,i*.12,.31,.38))}
+ else if(event==="handoff"){[67,64,69,72].forEach((p,i)=>hit(p,i*.1,.26,.3))}
  else {[60,64,67,72,76,79,84].forEach((p,i)=>hit(p,i*.12,.28,.7));[60,64,67,72].forEach(p=>note(album.chord,p+k,.84,.9,.13))}
  return ctx.startRendering();
 }
