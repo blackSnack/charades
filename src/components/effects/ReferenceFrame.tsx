@@ -1,4 +1,4 @@
-import {useId,useLayoutEffect,useRef,useState,type CSSProperties} from "react";
+import {useId,useLayoutEffect,useRef,useState} from "react";
 import {material,type ReferenceId} from "./referenceMaterials";
 import ReferenceShader from "./ReferenceShader";
 import type {DeckQuality} from "@/services/deckTheme";
@@ -11,10 +11,11 @@ function FrameArt({id,level,width}:{id:ReferenceId;level:number;width:number}){
  const shape=(d:number,rad:number)=>`M${d+rad} ${d}H${w-d-rad}Q${w-d} ${d} ${w-d} ${d+rad}V${h-d-rad}Q${w-d} ${h-d} ${w-d-rad} ${h-d}H${d+rad}Q${d} ${h-d} ${d} ${h-d-rad}V${d+rad}Q${d} ${d} ${d+rad} ${d}Z`;
  const star=(x:number,y:number,s:number)=>`M${x} ${y-s}Q${x+2} ${y-2} ${x+s} ${y}Q${x+2} ${y+2} ${x} ${y+s}Q${x-2} ${y+2} ${x-s} ${y}Q${x-2} ${y-2} ${x} ${y-s}Z`;
  const cornerTransforms=["translate(0 0)",`translate(${w} 0) scale(-1 1)`,`translate(0 ${h}) scale(1 -1)`,`translate(${w} ${h}) scale(-1 -1)`];
- const plaqueColor=m.label,metal=id==="gwent"||id==="infernal",dark=id==="balatro"&&level===3;
+ const metal=id==="gwent"||id==="infernal",dark=id==="balatro"&&level===3;
  return <svg className="reference-art" viewBox={`0 0 ${w} ${h}`} preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
  <defs>
  <linearGradient id={uid+"paper"} x1="0" x2="1" y1="0" y2="1"><stop stopColor={m.paper}/><stop offset=".48" stopColor={m.paper}/><stop offset="1" stopColor={m.shade}/></linearGradient>
+ {dark&&<radialGradient id={uid+"negative"}><stop stopColor="#b6a9a9"/><stop offset=".52" stopColor="#9b9092"/><stop offset=".83" stopColor="#4a3e44"/><stop offset="1" stopColor="#2b2329"/></radialGradient>}
  <radialGradient id={uid+"vignette"}><stop offset=".48" stopColor={m.paper} stopOpacity="0"/><stop offset="1" stopColor={m.shade} stopOpacity=".48"/></radialGradient>
  <linearGradient id={uid+"metal"} x1="0" y1="0" x2="1" y2=".86">{[m.rim,m.mid,m.light,m.mid,m.rim,m.light,m.mid,m.rim].map((c,i)=><stop key={i} offset={i/7} stopColor={c}/>)}</linearGradient>
  <linearGradient id={uid+"holo"} x1="0" y1=".05" x2="1" y2=".92">{["#8b91b0","#d9c2de","#a9c5c6","#e7d9b6","#c7b5d7","#a2b9c9","#ebd9d4"].map((c,i)=><stop key={i} offset={i/6} stopColor={c}/>)}</linearGradient>
@@ -31,8 +32,8 @@ function FrameArt({id,level,width}:{id:ReferenceId;level:number;width:number}){
  </g>
  </defs>
  <g clipPath={url("clip")}>
- <path d={shape(1,r)} fill={url("paper")}/>
- <path d={shape(1,r)} fill={url("vignette")} opacity={id==="balatro"?.5:.8}/>
+ <path d={shape(1,r)} fill={url(dark?"negative":"paper")}/>
+ <path d={shape(1,r)} fill={url("vignette")} opacity={dark?0:id==="balatro"?.5:.8}/>
  <rect width={w} height={h} filter={url("grain")} opacity={dark?.09:.075} style={{mixBlendMode:"multiply"}}/>
  {id==="balatro"&&level===2&&<><path d={`M0 0H${w}V40Q${w*.65} 60 ${w*.42} 24Q${w*.18} 0 0 80Z M0 290Q${w*.18} 370 ${w*.54} 320Q${w*.8} 285 ${w} 302V360H0Z`} fill={url("holo")} opacity=".44"/><path d={shape(b+5,16)} fill="none" stroke={url("holo")} strokeWidth="3" opacity=".8"/></>}
  <path d={shape(1,r)+" "+shape(b,Math.max(5,r-b))} fill={id==="balatro"&&level===2?url("holo"):url("metal")} fillRule="evenodd"/>
@@ -50,7 +51,7 @@ function FrameArt({id,level,width}:{id:ReferenceId;level:number;width:number}){
 export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId;level:number;quality:DeckQuality;active:boolean}){
  const host=useRef<HTMLDivElement>(null),[width,setWidth]=useState(560),m=material(id,level);
  useLayoutEffect(()=>{const e=host.current;if(!e)return;const resize=()=>{if(e.clientHeight&&e.clientWidth)setWidth(360*e.clientWidth/e.clientHeight)};resize();const o=new ResizeObserver(resize);o.observe(e);return()=>o.disconnect()},[]);
- return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} style={{"--ref-paper":m.paper,"--ref-ink":m.ink} as CSSProperties} aria-hidden="true">
+ return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} aria-hidden="true">
  <FrameArt id={id} level={level} width={width}/>
  {active&&quality!=="off"&&level>0&&<ReferenceShader key={id+level+quality} material={m} quality={quality}/>}
  </div>

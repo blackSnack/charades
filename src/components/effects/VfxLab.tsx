@@ -21,7 +21,7 @@ function Preview({level,quality,revealed,visible,renderer,word,category,game=fal
  return <div className={"vfx-stage "+(game?"deck-game question":"")} data-theme={renderer} data-testid="vfx-stage" data-level={level+1} data-revealed={revealed}>
  <motion.div className="vfx-flipper" initial={false} animate={{rotateY:revealed?180:0}} transition={{duration:active?.58:0,ease:[.22,.72,.2,1]}} onAnimationComplete={()=>setFlipDone(revealed)}>
  <Card className={"vfx-face vfx-back "+(renderer!=="original"?"warm-back":"")} aria-hidden={revealed}><div className="vfx-back-mark"><Sparkles size={32}/><strong>Party<br/>Deck</strong><small>你比划我猜</small></div></Card>
- <Card className={`vfx-face vfx-front vfx-level-${level+1} deck-${renderer} ${refMaterial?"reference-card":""}`} style={refMaterial?{"--vfx-bg":refMaterial.paper,"--vfx-fg":refMaterial.ink,"--vfx-border":refMaterial.rim,"--vfx-glow":"transparent","--ref-label":refMaterial.label} as React.CSSProperties:undefined} aria-hidden={!revealed}>
+ <Card className={`vfx-face vfx-front vfx-level-${level+1} deck-${renderer} ${refMaterial?"reference-card":""}`} style={refMaterial?{"--vfx-bg":refMaterial.paper,"--vfx-fg":refMaterial.ink,"--ref-label":refMaterial.label} as React.CSSProperties:undefined} aria-hidden={!revealed}>
  {renderer==="warm"&&revealed&&<WarmSurface level={level} active={active&&flipDone} quality={quality}/>}
  {renderer==="metal"&&revealed&&<MetalRim level={level} active={active&&flipDone} quality={quality}/>}
  {isReference(renderer)&&revealed&&<ReferenceFrame id={renderer} level={level} active={active&&flipDone} quality={quality}/>}
@@ -48,5 +48,5 @@ export default function VfxLab({onBack,preference,onApply}:{onBack:()=>void;pref
  <div className="vfx-controls"><Button size="lg" className="min-h-12 bg-[#80D9A8] text-base" disabled={revealed} onClick={()=>setRevealed(true)}>翻牌揭晓 <Sparkles/></Button><Button size="lg" variant="neutral" className="min-h-12" onClick={reset}><RotateCcw/>重置卡背</Button></div>
  <div role="group" aria-label="特效质量" className="vfx-options">{([["off","关闭"],["low","简洁"],["high","完整"]] as const).map(([v,t])=><Button key={v} variant="noShadow" aria-pressed={quality===v} className={quality===v?"bg-[#80D9A8] min-h-11":"bg-secondary-background min-h-11"} onClick={()=>setQuality(v)}>{t}</Button>)}</div>
  <div className="grid2"><Button className="min-h-12 bg-[#80D9A8]" onClick={apply}>应用到游戏</Button><Button variant="neutral" className="min-h-12" onClick={favorite}>{favorites.includes(renderer)?"取消收藏":"收藏此卡组"}</Button></div><small role="status">{message}</small>
- <small>纸箔幻彩 / 古典工艺 / 熔铁余烬 / 木刻秘仪：SVG 工艺底板 + 实时 WebGL 边缘材质。</small></section>
+ <small>SVG 矢量底板 · WebGL 材质</small></section>
 }

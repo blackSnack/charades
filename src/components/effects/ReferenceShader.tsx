@@ -2,47 +2,8 @@ import {useEffect,useRef} from "react";
 import type {Material} from "./referenceMaterials";
 import type {DeckQuality} from "@/services/deckTheme";
 const vertex=`attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}`;
-const fragment=`precision mediump float;
-uniform vec2 res; uniform vec2 size; uniform float time, mode, intensity, count, thickness;
-uniform vec3 tint;
-float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
-float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+1.),f.x),f.y);}
-float box(vec2 p,vec2 b,float r){vec2 q=abs(p)-b+r;return length(max(q,0.))+min(max(q.x,q.y),0.)-r;}
-void main(){
- vec2 uv=gl_FragCoord.xy/res,p=uv*size;
- float d=-box(p-size*.5,size*.5-vec2(1.),17.);
- // Card-local signed distance, zero alpha across the entire reading zone.
- if(d<-.5||d>thickness+3.){gl_FragColor=vec4(0.);return;}
- float mask=smoothstep(-.5,1.3,d)*(1.-smoothstep(thickness-2.,thickness+3.,d));
- float t=time, n=noise(p*.09+vec2(t*.3,-t*.16));
- float sweep=pow(.5+.5*sin(p.x*.018+p.y*.028-t*.9+n*.6),9.);
- vec3 col=tint;float alpha=.0;
- if(mode<1.5){col=mix(vec3(.64,.69,.74),vec3(.99,.97,.91),sweep);alpha=.04+.24*sweep;}
- else if(mode<2.5){vec3 hue=.68+.14*cos(vec3(0.,2.094,4.188)+p.x*.028+p.y*.04-t*.42+n*.7);col=mix(hue,vec3(.96,.95,.93),sweep*.42);alpha=.12+.21*sweep;}
- else if(mode<3.5){float heat=exp(-abs(d-(3.+1.2*n))*1.6)*(.35+.65*n);col=mix(tint,vec3(.86,.56,.34),heat);alpha=heat*.56;}
- else if(mode<4.5){col=mix(tint,vec3(.97,.86,.61),sweep);alpha=.04+.30*sweep;}
- else if(mode<6.5){float seam=abs(d-(4.+2.4*sin(p.x*.067+p.y*.047)+2.*n));float heat=exp(-seam*1.6)*(.25+.75*noise(p*.045+vec2(t*.7,0.)));col=mix(tint,vec3(.96,.58,.31),heat);alpha=(mode>5.5?.7:.38)*heat;}
- else{float flick=.65+.35*noise(vec2(t*2.7,1.));float corner=pow(abs(uv.x-.5)*2.,5.)*pow(abs(uv.y-.5)*2.,3.);col=mix(tint,vec3(.90,.66,.40),flick*.4);alpha=(.08+.36*corner)*flick*exp(-abs(d-5.)*.17);}
- // Tiny procedural particle sprites are spawned on the physical perimeter.
- // Their lifetime, position and decay are independent; never emit from center.
- float sparkle=0.;
- if(count>0.){
- for(int i=0;i<16;i++){
-  float fi=float(i);if(fi>=count)break;
-  float seed=hash(vec2(fi+1.,18.7)),life=fract(t*(.34+seed*.26)+seed*13.);
-  float side=floor(hash(vec2(fi,7.))*4.),along=.06+.88*hash(vec2(fi,5.));
-  float inset=2.+life*min(thickness-2.,7.);
-  vec2 q=vec2(along*size.x,inset);
-  if(side==1.)q=vec2(size.x-inset,along*size.y);
-  if(side==2.)q=vec2((1.-along)*size.x,size.y-inset);
-  if(side==3.)q=vec2(inset,(1.-along)*size.y);
-  float radius=.65+seed*.8;
-  sparkle=max(sparkle,exp(-dot(p-q,p-q)/(radius*radius))*sin(life*3.14159));
- }}
- col=mix(col,vec3(.95,.72,.44),sparkle);
- alpha=max(alpha,sparkle*.8);
- gl_FragColor=vec4(col,clamp(alpha*mask*intensity,0.,.78));
-}`;
+// Signed-distance mask and bounded perimeter particles; GLSL whitespace compacted to keep the existing asset budget.
+const fragment=`precision mediump float;uniform vec2 res;uniform vec2 size;uniform float time,mode,intensity,count,thickness;uniform vec3 tint;float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+1.),f.x),f.y);}float box(vec2 p,vec2 b,float r){vec2 q=abs(p)-b+r;return length(max(q,0.))+min(max(q.x,q.y),0.)-r;}void main(){vec2 uv=gl_FragCoord.xy/res,p=uv*size;float d=-box(p-size*.5,size*.5-vec2(1.),17.);if(d<-.5||d>thickness+3.){gl_FragColor=vec4(0.);return;}float mask=smoothstep(-.5,1.3,d)*(1.-smoothstep(thickness-2.,thickness+3.,d));float t=time,n=noise(p*.09+vec2(t*.3,-t*.16));float sweep=pow(.5+.5*sin(p.x*.018+p.y*.028-t*.9+n*.6),9.);vec3 col=tint;float alpha=.0;if(mode<1.5){col=mix(vec3(.64,.69,.74),vec3(.99,.97,.91),sweep);alpha=.04+.24*sweep;}else if(mode<2.5){vec3 hue=.68+.14*cos(vec3(0.,2.094,4.188)+p.x*.028+p.y*.04-t*.42+n*.7);col=mix(hue,vec3(.96,.95,.93),sweep*.42);alpha=.12+.21*sweep;}else if(mode<3.5){float heat=exp(-abs(d-(3.+1.2*n))*1.6)*(.35+.65*n);col=mix(tint,vec3(.86,.56,.34),heat);alpha=heat*.56;}else if(mode<4.5){col=mix(tint,vec3(.97,.86,.61),sweep);alpha=.04+.30*sweep;}else if(mode<6.5){float seam=abs(d-(4.+2.4*sin(p.x*.067+p.y*.047)+2.*n));float heat=exp(-seam*1.6)*(.25+.75*noise(p*.045+vec2(t*.7,0.)));col=mix(tint,vec3(.96,.58,.31),heat);alpha=(mode>5.5?.7:.38)*heat;}else{float flick=.65+.35*noise(vec2(t*2.7,1.));float corner=pow(abs(uv.x-.5)*2.,5.)*pow(abs(uv.y-.5)*2.,3.);col=mix(tint,vec3(.90,.66,.40),flick*.4);alpha=(.08+.36*corner)*flick*exp(-abs(d-5.)*.17);}float sparkle=0.;if(count>0.){for(int i=0;i<16;i++){float fi=float(i);if(fi>=count)break;float seed=hash(vec2(fi+1.,18.7)),life=fract(t*(.34+seed*.26)+seed*13.);float side=floor(hash(vec2(fi,7.))*4.),along=.06+.88*hash(vec2(fi,5.));float inset=2.+life*min(thickness-2.,7.);vec2 q=vec2(along*size.x,inset);if(side==1.)q=vec2(size.x-inset,along*size.y);if(side==2.)q=vec2((1.-along)*size.x,size.y-inset);if(side==3.)q=vec2(inset,(1.-along)*size.y);float radius=.65+seed*.8;sparkle=max(sparkle,exp(-dot(p-q,p-q)/(radius*radius))*sin(life*3.14159));}}col=mix(col,vec3(.95,.72,.44),sparkle);alpha=max(alpha,sparkle*.8);gl_FragColor=vec4(col,clamp(alpha*mask*intensity,0.,.78));}`;
 function rgb(hex:string){return [1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)/255) as [number,number,number]}
 export default function ReferenceShader({material,quality}:{material:Material;quality:DeckQuality}){
  const ref=useRef<HTMLCanvasElement>(null);
