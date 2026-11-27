@@ -28,12 +28,11 @@
 .reference-gallery .reference-card .vfx-front-content{padding:0}
 .reference-gallery .reference-card .vfx-tags span:first-child{display:none}
 
-/* Native-ish preview proportions: preserve tall artwork on portrait phones
-   and show the wide infernal family as wide, not vertically stretched. */
-.reference-stage:not(.deck-game){height:clamp(280px,105vw,410px);width:min(100%,405px);justify-self:center}
-.reference-stage[data-theme=infernal]:not(.deck-game){height:auto;width:100%;aspect-ratio:1.9;min-height:170px}
-.reference-gallery .reference-stage:not(.deck-game){height:auto;width:100%;aspect-ratio:.86;min-height:0}
-.reference-gallery .reference-stage[data-theme=infernal]:not(.deck-game){aspect-ratio:1.9;min-height:100px}
+
+/* Preview the actual source silhouette. Gameplay keeps an adaptive wide layout. */
+.reference-stage:not(.deck-game){height:auto;aspect-ratio:var(--art-ratio);width:min(100%,calc(410px * var(--art-ratio)));padding:0;justify-self:center}
+.reference-stage[data-theme=infernal]:not(.deck-game){width:100%}
+.reference-gallery .reference-stage:not(.deck-game){width:100%;height:auto;aspect-ratio:var(--art-ratio);min-height:0}
 .reference-card .question-word-text{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;font-weight:900;font-synthesis:weight;-webkit-text-stroke:.012em currentColor}
 .reference-card .vfx-tags span:first-child{top:21%;left:10%}
 .reference-card .vfx-front-content[data-preview=true] .vfx-tags span:first-child{display:none}

@@ -4,7 +4,7 @@ import cv2, numpy as np, json, hashlib
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/"public/deck-art/v1"
+OUT=ROOT/"public/deck-art/v2"
 BOARDS={
 'balatro':[(438,609,741,988,(458,753,725,860)),(101,609,405,988,(119,753,390,860)),(439,128,741,514,(458,279,726,382)),(101,128,405,514,(119,279,390,382))],
 'gwent':[(861,251,1099,603,(878,395,1088,481)),(597,246,838,605,(614,395,825,481)),(322,232,588,613,(346,395,567,481)),(25,217,310,620,(62,395,288,481))],
@@ -37,8 +37,8 @@ def packed_map(a,family,level):
     nx=-dx/length;ny=dy/length
     h,w=a.shape[:2]; yy,xx=np.mgrid[:h,:w]
     edge=np.minimum.reduce([xx,w-1-xx,yy,h-1-yy])/min(h,w)
-    rim=np.clip((.16-edge)/.12,0,1)
-    warm=np.clip((rgb[:,:,0]-rgb[:,:,2]-.13)*3.2,0,1)*np.clip((rgb[:,:,0]-.36)*2.1,0,1)
+    rim=np.clip((.19-edge)/.10,0,1)
+    warm=np.clip((rgb[:,:,0]-rgb[:,:,2]-.22)*3.5,0,1)*np.clip((rgb[:,:,0]-rgb[:,:,1]-.12)*4.5,0,1)*np.clip((rgb[:,:,0]-.42)*2.8,0,1)
     emission=warm*rim if (family in ("infernal","occult") or family=="balatro" and level==4) else np.zeros_like(gray)
     return np.uint8(np.clip(np.stack([nx*.5+.5,ny*.5+.5,emission],axis=2)*255,0,255))
 

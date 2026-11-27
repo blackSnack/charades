@@ -1,6 +1,7 @@
 import {test,expect} from "@playwright/test";
 import {writeFileSync} from "node:fs";
 import {sourcePalette,deltaE} from "./reference-palette";
+import {artSizes} from "../../src/components/effects/referenceMaterials";
 const themes=[["纸箔幻彩","balatro"],["古典工艺","gwent"],["熔铁余烬","infernal"],["木刻秘仪","occult"]] as const;
 const levels=["简单","中等","困难","地狱"] as const;
 test("all sixteen reference cards have distinct reference plates and readable live words",async({page},info)=>{
@@ -17,6 +18,7 @@ test("all sixteen reference cards have distinct reference plates and readable li
    const stage=page.getByTestId("vfx-stage"),word=stage.getByTestId("vfx-word"),art=stage.locator(".reference-frame");
    await expect(art).toHaveAttribute("data-reference",id);await expect(art).toHaveAttribute("data-art-state","ready");await expect(stage).toHaveAttribute("data-level",String(i+1));
    await expect(word).toHaveText("大熊猫");await expect(stage.getByTestId("reference-shader")).toHaveCount(0);
+   const ratio=artSizes[id][i][0]/artSizes[id][i][1];await expect.poll(()=>art.evaluate(e=>e.clientWidth/e.clientHeight),{message:"Native art ratio "+id+" "+level}).toBeCloseTo(ratio,1);
    await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!,s=getComputedStyle(e);return p.clientWidth>0&&parseFloat(s.fontSize)>=45&&e.getBoundingClientRect().width/p.clientWidth>.8&&e.scrollWidth<=e.clientWidth+1}),{message:"Text fit "+id+" "+level}).toBe(true);
    materials.add((await art.getAttribute("data-material"))!);
    await stage.screenshot({path:info.outputPath(id+"-"+(i+1)+"-static.png"),animations:"disabled"});
@@ -56,5 +58,5 @@ test("real WebGL effects animate only the actual rim for each reference family",
 });
 test("reference deck is applied to real game and persisted",async({page})=>{
  await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
- await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toBeVisible();const text=await page.getByTestId("word").textContent();await page.reload();await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toHaveText(text!);
+ await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toBeVisible();const text=await page.getByTestId("word").textContent();await page.reload();await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toHaveText(text!);await expect(page.locator(".reference-frame")).toHaveAttribute("data-art-state","ready");await page.getByTestId("vfx-stage").screenshot({path:test.info().outputPath("occult-real-game.png"),animations:"disabled"});
 });

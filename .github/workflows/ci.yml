@@ -35,7 +35,7 @@ jobs:
           name: test-evidence
           path: |
             test-results/
-            public/deck-art/v1/manifest.json
+            public/deck-art/v2/manifest.json
           if-no-files-found: ignore
       - name: Verify release tag is available
         if: github.ref == 'refs/heads/main'

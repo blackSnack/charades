@@ -36,7 +36,7 @@ export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId
   const plate=new Image();plate.decoding="async";
   const render=()=>{if(!live||!loaded||!e.clientWidth||!e.clientHeight)return;const w=e.clientWidth,h=e.clientHeight,scale=Math.min(devicePixelRatio||1,2,960/Math.max(w,h));paint(c,plate,Math.round(w*scale),Math.round(h*scale));setReady(true)};
   plate.onload=()=>{if(!live)return;loaded=true;render()};plate.onerror=()=>{if(live)setFailed(true)};
-  plate.src=import.meta.env.BASE_URL+"deck-art/v1/"+name+".webp";
+  plate.src=import.meta.env.BASE_URL+"deck-art/v2/"+name+".webp";
   const observer=new ResizeObserver(render);observer.observe(e);return()=>{live=false;observer.disconnect();plate.onload=null;plate.onerror=null};
  },[name]);
  // Map is fetched only for active animation. Static gallery and reduced-motion
@@ -45,7 +45,7 @@ export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId
   const e=host.current,c=map.current;if(!active||quality==="off"||level===0||!e||!c)return;
   let live=true,loaded=false;const image=new Image();
   const render=()=>{if(!live||!loaded||!e.clientWidth||!e.clientHeight)return;const w=e.clientWidth,h=e.clientHeight,s=Math.min(1,640/Math.max(w,h));paint(c,image,Math.max(1,Math.round(w*s)),Math.max(1,Math.round(h*s)));setRevision(n=>n+1)};
-  image.onload=()=>{if(live){loaded=true;render()}};image.src=import.meta.env.BASE_URL+"deck-art/v1/"+name+"-map.webp";
+  image.onload=()=>{if(live){loaded=true;render()}};image.src=import.meta.env.BASE_URL+"deck-art/v2/"+name+"-map.webp";
   const o=new ResizeObserver(render);o.observe(e);return()=>{live=false;image.onload=null;o.disconnect();setRevision(0)};
  },[active,quality,level,name]);
  return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} data-art-state={ready?"ready":failed?"fallback":"loading"} aria-hidden="true">

@@ -32,3 +32,5 @@ export function material(id:ReferenceId,level:number):Material{
  const [paper,shade,ink,rim,mid,light,accent,label,edge,mode,particles,name]=rows[id][level];
  return {paper,shade,ink,rim,mid,light,accent,label,edge,mode,particles,name};
 }
+
+export const artSizes:Record<ReferenceId,readonly (readonly [number,number])[]>={balatro:[[303,379],[304,379],[302,386],[304,386]],gwent:[[238,352],[241,359],[266,381],[285,403]],infernal:[[473,188],[477,203],[475,210],[477,228]],occult:[[250,397],[248,397],[271,406],[289,410]]};

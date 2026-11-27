@@ -8,7 +8,7 @@ import QuestionWord from "@/components/QuestionWord";
 import "./vfx-lab.css";
 import WarmSurface from "./WarmSurface";
 import ReferenceFrame from "./ReferenceFrame";
-import {isReference,material} from "./referenceMaterials";
+import {artSizes,isReference,material} from "./referenceMaterials";
 import "./reference-decks.css";
 import {deckThemes,type DeckPreference,type DeckThemeId} from "@/services/deckTheme";
 const themes=[{name:"简单",word:"大熊猫"},{name:"中等",word:"金鸡独立"},{name:"困难",word:"草木皆兵"},{name:"地狱",word:"沆瀣一气"}] as const;
@@ -17,8 +17,9 @@ type Renderer=DeckThemeId;
 function Preview({level,quality,revealed,visible,renderer,word,category,game=false}:{level:number;quality:Quality;revealed:boolean;visible:boolean;renderer:Renderer;word?:string;category?:string;game?:boolean}){
  const theme=themes[level], [flipDone,setFlipDone]=useState(false);
  const refMaterial=isReference(renderer)?material(renderer,level):null;
+ const native=isReference(renderer)?artSizes[renderer][level]:null;
  const reduced=useReducedMotion()===true,active=quality!=="off"&&!reduced&&visible;
- return <div className={"vfx-stage "+(game?"deck-game question":"")+(refMaterial?" reference-stage":"")} data-theme={renderer} data-testid="vfx-stage" data-level={level+1} data-revealed={revealed}>
+ return <div className={"vfx-stage "+(game?"deck-game question":"")+(refMaterial?" reference-stage":"")} style={native?{"--art-ratio":native[0]/native[1]} as React.CSSProperties:undefined} data-theme={renderer} data-testid="vfx-stage" data-level={level+1} data-revealed={revealed}>
  <motion.div className="vfx-flipper" initial={false} animate={{rotateY:revealed?180:0}} transition={{duration:active?.58:0,ease:[.22,.72,.2,1]}} onAnimationComplete={()=>setFlipDone(revealed)}>
  <Card className={"vfx-face vfx-back "+(renderer!=="original"?"warm-back":"")} aria-hidden={revealed}><div className="vfx-back-mark"><Sparkles size={32}/><strong>Party<br/>Deck</strong><small>你比划我猜</small></div></Card>
  <Card className={`vfx-face vfx-front vfx-level-${level+1} deck-${renderer} ${refMaterial?"reference-card":""}`} style={refMaterial?{"--vfx-bg":refMaterial.paper,"--vfx-fg":refMaterial.ink,"--ref-label":refMaterial.label} as React.CSSProperties:undefined} aria-hidden={!revealed}>
