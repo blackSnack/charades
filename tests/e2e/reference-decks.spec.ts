@@ -3,7 +3,7 @@ import {writeFileSync} from "node:fs";
 import {sourcePalette,deltaE} from "./reference-palette";
 const themes=[["纸箔幻彩","balatro"],["古典工艺","gwent"],["熔铁余烬","infernal"],["木刻秘仪","occult"]] as const;
 const levels=["简单","中等","困难","地狱"] as const;
-test("all sixteen reference cards have distinct vector art and readable live words",async({page},info)=>{
+test("all sixteen reference cards have distinct reference plates and readable live words",async({page},info)=>{
  test.setTimeout(120000);
  await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();
  await page.getByRole("button",{name:"关闭",exact:true}).click();
@@ -17,7 +17,7 @@ test("all sixteen reference cards have distinct vector art and readable live wor
    const stage=page.getByTestId("vfx-stage"),word=stage.getByTestId("vfx-word"),art=stage.locator(".reference-frame");
    await expect(art).toHaveAttribute("data-reference",id);await expect(art).toHaveAttribute("data-art-state","ready");await expect(stage).toHaveAttribute("data-level",String(i+1));
    await expect(word).toHaveText("大熊猫");await expect(stage.getByTestId("reference-shader")).toHaveCount(0);
-   await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!,s=getComputedStyle(e);return p.clientWidth>0&&parseFloat(s.fontSize)>=45&&e.getBoundingClientRect().width/p.clientWidth>.8&&e.scrollWidth<=e.clientWidth+1})).toBe(true);
+   await expect.poll(()=>word.evaluate(e=>{const p=e.parentElement!,s=getComputedStyle(e);return p.clientWidth>0&&parseFloat(s.fontSize)>=45&&e.getBoundingClientRect().width/p.clientWidth>.8&&e.scrollWidth<=e.clientWidth+1}),{message:"Text fit "+id+" "+level}).toBe(true);
    materials.add((await art.getAttribute("data-material"))!);
    await stage.screenshot({path:info.outputPath(id+"-"+(i+1)+"-static.png"),animations:"disabled"});
    // Capture the rendered art separately from the live word for palette diagnostics.

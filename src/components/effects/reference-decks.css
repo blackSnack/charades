@@ -22,8 +22,21 @@
 .reference-card .vfx-tags{position:absolute;inset:0;pointer-events:none;display:block}
 .reference-card .vfx-tags span:first-child{position:absolute;top:24%;left:10%;max-width:23%;font-size:10px;opacity:.72}
 .reference-card .vfx-tags span:last-child{position:absolute;top:5%;left:50%;transform:translateX(-50%)}
-.reference-card .question-word-zone{position:absolute;left:8%;right:8%;top:26%;bottom:22%;width:auto;height:auto}
+.reference-card .question-word-zone{position:absolute;left:8%;right:8%;top:20%;bottom:16%;width:auto;height:auto}
 .deck-infernal .question-word-zone{top:22%;bottom:17%}
 .deck-infernal .vfx-tags span:first-child{top:19%;left:9%}
 .reference-gallery .reference-card .vfx-front-content{padding:0}
 .reference-gallery .reference-card .vfx-tags span:first-child{display:none}
+
+/* Native-ish preview proportions: preserve tall artwork on portrait phones
+   and show the wide infernal family as wide, not vertically stretched. */
+.reference-stage:not(.deck-game){height:clamp(280px,105vw,410px);width:min(100%,405px);justify-self:center}
+.reference-stage[data-theme=infernal]:not(.deck-game){height:auto;width:100%;aspect-ratio:1.9;min-height:170px}
+.reference-gallery .reference-stage:not(.deck-game){height:auto;width:100%;aspect-ratio:.86;min-height:0}
+.reference-gallery .reference-stage[data-theme=infernal]:not(.deck-game){aspect-ratio:1.9;min-height:100px}
+.reference-card .question-word-text{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;font-weight:900;font-synthesis:weight;-webkit-text-stroke:.012em currentColor}
+.reference-card .vfx-tags span:first-child{top:21%;left:10%}
+.reference-card .vfx-front-content[data-preview=true] .vfx-tags span:first-child{display:none}
+@media(min-height:600px) and (orientation:portrait){.deck-game.question.reference-stage:not([data-theme=infernal]){height:clamp(270px,108vw,440px)}}
+@media(orientation:portrait){.deck-game.question.reference-stage[data-theme=infernal]{height:clamp(175px,53vw,260px)}}
+@media(min-width:600px) and (min-height:600px){.deck-game.question.reference-stage:not([data-theme=infernal]){height:clamp(340px,69dvh,500px)}}
