@@ -1,6 +1,8 @@
 import {useLayoutEffect,useRef,useState} from "react";
 import {material,type ReferenceId} from "./referenceMaterials";
 import {ShineBorder} from "./ShineBorder";
+import {loadReferencePlate} from "./referenceArt";
+export type ArtState="loading"|"ready"|"fallback";
 import type {DeckQuality} from "@/services/deckTheme";
 
 // Five horizontal slices preserve the corners AND the center plaque. The
@@ -26,23 +28,27 @@ function paint(canvas:HTMLCanvasElement,img:HTMLImageElement,width:number,height
   if(dw>0&&dh>0)ctx.drawImage(img,x.src[i],y.src[j],sw,sh,dx,dy,dw,dh);
  }
 }
-export default function ReferenceFrame({id,level,quality,active}:{id:ReferenceId;level:number;quality:DeckQuality;active:boolean}){
+export default function ReferenceFrame({id,level,quality,active,onState}:{id:ReferenceId;level:number;quality:DeckQuality;active:boolean;onState:(state:ArtState)=>void}){
  const host=useRef<HTMLDivElement>(null),base=useRef<HTMLCanvasElement>(null);
- const [ready,setReady]=useState(false),[failed,setFailed]=useState(false);
- const m=material(id,level),name=id+"-"+(level+1);
+ const [state,setState]=useState<ArtState>("loading");
+ const m=material(id,level);
  useLayoutEffect(()=>{
   let live=true;const e=host.current,c=base.current;if(!e||!c)return;
-  setReady(false);setFailed(false);let loaded=false;
-  const plate=new Image();plate.decoding="async";
-  const render=()=>{if(!live||!loaded||!e.clientWidth||!e.clientHeight)return;const w=e.clientWidth,h=e.clientHeight,scale=Math.min(devicePixelRatio||1,2,960/Math.max(w,h));paint(c,plate,Math.round(w*scale),Math.round(h*scale));setReady(true)};
-  plate.onload=()=>{if(!live)return;loaded=true;render()};plate.onerror=()=>{if(live)setFailed(true)};
-  plate.src=import.meta.env.BASE_URL+"deck-art/v1/"+name+".webp";
-  const observer=new ResizeObserver(render);observer.observe(e);return()=>{live=false;observer.disconnect();plate.onload=null;plate.onerror=null};
- },[name]);
- const shine=id==="balatro"?(level===2?["#bacbdb66","#f5e6f4dd","#e5d6b8aa"]:["#b9c9d977","#fff5e3dd","#b5c5d899"]):id==="gwent"?["#a7947066","#fff0cddd","#d0b78299"]:id==="infernal"?["#b4794f77","#f6d1a3dd","#b97e5d99"]:["#ab8b6466","#f7dfb3dd","#c0a07999"];
- return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} data-art-state={ready?"ready":failed?"fallback":"loading"} aria-hidden="true">
- <div className="reference-art-fallback" style={{background:m.paper,borderColor:m.rim,boxShadow:"inset 0 0 0 3px "+m.light}}/>
- <canvas ref={base} className="reference-art" style={{visibility:ready?"visible":"hidden"}}/>
- {ready&&active&&quality!=="off"&&level>0&&<ShineBorder data-testid="reference-shine" borderWidth={1} duration={quality==="low"?16:12} shineColor={shine} style={{opacity:quality==="low"?.65:.9}}/>}
+  let image:HTMLImageElement|null=null;
+  const publish=(value:ArtState)=>{if(live){setState(value);onState(value)}};
+  publish("loading");
+  const render=()=>{
+   if(!live||!image||!e.clientWidth||!e.clientHeight)return;
+   try{const w=e.clientWidth,h=e.clientHeight,scale=Math.min(devicePixelRatio||1,2,960/Math.max(w,h));paint(c,image,Math.round(w*scale),Math.round(h*scale));publish("ready")}
+   catch{image=null;publish("fallback")}
+  };
+  void loadReferencePlate(id,level).then(plate=>{if(live){image=plate;render()}},()=>publish("fallback"));
+  const observer=new ResizeObserver(render);observer.observe(e);return()=>{live=false;observer.disconnect()};
+ },[id,level,onState]);
+ const shine=id==="balatro"?(level===2?["#91b6d2bb","#fff8ff","#e9bbebdd"]:["#92b4d7cc","#ffffff","#b8d5f1ee"]):id==="gwent"?["#a67e3bbb","#fff5d5","#e9bc6aee"]:id==="infernal"?["#c47846cc","#ffe2a3","#eaa26aee"]:["#b18a59cc","#fff0ca","#e5b878ee"];
+ return <div ref={host} className="reference-frame" data-material={m.name} data-reference={id} data-art-state={state} aria-hidden="true">
+ {state==="fallback"&&<div className="reference-art-fallback" style={{background:m.paper,borderColor:m.rim}}/>}
+ <canvas ref={base} className="reference-art" style={{visibility:state==="ready"?"visible":"hidden"}}/>
+ {state==="ready"&&active&&quality!=="off"&&level>0&&<ShineBorder data-testid="reference-shine" borderWidth={quality==="low"?1.5:2} duration={quality==="low"?6:4.8} shineColor={shine} style={{opacity:quality==="low"?.84:1}}/>}
  </div>
 }

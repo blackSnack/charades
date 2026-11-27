@@ -46,3 +46,5 @@
 @media(prefers-reduced-motion:no-preference){.reference-shine{animation:deck-shine var(--duration) infinite linear}}
 @keyframes deck-shine{0%,100%{background-position:0% 0%}50%{background-position:100% 100%}}
 @media(prefers-reduced-motion:reduce){.reference-shine{display:none}}
+
+.reference-fallback-note{position:absolute;bottom:5%;left:0;right:0;text-align:center;font-size:10px;opacity:.8}
