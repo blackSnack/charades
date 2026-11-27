@@ -23,8 +23,8 @@
 .reference-card .vfx-tags span:first-child{position:absolute;top:24%;left:10%;max-width:23%;font-size:10px;opacity:.72}
 .reference-card .vfx-tags span:last-child{position:absolute;top:5%;left:50%;transform:translateX(-50%)}
 .reference-card .question-word-zone{position:absolute;left:8%;right:8%;top:20%;bottom:16%;width:auto;height:auto}
-.deck-infernal .question-word-zone{top:22%;bottom:17%}
-.deck-infernal .vfx-tags span:first-child{top:19%;left:9%}
+.deck-infernal .question-word-zone{top:15%;bottom:12%}
+.deck-infernal .vfx-tags span:first-child{top:11%;left:9%}
 .reference-gallery .reference-card .vfx-front-content{padding:0}
 .reference-gallery .reference-card .vfx-tags span:first-child{display:none}
 
