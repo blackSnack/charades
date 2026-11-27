@@ -18,7 +18,7 @@ function Preview({level,quality,revealed,visible,renderer,word,category,game=fal
  const theme=themes[level], [flipDone,setFlipDone]=useState(false);
  const refMaterial=isReference(renderer)?material(renderer,level):null;
  const reduced=useReducedMotion()===true,active=quality!=="off"&&!reduced&&visible;
- return <div className={"vfx-stage "+(game?"deck-game question":"")} data-theme={renderer} data-testid="vfx-stage" data-level={level+1} data-revealed={revealed}>
+ return <div className={"vfx-stage "+(game?"deck-game question":"")+(refMaterial?" reference-stage":"")} data-theme={renderer} data-testid="vfx-stage" data-level={level+1} data-revealed={revealed}>
  <motion.div className="vfx-flipper" initial={false} animate={{rotateY:revealed?180:0}} transition={{duration:active?.58:0,ease:[.22,.72,.2,1]}} onAnimationComplete={()=>setFlipDone(revealed)}>
  <Card className={"vfx-face vfx-back "+(renderer!=="original"?"warm-back":"")} aria-hidden={revealed}><div className="vfx-back-mark"><Sparkles size={32}/><strong>Party<br/>Deck</strong><small>你比划我猜</small></div></Card>
  <Card className={`vfx-face vfx-front vfx-level-${level+1} deck-${renderer} ${refMaterial?"reference-card":""}`} style={refMaterial?{"--vfx-bg":refMaterial.paper,"--vfx-fg":refMaterial.ink,"--ref-label":refMaterial.label} as React.CSSProperties:undefined} aria-hidden={!revealed}>

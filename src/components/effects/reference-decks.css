@@ -11,3 +11,5 @@
 .reference-card .question-word-text{background:none}
 .reference-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}.reference-gallery>div{min-width:0}.reference-gallery .vfx-stage{height:clamp(120px,24vw,200px);padding:2px}.reference-gallery .vfx-front-content{padding:9px 10px}.reference-gallery .vfx-tags span:first-child{display:none}.reference-gallery .vfx-tags span:last-child{font-size:10px;padding:2px 6px}.reference-gallery small{display:block;text-align:center;margin-top:3px;font-size:11px}
 @media(max-width:420px){.reference-gallery{grid-template-columns:1fr}.reference-gallery .vfx-stage{height:195px}}
+
+@media(orientation:landscape) and (max-height:500px){.reference-stage:not(.deck-game){height:265px}.reference-gallery .reference-stage{height:155px}}
