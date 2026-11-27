@@ -20,3 +20,8 @@ Question bank migrated from the previously reviewed prototype. Some words were p
 - metal-fx 1.0.4, MIT, https://github.com/Jakubantalik/metal-fx; license in licenses/metal-fx.txt. Actual MetalFx ring component, following MengTo liquid-metal-border skill (https://github.com/MengTo/Skills/blob/main/agent-skills/web-design/liquid-metal-border/SKILL.md). No Agent Aura or confetti runtime.
 
 - Magic UI Shine Border, MIT: https://github.com/magicuidesign/magicui/blob/a54d9edd7bd01dfb4fa72641df2b84da449a5e35/apps/www/registry/magicui/shine-border.tsx (blob 1a55bfc86be5e80c7e2ee7820469946bcb5bc45c). Original source and shine keyframes; local class name, duration and colors adapted. Existing licenses/magicui.txt applies.
+
+
+## Audio samples (v3.2.1)
+
+Meta Piano and Meta Nylon Guitar, Meta Open Sound, CC0 1.0 Universal. Source: https://github.com/facebookincubator/Meta-open-sound/tree/514c926efecdb3c7812bf00eedf8e5c8d61dd681/systems/instruments. The eleven unmodified Ogg sample files are stored under `public/audio-samples/v2/`; mapping and upstream Git blob IDs are in that directory's `SOURCES.md`. Original score and synthetic percussion are project-authored.
