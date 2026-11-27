@@ -16,3 +16,12 @@ Pinned source: https://github.com/facebookincubator/Meta-open-sound/tree/514c926
 | guitar-60.ogg | INSGuitarNylon_StringB_Vel01Finger_C4_01.ogg | c30dd6608bdec5ef9cf45c9ea1f921acaef04998 |
 | guitar-69.ogg | INSGuitarNylon_StringB_Vel01Finger_A4_01.ogg | 60b424a24ba3b39d33e6187d6ac73f24ff27fba6 |
 | guitar-77.ogg | INSGuitarNylon_StringB_Vel01Finger_F5_01.ogg | ebadce7166e2c92861858880bfc6b6ed6595d630 |
+
+## Card handling foley (CC0)
+
+Original: Kenney Casino Audio, https://kenney.nl/assets/casino-audio (CC0). Edited versions from https://github.com/tegnike/aozora-islands/tree/6dc06266c3263e93d8b8efd3d7e9a31b7db141f8/src/assets/audio, with CC0 provenance in its README. Copied without binary modification; playback envelopes and pitch are project-authored.
+
+| Local | Upstream edit / original | Git blob SHA |
+|---|---|---|
+| card-slide.ogg | sfx-card-draw.ogg / card-slide-2.ogg | 6922deba61dd1737ca5cb2ef5811903046921c05 |
+| card-place.ogg | sfx-card-play.ogg / card-place-2.ogg | fa2fb76f922bba7e379afe057b1c2188c8c42011 |

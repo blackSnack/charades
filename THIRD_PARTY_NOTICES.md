@@ -25,3 +25,5 @@ Question bank migrated from the previously reviewed prototype. Some words were p
 ## Audio samples (v3.2.1)
 
 Meta Piano and Meta Nylon Guitar, Meta Open Sound, CC0 1.0 Universal. Source: https://github.com/facebookincubator/Meta-open-sound/tree/514c926efecdb3c7812bf00eedf8e5c8d61dd681/systems/instruments. The eleven unmodified Ogg sample files are stored under `public/audio-samples/v2/`; mapping and upstream Git blob IDs are in that directory's `SOURCES.md`. Original score and synthetic percussion are project-authored.
+
+Kenney Casino Audio card slide/place (CC0), https://kenney.nl/assets/casino-audio; edited assets from https://github.com/tegnike/aozora-islands/tree/6dc06266c3263e93d8b8efd3d7e9a31b7db141f8/src/assets/audio, verified Git blob SHA and attribution in `public/audio-samples/v2/SOURCES.md`.

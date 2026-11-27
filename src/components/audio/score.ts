@@ -177,22 +177,37 @@ export async function renderMusic(album:Album,scene:Scene):Promise<AudioBuffer>{
  const gain=Math.min(.68/Math.max(peak,.001),.065/rms);for(let ch=0;ch<2;ch++){const a=out.getChannelData(ch);for(let i=0;i<a.length;i++)a[i]*=gain}
  return out
 }
+// Real card handling recordings, with a synthesized fallback if a sample cannot decode.
+async function foleySample(ctx:BaseAudioContext,id:string):Promise<AudioBuffer>{
+ const key=ctx.sampleRate+":"+id;let decoded=decodedSamples.get(key);
+ if(!decoded){decoded=(async()=>{
+  const r=await fetch(import.meta.env.BASE_URL+"audio-samples/v2/"+id+".ogg");if(!r.ok)throw Error("Foley unavailable");
+  const b=await ctx.decodeAudioData(await r.arrayBuffer());let peak=0;for(let ch=0;ch<b.numberOfChannels;ch++)for(const v of b.getChannelData(ch))peak=Math.max(peak,Math.abs(v));
+  if(!peak)throw Error("Empty foley");
+  for(let ch=0;ch<b.numberOfChannels;ch++){const a=b.getChannelData(ch);for(let i=0;i<a.length;i++)a[i]*=.68/peak}
+  return b
+ })();decodedSamples.set(key,decoded);decoded.catch(()=>decodedSamples.delete(key))}
+ return decoded
+}
 export async function renderEffect(album:Album,event:Effect):Promise<AudioBuffer>{
  const duration=event==="finish"?1.15:event==="handoff"?.62:event==="start"?.55:event==="flip4"?.62:event==="flip3"?.42:event==="flip2"?.28:event==="flip1"?.19:event==="correct"?.32:event==="skip"?.16:.13;
  const ctx=new OfflineAudioContext(2,Math.ceil(sr*duration),sr),bus=ctx.createGain(),lp=ctx.createBiquadFilter();lp.type="lowpass";lp.frequency.value=3900;bus.gain.value=.62;bus.connect(lp);lp.connect(ctx.destination);
  // Mostly unpitched tactile feedback; tonal cues are short, rounded and in the EP key.
  const note=instruments(ctx,bus,new Map()),k=album.key;
+ const needsCard=event.startsWith("flip")||event==="skip";
+ const [slide,place]=needsCard?await Promise.all([foleySample(ctx,"card-slide").catch(()=>null),foleySample(ctx,"card-place").catch(()=>null)]):[null,null];
+ const recorded=(b:AudioBuffer|null,t:number,d:number,volume:number,rate=1)=>{if(!b)return false;const node=ctx.createBufferSource(),g=ctx.createGain(),length=Math.min(d,b.duration/rate);node.buffer=b;node.playbackRate.value=rate;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(volume,t+.003);g.gain.setValueAtTime(volume,t+Math.max(.003,length-.023));g.gain.linearRampToValueAtTime(0,t+length);node.connect(g);g.connect(bus);node.start(t);node.stop(t+length+.002);return true};
  const material=album.theme==="metal"||album.theme==="gwent"?"bell":album.theme==="infernal"?"wood":"marimba";
  const hit=(p:number,t:number,a=.17,d=.18)=>note(material,p+k,t,d,a,.03);
  const paper=(at:number,d:number,level=1)=>{const b=ctx.createBuffer(1,Math.round(d*sr),sr),a=b.getChannelData(0),r=random(429+album.key+level*13),s=ctx.createBufferSource(),filter=ctx.createBiquadFilter();let smooth=0;for(let i=0;i<a.length;i++){const f=i/a.length,noise=r()*2-1;smooth=.7*smooth+.3*noise;a[i]=(noise-smooth*.9)*Math.sin(Math.PI*f)**2*.23}filter.type="bandpass";filter.frequency.value=album.theme==="original"?1150:1550;filter.Q.value=.55;s.buffer=b;s.connect(filter);filter.connect(bus);s.start(at)};
  if(event.startsWith("flip")){
-  const level=Number(event.slice(-1));paper(0,.115+level*.025,level);note("wood",53,.075+level*.025,.085,.15+level*.015);
+  const level=Number(event.slice(-1));if(!recorded(slide,0,.115+level*.025,.20+level*.015,1.08-level*.04))paper(0,.115+level*.025,level);if(!recorded(place,.075+level*.025,.09+level*.01,.18,1.02))note("wood",53,.075+level*.025,.085,.15+level*.015);
   if(level>1)hit(60,.115+level*.02,.10+level*.01,.12+level*.045);
   if(level===4){note("bass",43+k,.13,.29,.12);hit(67,.23,.10,.26)}
  }else if(event==="tap"){note("wood",57,0,.085,.22)}
  else if(event==="select"){note("wood",64,0,.075,.22);hit(60,.025,.10,.095)}
  else if(event==="back"){note("wood",48,0,.085,.18)}
- else if(event==="skip"){paper(0,.125);note("wood",53,.045,.08,.14)}
+ else if(event==="skip"){if(!recorded(slide,0,.145,.25,1.15))paper(0,.125);if(!recorded(place,.065,.09,.13,1.15))note("wood",53,.045,.08,.14)}
  else if(event==="correct"){hit(60,0,.24,.14);hit(64,.065,.18,.23)}
  else if(event==="start"){hit(60,0,.19,.15);hit(64,.095,.17,.17);hit(67,.19,.19,.29)}
  else if(event==="handoff"){hit(64,0,.15,.15);hit(67,.12,.19,.2);hit(60,.25,.16,.29)}
