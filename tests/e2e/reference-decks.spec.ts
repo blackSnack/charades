@@ -37,7 +37,7 @@ test("all sixteen reference cards have distinct reference plates and readable li
  }
  writeFileSync(info.outputPath("reference-color-diagnostics.json"),JSON.stringify(diagnostics,null,2));
 });
-test("upstream Shine Border softly sweeps a one pixel mask without changing the card face",async({page},info)=>{
+test("upstream Shine Border produces visible thin reflections without changing the card face",async({page},info)=>{
  test.setTimeout(120000);await page.emulateMedia({reducedMotion:"no-preference"});
  await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:"完整",exact:true}).click();
  for(const [name,id] of themes){
@@ -47,7 +47,7 @@ test("upstream Shine Border softly sweeps a one pixel mask without changing the 
    await page.getByRole("button",{name:level,exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();
    const shine=page.getByTestId("reference-shine"),stage=page.getByTestId("vfx-stage"),face=stage.locator(".vfx-front");
    await expect(shine).toBeVisible();await page.waitForFunction(()=>{const e=document.querySelector(".vfx-flipper");return !!e&&Math.abs(new DOMMatrixReadOnly(getComputedStyle(e).transform).m11+1)<.01});
-   await expect(shine).toHaveCSS("padding-top","1px");await expect(shine).toHaveCSS("background-size","300% 300%");
+   await expect(shine).toHaveCSS("padding-top","2px");await expect(shine).toHaveCSS("background-size","300% 300%");
    await expect.poll(()=>shine.evaluate(e=>e.getAnimations().length)).toBeGreaterThan(0);
    const position=await shine.evaluate(e=>getComputedStyle(e).backgroundPosition);
    await expect.poll(()=>shine.evaluate(e=>getComputedStyle(e).backgroundPosition)).not.toBe(position);
@@ -55,23 +55,23 @@ test("upstream Shine Border softly sweeps a one pixel mask without changing the 
    await shine.evaluate(e=>{e.getAnimations().forEach(a=>a.pause());(e as HTMLElement).style.visibility="hidden"});
    const base=await face.screenshot({scale:"css"});
    await shine.evaluate(e=>{(e as HTMLElement).style.visibility=""});
-   const phases=[1800,4100,7300];let lit=0;const frames:string[]=[];
+   const phases=[700,1800,3100];let lit=0,strongTotal=0;const frames:string[]=[];
    for(const time of phases){
     await shine.evaluate((e,t)=>{e.getAnimations().forEach(a=>{a.currentTime=t})},time);
     const img=await face.screenshot({scale:"css",path:info.outputPath(id+"-"+level+"-shine-"+time+".png")});
     const result=await page.evaluate(async({before,after})=>{
      async function decode(data:string){const im=new Image();im.src="data:image/png;base64,"+data;await im.decode();const c=document.createElement("canvas");c.width=im.width;c.height=im.height;const g=c.getContext("2d")!;g.drawImage(im,0,0);return {w:c.width,h:c.height,p:g.getImageData(0,0,c.width,c.height).data}}
-     const a=await decode(before),b=await decode(after);let changed=0,center=0,maxDepth=0;
-     for(let y=0;y<a.h;y++)for(let x=0;x<a.w;x++){const i=(y*a.w+x)*4;if(Math.max(Math.abs(a.p[i]-b.p[i]),Math.abs(a.p[i+1]-b.p[i+1]),Math.abs(a.p[i+2]-b.p[i+2]))>5){changed++;const r=Math.min(20,a.w/2,a.h/2),qx=Math.abs(x+.5-a.w/2)-a.w/2+r,qy=Math.abs(y+.5-a.h/2)-a.h/2+r;maxDepth=Math.max(maxDepth,r-Math.hypot(Math.max(qx,0),Math.max(qy,0))-Math.min(Math.max(qx,qy),0));if(x>a.w*.2&&x<a.w*.8&&y>a.h*.2&&y<a.h*.8)center++}}
-     return {changed,center,maxDepth};
+     const a=await decode(before),b=await decode(after);let changed=0,strong=0,center=0,maxDepth=0;
+     for(let y=0;y<a.h;y++)for(let x=0;x<a.w;x++){const i=(y*a.w+x)*4;if(Math.max(Math.abs(a.p[i]-b.p[i]),Math.abs(a.p[i+1]-b.p[i+1]),Math.abs(a.p[i+2]-b.p[i+2]))>5){changed++;if(Math.max(Math.abs(a.p[i]-b.p[i]),Math.abs(a.p[i+1]-b.p[i+1]),Math.abs(a.p[i+2]-b.p[i+2]))>20)strong++;const r=Math.min(20,a.w/2,a.h/2),qx=Math.abs(x+.5-a.w/2)-a.w/2+r,qy=Math.abs(y+.5-a.h/2)-a.h/2+r;maxDepth=Math.max(maxDepth,r-Math.hypot(Math.max(qx,0),Math.max(qy,0))-Math.min(Math.max(qx,qy),0));if(x>a.w*.2&&x<a.w*.8&&y>a.h*.2&&y<a.h*.8)center++}}
+     return {changed,strong,center,maxDepth};
     },{before:base.toString("base64"),after:img.toString("base64")});
-    expect(result.center).toBe(0);expect(result.maxDepth).toBeLessThanOrEqual(3);lit+=result.changed;frames.push(img.toString("base64"));console.log("Shine pixels",JSON.stringify({id,level,time,...result}));
+    expect(result.center).toBe(0);expect(result.maxDepth).toBeLessThanOrEqual(4);lit+=result.changed;strongTotal+=result.strong;frames.push(img.toString("base64"));console.log("Shine pixels",JSON.stringify({id,level,time,...result}));
    }
-   expect(lit).toBeGreaterThan(10);expect(new Set(frames).size).toBeGreaterThan(1);
+   expect(lit).toBeGreaterThan(10);expect(strongTotal).toBeGreaterThan(30);expect(new Set(frames).size).toBeGreaterThan(1);
    await page.getByRole("button",{name:/重置卡背/}).click();await expect(shine).toHaveCount(0);
   }
  }
- await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toHaveText("大熊猫");
+ await page.getByRole("button",{name:"四级对照"}).click();const gallery=page.getByLabel("四级样式对照");await expect(gallery.getByTestId("reference-shine")).toHaveCount(3);await page.getByRole("button",{name:"简洁",exact:true}).click();await expect(gallery.getByTestId("reference-shine").first()).toHaveCSS("padding-top","1.5px");await page.getByRole("button",{name:"关闭",exact:true}).click();await expect(gallery.getByTestId("reference-shine")).toHaveCount(0);await page.getByRole("button",{name:"收起四级对照"}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toHaveText("大熊猫");
 });
 test("reference deck is applied to real game and persisted",async({page})=>{
  await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
