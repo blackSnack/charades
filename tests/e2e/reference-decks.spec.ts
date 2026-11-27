@@ -5,7 +5,7 @@ const themes=[["纸箔幻彩","balatro"],["古典工艺","gwent"],["熔铁余烬
 const levels=["简单","中等","困难","地狱"] as const;
 test("all sixteen reference cards have distinct reference plates and readable live words",async({page},info)=>{
  test.setTimeout(120000);
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();
  await page.getByRole("button",{name:"关闭",exact:true}).click();
  const diagnostics:unknown[]=[];
  for(const [name,id] of themes){
@@ -39,7 +39,7 @@ test("all sixteen reference cards have distinct reference plates and readable li
 });
 test("upstream Shine Border produces visible thin reflections without changing the card face",async({page},info)=>{
  test.setTimeout(120000);await page.emulateMedia({reducedMotion:"no-preference"});
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:"完整",exact:true}).click();
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();await page.getByRole("button",{name:"完整",exact:true}).click();
  for(const [name,id] of themes){
   await page.getByRole("button",{name:new RegExp(name)}).click();
   await page.getByRole("button",{name:"简单",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);
@@ -74,6 +74,6 @@ test("upstream Shine Border produces visible thin reflections without changing t
  await page.getByRole("button",{name:"四级对照"}).click();const gallery=page.getByLabel("四级样式对照");await expect(gallery.getByTestId("reference-shine")).toHaveCount(3);await page.getByRole("button",{name:"简洁",exact:true}).click();await expect(gallery.getByTestId("reference-shine").first()).toHaveCSS("padding-top","1.5px");await page.getByRole("button",{name:"关闭",exact:true}).click();await expect(gallery.getByTestId("reference-shine")).toHaveCount(0);await page.getByRole("button",{name:"收起四级对照"}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("reference-shine")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toHaveText("大熊猫");
 });
 test("reference deck is applied to real game and persisted",async({page})=>{
- await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回首页"}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
+ await page.goto("./");await expect(page.getByText("3290 道题")).toBeVisible();await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();await page.getByRole("button",{name:/木刻秘仪/}).click();await page.getByRole("button",{name:"关闭",exact:true}).click();await page.getByRole("button",{name:"应用到游戏"}).click();await page.getByRole("button",{name:"返回实验室"}).click();await page.getByRole("button",{name:"返回",exact:true}).click();await page.getByRole("button",{name:/Solo 模式/}).click();await page.getByRole("button",{name:/开始游戏/}).click();
  await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toBeVisible();const text=await page.getByTestId("word").textContent();await page.reload();await page.getByRole("button",{name:/继续游戏/}).click();await expect(page.getByTestId("vfx-stage")).toHaveAttribute("data-theme","occult");await expect(page.getByTestId("word")).toHaveText(text!);
 });

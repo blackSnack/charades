@@ -23,7 +23,7 @@ async function assertFitted(word:Locator){
 }
 test("removed elemental preference migrates and all remaining cards prioritize the word",async({page},info)=>{
  await page.addInitScript(()=>localStorage.setItem("party-deck-theme-v1",JSON.stringify({theme:"gpu",quality:"high",favorites:["gpu","warm"]})));
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();
  await expect(page.getByText("当前游戏：经典桌游。",{exact:false})).toBeVisible();
  await expect(page.getByRole("button",{name:/元素卡/})).toHaveCount(0);
  for(const theme of ["经典桌游","暖色收藏卡","暖金液态金属"]){
@@ -38,7 +38,7 @@ test("removed elemental preference migrates and all remaining cards prioritize t
  }
 });
 test("metal overlay disabled by reduced motion or off",async({page})=>{
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/暖金液态金属/}).click();await page.getByRole("button",{name:"地狱",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("metal-rim")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toBeVisible();
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();await page.getByRole("button",{name:/暖金液态金属/}).click();await page.getByRole("button",{name:"地狱",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();await expect(page.getByTestId("metal-rim")).toHaveCount(0);await expect(page.getByTestId("vfx-word")).toBeVisible();
 });
 
 test("WebGL unavailable leaves metal deck readable",async({page})=>{
@@ -48,7 +48,7 @@ test("WebGL unavailable leaves metal deck readable",async({page})=>{
   HTMLCanvasElement.prototype.getContext=function(this:HTMLCanvasElement,type:string,...args:unknown[]){if(type.includes("webgl"))return null;return Reflect.apply(original,this,[type,...args])} as typeof original;
   if(typeof OffscreenCanvas!=="undefined"){const offscreen=OffscreenCanvas.prototype.getContext;OffscreenCanvas.prototype.getContext=function(this:OffscreenCanvas,type:string,...args:unknown[]){if(type.includes("webgl"))return null;return Reflect.apply(offscreen,this,[type,...args])} as typeof offscreen}
  });
- await page.goto("./");await page.getByRole("button",{name:/卡牌动效实验室/}).click();await page.getByRole("button",{name:/暖金液态金属/}).click();await page.getByRole("button",{name:"地狱",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();
+ await page.goto("./");await page.getByRole("button",{name:"实验室",exact:true}).click();await page.getByRole("button",{name:/卡牌实验/}).click();await page.getByRole("button",{name:/暖金液态金属/}).click();await page.getByRole("button",{name:"地狱",exact:true}).click();await page.getByRole("button",{name:/翻牌揭晓/}).click();
  await page.waitForFunction(()=>{const e=document.querySelector(".vfx-flipper");return !!e&&Math.abs(new DOMMatrixReadOnly(getComputedStyle(e).transform).m11+1)<.01});
  await expect(page.getByTestId("metal-rim")).toHaveCount(0);
  await expect(page.getByTestId("vfx-word")).toHaveText("沆瀣一气");

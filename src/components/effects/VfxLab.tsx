@@ -42,7 +42,7 @@ export default function VfxLab({onBack,preference,onApply}:{onBack:()=>void;pref
  useEffect(()=>{warmDeckArt(renderer)},[renderer]);
  const reset=()=>{setRevealed(false);setRun(n=>n+1)};
  const apply=()=>{const p={theme:renderer,quality};setMessage(onApply(p)?"已应用到游戏":"无法保存设置，请重试")};
- return <section className="vfx-lab"><header><Button variant="neutral" size="icon-lg" aria-label="返回首页" onClick={onBack}><ArrowLeft/></Button><h2>卡牌动效实验室</h2><span className="vfx-experiment">实验</span></header>
+ return <section className="vfx-lab"><header><Button variant="neutral" size="icon-lg" aria-label="返回实验室" onClick={onBack}><ArrowLeft/></Button><h2>卡牌动效实验室</h2><span className="vfx-experiment">实验</span></header>
  <h2>卡组主题</h2><p className="hint">当前游戏：{deckThemes.find(t=>t.id===preference.theme)?.name}。预览不会改变游戏，应用后生效。</p>
  <div role="group" aria-label="卡组主题" className="grid2">{deckThemes.map(t=><Button key={t.id} variant="noShadow" className={("min-h-16 whitespace-normal flex-col gap-1 ")+(renderer===t.id?"bg-[#FFDB63]":"bg-secondary-background")} aria-pressed={renderer===t.id} onClick={()=>{setRenderer(t.id);setGallery(false);setMessage("");reset()}}><span>{t.name}</span><small>{t.description}</small></Button>)}</div>
  <div role="group" aria-label="选择难度" className="vfx-options">{themes.map((t,i)=><Button key={t.name} variant="noShadow" className={level===i?"bg-[#FFDB63] min-h-11":"bg-secondary-background min-h-11"} aria-pressed={level===i} onClick={()=>{setLevel(i);reset()}}>{t.name}</Button>)}</div>
